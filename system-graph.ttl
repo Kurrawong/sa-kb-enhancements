@@ -1,0 +1,1294 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://dd.eionet.europa.eu/vocabulary/common/NilReasonType/>
+    a sa:Vocabulary ;
+    skos:prefLabel "NilReasonType" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/assessments/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Assessment codes (FV, U1+, U1, U1-, U2+, U2, U2-, XX)" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/countries/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Strict ISO-3166 country codes. I.e. United Kingdom is GB and Greece is GR." ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/countrygroups/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Country groups" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/currencies/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Currencies of the European Union" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/dpsir/>
+    a sa:Vocabulary ;
+    skos:prefLabel "DPSIR codes" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/environmentaldomain/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Environmental domain(s) applicable to the zone in relation to INSPIRE am:environmentalDomain" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/filecompression/>
+    a sa:Vocabulary ;
+    skos:prefLabel "File compression method" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/iso639-2/>
+    a sa:Vocabulary ;
+    skos:prefLabel "ISO 639-2: Codes for the Representation of Names of Languages - Part 2: Alpha-3 Code for the Names of Languages" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/iso639-3/>
+    a sa:Vocabulary ;
+    skos:prefLabel "ISO 639-3 language codes" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/iso639-5/>
+    a sa:Vocabulary ;
+    skos:prefLabel "ISO 639-5 language families and groups codes" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/languages/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EEA language codes" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/nace_r2/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Statistical Classification of Economic Activities in the European Community, Rev. 2 (2008)" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/nuts/>
+    a sa:Vocabulary ;
+    skos:prefLabel "The NUTS vocabulary version 2010" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/nuts2016/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Nomenclature of territorial units for statistics" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/nuts2021/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Nomenclature of territorial units for statistics" ;
+.
+
+<http://dd.eionet.europa.eu/vocabulary/common/script/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Codes for the representation of names of scripts according to ISO 15924" ;
+.
+
+<http://eurovoc.europa.eu/100141>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "EUROVOC (ver: 4.4)" ,
+        "EuroVoc" ;
+    skos:prefLabel "EuroVoc" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "eurovoc-100141.ttl"
+        ] ;
+.
+
+<http://inspire.ec.europa.eu/featureconcept>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "INSPIRE - Feature Concept Dictionary, version 3" ,
+        "INSPIRE Feature Concept Dictionary" ,
+        "INSPIRE feature concept dictionary" ,
+        "INSPIRE feature concept dictionary (Version: Linked Data 1.0)" ;
+    skos:prefLabel "INSPIRE feature concept dictionary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "featureconcepts.en.ttl"
+        ] ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope>
+    a sa:Vocabulary ;
+    skos:prefLabel "Spatial scope" ;
+.
+
+<http://inspire.ec.europa.eu/theme>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "INSPIRE THEMES" ,
+        "INSPIRE theme register" ,
+        "external.theme.inspire-theme" ;
+    skos:prefLabel "INSPIRE theme register" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "theme.en.ttl"
+        ] ;
+.
+
+<http://purl.obolibrary.org/obo/envo.owl>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 1
+        ] ;
+.
+
+<http://qudt.org/2.1/vocab/quantitykind>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 2
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/C17/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 4
+        ] ;
+    skos:altLabel
+        "ICES Platform Codes" ,
+        "ICES/SeaDataNet Ship Codes" ,
+        "Mooring ID" ,
+        "Mooring Name" ;
+    skos:prefLabel "ICES Platform Codes" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/C34/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Activity purpose categories" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L05/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 6
+        ] ;
+    skos:altLabel "SeaDataNet device categories" ;
+    skos:prefLabel "SeaDataNet device categories" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L06/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 3
+        ] ;
+    skos:altLabel "SeaVoX Platform Categories" ;
+    skos:prefLabel "SeaVoX Platform Categories" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L11/current/>
+    a sa:Vocabulary ;
+    schema:distribution [
+            schema:contentUrl "L11.ttl"
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L22/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 7
+        ] ;
+    skos:prefLabel "SeaVoX Device Catalogue" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L33/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 4
+        ] ;
+    skos:prefLabel "WMO C3 vocabulary of XBT data types" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P01/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 10
+        ] ;
+    skos:altLabel
+        "BODC Parameter Usage Vocabulary" ,
+        "Mission Atlantic - BODC Parameters" ;
+    skos:prefLabel "BODC Parameter Usage Vocabulary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P02/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 8
+        ] ;
+    skos:altLabel
+        "Parameter Discovery Vocabulary (P02)" ,
+        "SeaDataNet P021 parameter discovery vocabulary" ,
+        "SeaDataNet Parameter Discovery Vocabulary" ;
+    skos:prefLabel "SeaDataNet Parameter Discovery Vocabulary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P03/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 3
+        ] ;
+    skos:altLabel
+        "Agreed Parameter Groups (P03)" ,
+        "SeaDataNet Agreed Parameter Groups" ;
+    skos:prefLabel "SeaDataNet Agreed Parameter Groups" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P05/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 4
+        ] ;
+    skos:prefLabel "International Standards Organisation ISO19115 Topic Categories" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P06/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC-approved data storage units" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P07/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 9
+        ] ;
+    skos:altLabel
+        "CF Standard Name Table v29" ,
+        "CF Standard Name Table v55" ,
+        "CF Standard Name Table v70" ,
+        "CF Standard Names" ,
+        "CF-12" ,
+        "Climate and Forecast Standard Names" ,
+        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Name Table" ,
+        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Names" ;
+    skos:prefLabel "Climate and Forecast Standard Names" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P08/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 2
+        ] ;
+    skos:altLabel "SeaDataNet Parameter Disciplines" ;
+    skos:prefLabel "SeaDataNet Parameter Disciplines" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/001/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P09/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "MEDATLAS Parameter Usage Vocabulary" ;
+    skos:prefLabel "MEDATLAS Parameter Usage Vocabulary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    schema:distribution [
+            schema:contentUrl "P09.ttl"
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P22/current/>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GEMET - INSPIRE themes version 1.0" ,
+        "GEMET - INSPIRE themes, version 1.0" ,
+        "GEMET - Inspire theme, version 1.0" ,
+        "GEMET -INSPARE themes, version 1.0" ,
+        "GEMET INSPIRE themes, version 1.0" ;
+    skos:prefLabel "GEMET - INSPIRE themes, version 1.0" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P24/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Units of measure dimensions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P35/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 6
+        ] ;
+    skos:altLabel "EMODnet Chemistry aggregated parameter names" ;
+    skos:prefLabel "EMODnet Chemistry aggregated parameter names" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P36/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EMODnet Chemistry chemical groups" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R01/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo data type" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R03/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 7
+        ] ;
+    skos:prefLabel "Argo parameter codes" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R04/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo data centres and institutions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R05/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo position accuracy" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R06/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo data state indicators" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R07/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo history action codes" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R08/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo instrument types" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R09/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo positioning system" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R10/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo transmission systems" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R11/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo real-time quality-control test identifiers" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R12/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo history processing step codes" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R13/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo ocean area codes and boundary definitions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R14/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo technical parameter names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R15/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo trajectory measurement code identifiers" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R16/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo vertical sampling schemes" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R18/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo configuration parameter names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R19/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo STATUS flags" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R20/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo GROUNDED flags" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R21/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo status flag on the Representative Park Pressure (RPP)" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R22/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo platform family" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R23/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo platform type" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R24/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo platform maker" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R25/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo sensor types" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R26/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo sensor manufacturers" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R27/current/>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 3
+        ] ;
+    skos:prefLabel "Argo sensor models" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R28/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo controller board types and generations" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R40/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo Principal Investigator (PI) names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/RD2/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo delayed-mode quality control measurement flags" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/RMC/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo measurement code categories" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/RP2/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo profile quality control flags" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/RR2/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo real-time quality control measurement flags" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/RTV/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Argo float cycle timing variables" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S03/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model sample preparation entity descriptions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S04/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model analytical method entity descriptions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S05/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model data processing entity descriptions" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S06/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model parameter entity names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S18/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model physical entity names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S19/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model physical entity subgroup names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S25/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model biological entity names" ;
+.
+
+<http://vocab.nerc.ac.uk/collection/S27/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "BODC parameter semantic model chemical substances" ;
+.
+
+<http://www.eionet.europa.eu/gemet/gemetThesaurus>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 6
+        ] ;
+    skos:altLabel
+        "GEMET" ,
+        "GEMET (version 3.1, 2012-07-20)" ,
+        "GEMET - Concepts version 3.0" ,
+        "GEMET - Concepts, version 2." ,
+        "GEMET - Concepts, version 2.1" ,
+        "GEMET - Concepts, version 2.4" ,
+        "GEMET - Concepts, version 3.1" ,
+        "GEMET - Concepts, version 4.1.4" ,
+        "GEMET - Concepts, version 4.2.0" ,
+        "GEMET - Concepts, version 4.2.1" ,
+        "GEMET - Concepts, version 4.2.1, 1 Jun 2021" ,
+        "GEMET - Concepts, version 4.2.3" ,
+        "GEMET - Groups, version 2.4" ,
+        "GEMET - Groups, version 4.2.1" ,
+        "GEMET - Groups, version 4.2.3" ,
+        "GEMET - Supergroups, version 2.4" ,
+        "GEMET - Themes, version 2.4" ,
+        "GEMET - Themes, version 4.2.1" ,
+        "GEMET - Themes, version 4.2.1, 1 Jun 2021" ,
+        "GEMET - Themes, version 4.2.3" ,
+        "GemetInspireTheme" ,
+        "SeaDataNet device categories" ,
+        "external.theme.gemet" ,
+        "GEMET - Concepts, version 4.2.3, 2021-12-06T13:37:25.364764+00:00" ;
+    skos:prefLabel "GEMET - Concepts" ;
+    dcat:theme
+        <http://vocab.nerc.ac.uk/collection/L19/current/005/> ,
+        <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+    schema:distribution [
+            schema:contentUrl "gemet-4.2.3.ttl"
+        ] ;
+    sa:aliasFor
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/latest> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.1> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.0> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.1.0> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.0> ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/10111>
+    a sa:Vocabulary ;
+    skos:prefLabel "ENVIRONMENT (natural environment, anthropic environment)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/10112>
+    a sa:Vocabulary ;
+    skos:prefLabel "PRODUCTS, MATERIALS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/10114>
+    a sa:Vocabulary ;
+    skos:prefLabel "EFFECTS, IMPACTS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/10117>
+    a sa:Vocabulary ;
+    skos:prefLabel "GENERAL TERMS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/10118>
+    a sa:Vocabulary ;
+    skos:prefLabel "RESOURCES (utilisation of resources)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/1062>
+    a sa:Vocabulary ;
+    skos:prefLabel "ANTHROPOSPHERE (built environment, human settlements, land setup)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/13109>
+    a sa:Vocabulary ;
+    skos:prefLabel "ENVIRONMENTAL POLICY" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/1349>
+    a sa:Vocabulary ;
+    skos:prefLabel "CHEMISTRY, SUBSTANCES, PROCESSES" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/14979>
+    a sa:Vocabulary ;
+    skos:prefLabel "TIME (chronology)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/14980>
+    a sa:Vocabulary ;
+    skos:prefLabel "FUNCTIONAL TERMS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/1922>
+    a sa:Vocabulary ;
+    skos:prefLabel "INFORMATION, EDUCATION, CULTURE, ENVIRONMENTAL AWARENESS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/234>
+    a sa:Vocabulary ;
+    skos:prefLabel "AGRICULTURE, FORESTRY; ANIMAL HUSBANDRY; FISHERY" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/2504>
+    a sa:Vocabulary ;
+    skos:prefLabel "ECONOMICS, FINANCE" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/2711>
+    a sa:Vocabulary ;
+    skos:prefLabel "ENERGY" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/3875>
+    a sa:Vocabulary ;
+    skos:prefLabel "HEALTH, NUTRITION" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/4125>
+    a sa:Vocabulary ;
+    skos:prefLabel "HYDROSPHERE (freshwater, marine water, waters)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/4281>
+    a sa:Vocabulary ;
+    skos:prefLabel "INDUSTRY, CRAFTS; TECHNOLOGY; EQUIPMENTS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/4630>
+    a sa:Vocabulary ;
+    skos:prefLabel "LAND (landscape, geography)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/4750>
+    a sa:Vocabulary ;
+    skos:prefLabel "LEGISLATION, NORMS, CONVENTIONS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/4856>
+    a sa:Vocabulary ;
+    skos:prefLabel "LITHOSPHERE (soil, geological processes)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/618>
+    a sa:Vocabulary ;
+    skos:prefLabel "ATMOSPHERE (air, climate)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/6237>
+    a sa:Vocabulary ;
+    skos:prefLabel "PHYSICAL ASPECTS, NOISE, VIBRATIONS, RADIATIONS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/7007>
+    a sa:Vocabulary ;
+    skos:prefLabel "RECREATION, TOURISM" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/7136>
+    a sa:Vocabulary ;
+    skos:prefLabel "RESEARCH, SCIENCES" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/7243>
+    a sa:Vocabulary ;
+    skos:prefLabel "RISKS, SAFETY" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/7779>
+    a sa:Vocabulary ;
+    skos:prefLabel "SOCIETY" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/7956>
+    a sa:Vocabulary ;
+    skos:prefLabel "SPACE" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/8575>
+    a sa:Vocabulary ;
+    skos:prefLabel "TRADE, SERVICES" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/8603>
+    a sa:Vocabulary ;
+    skos:prefLabel "TRAFFIC, TRANSPORTATION" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/893>
+    a sa:Vocabulary ;
+    skos:prefLabel "BIOSPHERE (organisms, ecosystems)" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/9117>
+    a sa:Vocabulary ;
+    skos:prefLabel "WASTES, POLLUTANTS, POLLUTION" ;
+.
+
+<http://www.eionet.europa.eu/gemet/group/96>
+    a sa:Vocabulary ;
+    skos:prefLabel "ADMINISTRATION, MANAGEMENT, POLICY, POLITICS, INSTITUTIONS, PLANNING" ;
+.
+
+<http://www.eionet.europa.eu/gemet/groupCollection>
+    a sa:Vocabulary ;
+    skos:prefLabel "GEMET - Groups, version 4.2.3, 2021-12-06T13:37:25.364764+00:00" ;
+.
+
+<http://www.eionet.europa.eu/gemet/superGroupCollection>
+    a sa:Vocabulary ;
+    skos:prefLabel "GEMET - Super groups, version 4.2.3, 2021-12-06T13:37:25.364764+00:00" ;
+.
+
+<http://www.eionet.europa.eu/gemet/supergroup/2894>
+    a sa:Vocabulary ;
+    skos:prefLabel "SOCIAL ASPECTS, ENVIRONMENTAL POLICY MEASURES" ;
+.
+
+<http://www.eionet.europa.eu/gemet/supergroup/4044>
+    a sa:Vocabulary ;
+    skos:prefLabel "HUMAN ACTIVITIES AND PRODUCTS, EFFECTS ON THE ENVIRONMENT" ;
+.
+
+<http://www.eionet.europa.eu/gemet/supergroup/5306>
+    a sa:Vocabulary ;
+    skos:prefLabel "ACCESSORY LISTS" ;
+.
+
+<http://www.eionet.europa.eu/gemet/supergroup/5499>
+    a sa:Vocabulary ;
+    skos:prefLabel "NATURAL ENVIRONMENT, ANTHROPIC ENVIRONMENT" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/1>
+    a sa:Vocabulary ;
+    skos:prefLabel "administration" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/10>
+    a sa:Vocabulary ;
+    skos:prefLabel "energy" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/11>
+    a sa:Vocabulary ;
+    skos:prefLabel "environmental policy" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/12>
+    a sa:Vocabulary ;
+    skos:prefLabel "fishery" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/13>
+    a sa:Vocabulary ;
+    skos:prefLabel "food, drinking water" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/14>
+    a sa:Vocabulary ;
+    skos:prefLabel "forestry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/15>
+    a sa:Vocabulary ;
+    skos:prefLabel "general" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/16>
+    a sa:Vocabulary ;
+    skos:prefLabel "geography" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/17>
+    a sa:Vocabulary ;
+    skos:prefLabel "human health" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/18>
+    a sa:Vocabulary ;
+    skos:prefLabel "animal husbandry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/19>
+    a sa:Vocabulary ;
+    skos:prefLabel "industry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/2>
+    a sa:Vocabulary ;
+    skos:prefLabel "agriculture" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/20>
+    a sa:Vocabulary ;
+    skos:prefLabel "information" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/21>
+    a sa:Vocabulary ;
+    skos:prefLabel "legislation" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/22>
+    a sa:Vocabulary ;
+    skos:prefLabel "military aspects" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/23>
+    a sa:Vocabulary ;
+    skos:prefLabel "natural areas, landscape, ecosystems" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/24>
+    a sa:Vocabulary ;
+    skos:prefLabel "noise, vibrations" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/25>
+    a sa:Vocabulary ;
+    skos:prefLabel "physics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/26>
+    a sa:Vocabulary ;
+    skos:prefLabel "pollution" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/27>
+    a sa:Vocabulary ;
+    skos:prefLabel "materials" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/28>
+    a sa:Vocabulary ;
+    skos:prefLabel "radiations" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/29>
+    a sa:Vocabulary ;
+    skos:prefLabel "tourism" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/3>
+    a sa:Vocabulary ;
+    skos:prefLabel "air" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/30>
+    a sa:Vocabulary ;
+    skos:prefLabel "research" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/31>
+    a sa:Vocabulary ;
+    skos:prefLabel "resources" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/32>
+    a sa:Vocabulary ;
+    skos:prefLabel "disasters, accidents, risk" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/33>
+    a sa:Vocabulary ;
+    skos:prefLabel "trade, services" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/34>
+    a sa:Vocabulary ;
+    skos:prefLabel "social aspects, population" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/35>
+    a sa:Vocabulary ;
+    skos:prefLabel "soil" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/36>
+    a sa:Vocabulary ;
+    skos:prefLabel "space" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/37>
+    a sa:Vocabulary ;
+    skos:prefLabel "transport" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/38>
+    a sa:Vocabulary ;
+    skos:prefLabel "urban environment, urban stress" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/39>
+    a sa:Vocabulary ;
+    skos:prefLabel "waste" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/4>
+    a sa:Vocabulary ;
+    skos:prefLabel "biology" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/40>
+    a sa:Vocabulary ;
+    skos:prefLabel "water" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/5>
+    a sa:Vocabulary ;
+    skos:prefLabel "building" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/6>
+    a sa:Vocabulary ;
+    skos:prefLabel "chemistry" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/7>
+    a sa:Vocabulary ;
+    skos:prefLabel "climate" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/8>
+    a sa:Vocabulary ;
+    skos:prefLabel "natural dynamics" ;
+.
+
+<http://www.eionet.europa.eu/gemet/theme/9>
+    a sa:Vocabulary ;
+    skos:prefLabel "economics" ;
+.
+
+<https://bioportal.bioontology.org/ontologies/NCBITAXON>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 3
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 1
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/horizontalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Horizontal Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Horizontal Data Resolution Keywords" ;
+    skos:prefLabel "GCMD Horizontal Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "gcmd-horizontalresolutionrange.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 5
+        ] ;
+    skos:altLabel
+        "GCMD Instrument Keywords" ,
+        "Global Change Master Directory (GCMD) Instrument Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Instrument Keywords" ,
+        "NASA/GCMD Instrument Keyword Thesaurus" ,
+        "NASA/GCMD Instrument Keywords" ,
+        """NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ;
+    skos:prefLabel "GCMD Instruments" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+    schema:distribution [
+            schema:contentUrl "gcmd-instruments.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/locations>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Location Keywords" ,
+        "GCMD spatial location (places) Keywords" ,
+        "Global Change Master Directory (GCMD) Location Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Location Keywords" ,
+        "NASA/GCMD Location Keywords" ,
+        """NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ,
+        "NASA/GCMD Place Keywords" ;
+    skos:prefLabel "GCMD Locations" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+    schema:distribution [
+            schema:contentUrl "gcmd-locations.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 2
+        ] ;
+    skos:altLabel
+        "GCMD Platform Keywords" ,
+        "Global Change Master Directory (GCMD) Platform Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Platform Keywords" ,
+        "NASA/GCMD Platform Keyword Thesaurus" ,
+        "NASA/GCMD Platform Keywords" ,
+        """NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ;
+    skos:prefLabel "GCMD Platforms" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+    schema:distribution [
+            schema:contentUrl "gcmd-platforms.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/projects>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Data Project Keywords" ,
+        "GCMD Project Keywords" ,
+        "GCMD Projects" ,
+        "Global Change Master Directory (GCMD) Project Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Project Keywords" ,
+        "NASA/GCMD Project Keywords" ,
+        """NASA/GCMD Project Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0""" ;
+    skos:prefLabel "GCMD Projects" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG02/> ;
+    schema:distribution [
+            schema:contentUrl "gcmd-projects.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/providers>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Data Center Keywords" ,
+        "GCMD Data Centres" ,
+        "Global Change Master Directory (GCMD) Data Center Keywords" ,
+        "NASA/GCMD Data Center Keywords" ,
+        """NASA/GCMD Data Center Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ;
+    skos:prefLabel "GCMD Providers" ;
+    schema:distribution [
+            schema:contentUrl "gcmd-providers.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 5
+        ] ;
+    skos:altLabel
+        "Earth Science Keywords" ,
+        "GCMD Keyword Thesaurus" ,
+        "GCMD Science Keywords" ,
+        "Global Change Master Directory (GCMD) Science Keywords" ,
+        "Global Change Master Directory (GCMD) Science and Services Keywords" ,
+        "Global Change Master Directory (GCMD) Theme Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Science and Services Keywords" ,
+        "NASA/GCMD Earth Science Keywords" ,
+        """NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ,
+        "NASA/GCMD Science Keyword Thesaurus" ,
+        "NASA/GCMD Science Keywords" ,
+        "NASA/Global Change Master Directory (GCMD) Earth Science Services Keywords" ,
+        "Uncontrolled Keywords GCMD" ,
+        "Uncontrolled Keywords as used in GCMD DIF" ;
+    skos:prefLabel "GCMD Science Keywords" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "gcmd-sciencekeywords.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Temporal Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Temporal Data Resolution Keywords" ,
+        "Temporal resolution" ;
+    skos:prefLabel "GCMD Temporal Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "gcmd-temporalresolutionrange.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Vertical Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Vertical Data Resolution Keywords" ;
+    skos:prefLabel "GCMD Vertical Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "gcmd-verticalresolutionrange.ttl"
+        ] ;
+.
+
+<https://lod.nal.usda.gov/nalt>
+    a sa:Vocabulary ;
+    skos:altLabel "USDA National Agricultural Library's Agricultural Thesaurus (NALT)" ;
+    skos:prefLabel "NALT Full" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "nalt-full.ttl"
+        ] ;
+.
+
+<https://vocab.aeris-data.fr/instrument>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 1
+        ] ;
+    skos:prefLabel "AERIS Instruments" ;
+.
+
+<https://vocab.aeris-data.fr/parameter>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 5
+        ] ;
+    skos:prefLabel "AERIS Parameters" ;
+.
+
+<https://vocab.aeris-data.fr/platform>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 1
+        ] ;
+    skos:prefLabel "AERIS Platforms" ;
+.
+
+<https://vocab.aeris-data.fr/project>
+    a sa:Vocabulary ;
+    skos:prefLabel "AERIS Projects" ;
+.
+
+<https://vocab.aeris-data.fr/project/highlight>
+    a sa:Vocabulary ;
+    skos:prefLabel "Highlights" ;
+.
+
+<https://vocab.nerc.ac.uk/collection/C19/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
+    skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+.
+
+<https://vocab.nerc.ac.uk/collection/L11/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "SeaDataNet depth measurement reference planes" ;
+    skos:prefLabel "SeaDataNet depth measurement reference planes" ;
+.
+
+<https://w3id.org/ozcar-theia>
+    a sa:Vocabulary ;
+    skos:prefLabel "Theia/OZCAR thesaurus" ;
+.
+
+<https://w3id.org/ozcar-theia/skosCollection_58254f70>
+    a sa:Vocabulary ;
+    skos:prefLabel "Environmental feature" ;
+.
+
+<https://w3id.org/ozcar-theia/skosCollection_65cf7fa2>
+    a sa:Vocabulary ;
+    skos:prefLabel "Phenomena" ;
+.
+
+<https://w3id.org/ozcar-theia/skosCollection_7198f400>
+    a sa:Vocabulary ;
+    skos:prefLabel "Entity" ;
+.
+
+<https://w3id.org/ozcar-theia/skosCollection_a415bff4>
+    a sa:Vocabulary ;
+    skos:prefLabel "Feature of interest" ;
+.
+
+<https://w3id.org/ozcar-theia/skosCollection_ba31712c>
+    a sa:Vocabulary ;
+    skos:prefLabel "Cryosphere feature" ;
+.
+
+<https://w3id.org/ozcar-theia/variableCategoriesGroup>
+    a sa:Vocabulary ;
+    skos:prefLabel "Variable categories" ;
+.
+
+<https://w3id.org/ozcar-theia/variableGroup>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 4
+        ] ;
+    skos:prefLabel "Variables" ;
+.
+
+<https://www.ebi.ac.uk/ols/ontologies/efo>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 2
+        ] ;
+.
+
+<https://www.ncei.noaa.gov/access/paleo-search/cvterms>
+    a sa:Vocabulary ;
+    skos:altLabel "Paleoenvironmental Standard Terms (PaST) Thesaurus" ;
+    skos:prefLabel "Paleoenvironmental Standard Terms (PaST) thesaurus" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    schema:distribution [
+            schema:contentUrl "past-thesaurus-v1.1.ttl"
+        ] ;
+.
+
+<urn:ogc:def:crs:EPSG::>
+    a sa:Vocabulary ;
+    skos:prefLabel "Spatial reference systems for EPSG" ;
+.

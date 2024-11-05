@@ -1,0 +1,241 @@
+PREFIX gcmd: <https://gcmd.earthdata.nasa.gov/kms#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/027dee16-b361-481e-868d-add966eb5b71>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Hourly Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Daily - < Weekly"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/2de882f0-d84a-471e-8fb5-9f8a1c7913c1>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Weekly Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/31765761-b153-478a-92b3-1088997fd74b>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Hourly - < Daily"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/3d97e993-dc6a-41ff-8a49-3e837c1fc2b1>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Decadal"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/40e09855-fb48-4a7d-9851-d6e809e6c309>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Annual"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/42a2f639-d1c3-4e82-a8b8-63f0f4a60ac6>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "< 1 second"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/48ff676f-836c-4cff-bc88-4c4cc06b2e1b>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "1 second - < 1 minute"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/6f3ef789-a98a-403d-b976-63e0f0e6cdad>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:changeNote
+        """2024-05-30 15:22:58.0 [sritz] Insert Concept
+add broader relation (Multi-Year [6f3ef789-a98a-403d-b976-63e0f0e6cdad,1693852] - Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,1689014]);
+""" ,
+        """2024-05-30 15:26:12.0 [sritz]
+insert Definition (id: null
+text: Data whose temporal range spans across multiple years.
+language code: en);
+""" ;
+    skos:definition "Data whose temporal range spans across multiple years."@en ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Multi-Year"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/7afdb8ba-a504-45b6-b301-730e3c69d23a>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:changeNote """2017-06-01 09:44:47.0 [tstevens] Insert Concept
+add broader relation (Subannual [7afdb8ba-a504-45b6-b301-730e3c69d23a,309625] - Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,296627]);
+""" ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Subannual"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/7b2a303c-3cb7-4961-9851-650548964674>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Weekly - < Monthly"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/7c5420a6-94e2-40ca-9dff-20309090d327>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:changeNote """2017-06-01 09:44:34.0 [tstevens] Insert Concept
+add broader relation (Seasonal [7c5420a6-94e2-40ca-9dff-20309090d327,309621] - Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,296627]);
+""" ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Seasonal"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/8900c323-8789-4403-91e9-c399de369935>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Monthly - < Annual"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/8c8c70b1-f6c5-4f34-89b5-510049b8c8ab>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Monthly Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/93c0fe11-a6a6-49b2-886f-4c281848126c>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:changeNote """2024-06-26 11:15:11.0 [tstevens] Insert Concept
+add broader relation (Varies [93c0fe11-a6a6-49b2-886f-4c281848126c,1724105] - Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,1719265]);
+""" ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Varies"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/99ef187e-6940-4c10-8d65-00d4426d493b>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:changeNote
+        """2016-06-09 11:16:04.0 [saritz] Insert Concept
+add broader relation (Diurnal [99ef187e-6940-4c10-8d65-00d4426d493b,188031] - Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,176435]);
+""" ,
+        """2016-06-09 11:17:43.0 [saritz]
+insert Definition (id: null
+text: A diurnal cycle is any pattern that recurs every 24 hours as a result of one full rotation of the Earth[1] with respect to the Sun.
+language code: en);
+""" ;
+    skos:definition "A diurnal cycle is any pattern that recurs every 24 hours as a result of one full rotation of the Earth[1] with respect to the Sun."@en ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Diurnal"@en ;
+    gcmd:reference
+        [
+            gcmd:text "http://en.mimi.hu/meteorology/diurnal_cycle.html"@en ;
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/af931dca-9a7d-4ba9-b40f-2a21e31f2d5b>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Annual Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/bca20202-2b06-4657-a425-5b0e416bce0c>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "1 minute - < 1 hour"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/e0040d4b-e398-4b65-bd42-d39434b5cc95>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Pentad Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/f308a8db-40ea-4932-a58c-fb0a093959dc>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Climate Normal (30-year climatology)"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/f86e464a-cf9d-4e15-a39b-501855d1dc5a>
+    a skos:Concept ;
+    skos:broader <https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988> ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:prefLabel "Daily Climatology"@en ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concept/502ad03c-dba8-4b32-8af5-13fa947c3988>
+    a skos:Concept ;
+    skos:changeNote
+        """2016-06-09 11:16:04.0 [saritz] Insert Concept
+add narrower relation (Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,176435] - Diurnal [99ef187e-6940-4c10-8d65-00d4426d493b,188031]);
+""" ,
+        """2017-06-01 09:44:34.0 [tstevens] Insert Concept
+add narrower relation (Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,296627] - Seasonal [7c5420a6-94e2-40ca-9dff-20309090d327,309621]);
+""" ,
+        """2017-06-01 09:44:47.0 [tstevens] Insert Concept
+add narrower relation (Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,296627] - Subannual [7afdb8ba-a504-45b6-b301-730e3c69d23a,309625]);
+""" ,
+        """2024-05-30 15:22:58.0 [sritz] Insert Concept
+add narrower relation (Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,1689014] - Multi-Year [6f3ef789-a98a-403d-b976-63e0f0e6cdad,1693852]);
+""" ,
+        """2024-06-26 11:15:11.0 [tstevens] Insert Concept
+add narrower relation (Temporal Resolution Ranges [502ad03c-dba8-4b32-8af5-13fa947c3988,1719265] - Varies [93c0fe11-a6a6-49b2-886f-4c281848126c,1724105]);
+""" ;
+    skos:inScheme <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> ;
+    skos:narrower
+        <https://gcmd.earthdata.nasa.gov/kms/concept/027dee16-b361-481e-868d-add966eb5b71> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/1ac968ef-a90a-4ffc-adbf-ea0c0d69a7f9> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/2de882f0-d84a-471e-8fb5-9f8a1c7913c1> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/31765761-b153-478a-92b3-1088997fd74b> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/3d97e993-dc6a-41ff-8a49-3e837c1fc2b1> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/40e09855-fb48-4a7d-9851-d6e809e6c309> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/42a2f639-d1c3-4e82-a8b8-63f0f4a60ac6> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/48ff676f-836c-4cff-bc88-4c4cc06b2e1b> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/6f3ef789-a98a-403d-b976-63e0f0e6cdad> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/7afdb8ba-a504-45b6-b301-730e3c69d23a> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/7b2a303c-3cb7-4961-9851-650548964674> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/7c5420a6-94e2-40ca-9dff-20309090d327> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/8900c323-8789-4403-91e9-c399de369935> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/8c8c70b1-f6c5-4f34-89b5-510049b8c8ab> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/93c0fe11-a6a6-49b2-886f-4c281848126c> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/99ef187e-6940-4c10-8d65-00d4426d493b> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/af931dca-9a7d-4ba9-b40f-2a21e31f2d5b> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/bca20202-2b06-4657-a425-5b0e416bce0c> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/e0040d4b-e398-4b65-bd42-d39434b5cc95> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/f308a8db-40ea-4932-a58c-fb0a093959dc> ,
+        <https://gcmd.earthdata.nasa.gov/kms/concept/f86e464a-cf9d-4e15-a39b-501855d1dc5a> ;
+    skos:prefLabel "Temporal Resolution Ranges"@en ;
+.
+
+[]    a gcmd:gcmd ;
+    gcmd:hits "22" ;
+    gcmd:keywordVersion "19.7" ;
+    gcmd:page_num "1" ;
+    gcmd:page_size "2000" ;
+    gcmd:schemeVersion "2024-10-09 09:57:48" ;
+    gcmd:termsOfUse "https://cdn.earthdata.nasa.gov/conduit/upload/5182/KeywordsCommunityGuide_Baseline_v1_SIGNED_FINAL.pdf" ;
+    gcmd:viewer "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/temporalresolutionrange" ; ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange>
+    a skos:ConceptScheme ;
+    skos:prefLabel "GCMD Temporal Resolution Range Keywords" ;
+.
