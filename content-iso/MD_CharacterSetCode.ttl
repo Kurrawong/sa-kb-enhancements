@@ -1,0 +1,327 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/MD_CharacterSetCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/MD_CharacterSetCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:MD_CharacterSetCode_8859part1
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part1"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part10
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part10"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part11
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part11"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part13
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part13"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part14
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part14"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part15
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part15"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part16
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part16"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part2
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part2"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part3"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part4
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part4"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part5
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part5"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part6
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part6"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part7
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part7"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part8
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part8"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_8859part9
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "8859part9"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_GB2312
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GB2312"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_big5
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "big5"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_ebcdic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ebcdic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_eucJP
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "eucJP"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_eucKR
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "eucKR"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_jis
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "jis"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_shiftJIS
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shiftJIS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_ucs2
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ucs2"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_ucs4
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ucs4"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_usAscii
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "usAscii"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_utf16
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utf16"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_utf7
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utf7"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_CharacterSetCode_utf8
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utf8"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Name of the character coding standard used in the resource"@en ;
+    skos:hasTopConcept
+        :MD_CharacterSetCode_8859part1 ,
+        :MD_CharacterSetCode_8859part10 ,
+        :MD_CharacterSetCode_8859part11 ,
+        :MD_CharacterSetCode_8859part13 ,
+        :MD_CharacterSetCode_8859part14 ,
+        :MD_CharacterSetCode_8859part15 ,
+        :MD_CharacterSetCode_8859part16 ,
+        :MD_CharacterSetCode_8859part2 ,
+        :MD_CharacterSetCode_8859part3 ,
+        :MD_CharacterSetCode_8859part4 ,
+        :MD_CharacterSetCode_8859part5 ,
+        :MD_CharacterSetCode_8859part6 ,
+        :MD_CharacterSetCode_8859part7 ,
+        :MD_CharacterSetCode_8859part8 ,
+        :MD_CharacterSetCode_8859part9 ,
+        :MD_CharacterSetCode_GB2312 ,
+        :MD_CharacterSetCode_big5 ,
+        :MD_CharacterSetCode_ebcdic ,
+        :MD_CharacterSetCode_eucJP ,
+        :MD_CharacterSetCode_eucKR ,
+        :MD_CharacterSetCode_jis ,
+        :MD_CharacterSetCode_shiftJIS ,
+        :MD_CharacterSetCode_ucs2 ,
+        :MD_CharacterSetCode_ucs4 ,
+        :MD_CharacterSetCode_usAscii ,
+        :MD_CharacterSetCode_utf16 ,
+        :MD_CharacterSetCode_utf7 ,
+        :MD_CharacterSetCode_utf8 ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Character Set Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.

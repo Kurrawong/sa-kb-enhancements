@@ -1,0 +1,267 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/MD_KeywordTypeCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/MD_KeywordTypeCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:MD_KeywordTypeCode_arrival_country
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "arrival_country"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_arrival_place
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "arrival_place"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_departure_country
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "departure_country"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_departure_place
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "departure_place"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_discipline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "discipline"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_habitat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "habitat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_instrument
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "instrument"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_legislative_driver
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "legislative_driver"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_marsden_square
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marsden_square"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_operational_status
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "operational_status"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_parameter
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "parameter"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_place
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "place"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_platform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "platform"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_platform_class
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "platform_class"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_project
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_quality_accreditation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "quality_accreditation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_rationale
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rationale"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_sensor_model
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sensor_model"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_stratum
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stratum"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_temporal
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_theme
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "theme"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_KeywordTypeCode_vertical_coverage
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vertical_coverage"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Methods used to group similar keywords"@en ;
+    skos:hasTopConcept
+        :MD_KeywordTypeCode_arrival_country ,
+        :MD_KeywordTypeCode_arrival_place ,
+        :MD_KeywordTypeCode_departure_country ,
+        :MD_KeywordTypeCode_departure_place ,
+        :MD_KeywordTypeCode_discipline ,
+        :MD_KeywordTypeCode_habitat ,
+        :MD_KeywordTypeCode_instrument ,
+        :MD_KeywordTypeCode_legislative_driver ,
+        :MD_KeywordTypeCode_marsden_square ,
+        :MD_KeywordTypeCode_operational_status ,
+        :MD_KeywordTypeCode_parameter ,
+        :MD_KeywordTypeCode_place ,
+        :MD_KeywordTypeCode_platform ,
+        :MD_KeywordTypeCode_platform_class ,
+        :MD_KeywordTypeCode_project ,
+        :MD_KeywordTypeCode_quality_accreditation ,
+        :MD_KeywordTypeCode_rationale ,
+        :MD_KeywordTypeCode_sensor_model ,
+        :MD_KeywordTypeCode_stratum ,
+        :MD_KeywordTypeCode_temporal ,
+        :MD_KeywordTypeCode_theme ,
+        :MD_KeywordTypeCode_vertical_coverage ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Keyword Type Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.

@@ -1,0 +1,236 @@
+PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<http://def.isotc211.org/iso19139/2005/CI_DateTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Date Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/CI_DateTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/CI_OnLineFunctionCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "On Line Function Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/CI_OnLineFunctionCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/CI_PresentationFormCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Presentation Form Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/CI_PresentationFormCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/CI_RoleCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Role Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/CI_RoleCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/DQ_EvaluationMethodTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Evaluation Method Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/DQ_EvaluationMethodTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/DS_AssociationTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Association Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/DS_AssociationTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/DS_InitiativeTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Initiative Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/DS_InitiativeTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/LanguageCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/LanguageCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_CellGeometryCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Cell Geometry Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_CellGeometryCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_CharacterSetCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Character Set Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_CharacterSetCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_ClassificationCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Classification Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_ClassificationCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_CoverageContentTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Coverage Content Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_CoverageContentTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_DatatypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Datatype Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_DatatypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_DimensionNameTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Dimension Name Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_DimensionNameTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_GeometricObjectTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Geometric Object Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_GeometricObjectTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_ImagingConditionCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Imaging Condition Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_ImagingConditionCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_KeywordTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Keyword Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_KeywordTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_MaintenanceFrequencyCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Maintenance Frequency Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_MaintenanceFrequencyCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_MediumFormatCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Medium Format Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_MediumFormatCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_MediumNameCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Medium Name Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_MediumNameCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_ObligationCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Obligation Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_ObligationCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_PixelOrientationCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Pixel Orientation Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_PixelOrientationCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_ProgressCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Progress Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_ProgressCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_RestrictionCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Restriction Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_RestrictionCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_ScopeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Scope Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_ScopeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_SpatialRepresentationTypeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Spatial Representation Type Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_SpatialRepresentationTypeCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_TopicCategoryCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Topic Category Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_TopicCategoryCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MD_TopologyLevelCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Topology Level Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MD_TopologyLevelCode.ttl"
+        ] ;
+.
+
+<http://def.isotc211.org/iso19139/2005/MX_ScopeCode>
+    a sa:Vocabulary ;
+    skos:prefLabel "Scope Code" ;
+    schema:distribution [
+            schema:contentUrl "content-iso/MX_ScopeCode.ttl"
+        ] ;
+.
+

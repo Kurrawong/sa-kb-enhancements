@@ -1,0 +1,197 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/DS_InitiativeTypeCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/DS_InitiativeTypeCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:DS_InitiativeTypeCode_campaign
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "campaign"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_collection
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "collection"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_exercise
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "exercise"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_experiment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "experiment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_investigation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "investigation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_mission
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mission"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_operation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "operation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_platform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "platform"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_program
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "program"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_project
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_sensor
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sensor"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_study
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "study"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_task
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "task"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DS_InitiativeTypeCode_trial
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "trial"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Type of aggregation activity in which datasets are related"@en ;
+    skos:hasTopConcept
+        :DS_InitiativeTypeCode_campaign ,
+        :DS_InitiativeTypeCode_collection ,
+        :DS_InitiativeTypeCode_exercise ,
+        :DS_InitiativeTypeCode_experiment ,
+        :DS_InitiativeTypeCode_investigation ,
+        :DS_InitiativeTypeCode_mission ,
+        :DS_InitiativeTypeCode_operation ,
+        :DS_InitiativeTypeCode_platform ,
+        :DS_InitiativeTypeCode_process ,
+        :DS_InitiativeTypeCode_program ,
+        :DS_InitiativeTypeCode_project ,
+        :DS_InitiativeTypeCode_sensor ,
+        :DS_InitiativeTypeCode_study ,
+        :DS_InitiativeTypeCode_task ,
+        :DS_InitiativeTypeCode_trial ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Initiative Type Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.

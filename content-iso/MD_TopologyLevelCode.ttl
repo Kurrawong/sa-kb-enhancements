@@ -1,0 +1,137 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/MD_TopologyLevelCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/MD_TopologyLevelCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:MD_TopologyLevelCode_abstract
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "abstract"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_fullPlanarGraph
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fullPlanarGraph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_fullSurfaceGraph
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fullSurfaceGraph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_fullTopology3D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fullTopology3D"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_geometryOnly
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geometryOnly"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_planarGraph
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planarGraph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_surfaceGraph
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "surfaceGraph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_topology1D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "topology1D"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopologyLevelCode_topology3D
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "topology3D"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Degree of complexity of the spatial relationships"@en ;
+    skos:hasTopConcept
+        :MD_TopologyLevelCode_abstract ,
+        :MD_TopologyLevelCode_fullPlanarGraph ,
+        :MD_TopologyLevelCode_fullSurfaceGraph ,
+        :MD_TopologyLevelCode_fullTopology3D ,
+        :MD_TopologyLevelCode_geometryOnly ,
+        :MD_TopologyLevelCode_planarGraph ,
+        :MD_TopologyLevelCode_surfaceGraph ,
+        :MD_TopologyLevelCode_topology1D ,
+        :MD_TopologyLevelCode_topology3D ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Topology Level Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.

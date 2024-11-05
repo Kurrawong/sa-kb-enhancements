@@ -97,7 +97,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "EuroVoc" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
-            schema:contentUrl "eurovoc-100141.ttl"
+            schema:contentUrl "content/eurovoc-100141.ttl"
         ] ;
 .
 
@@ -111,7 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "INSPIRE feature concept dictionary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
-            schema:contentUrl "featureconcepts.en.ttl"
+            schema:contentUrl "content/featureconcepts.en.ttl"
         ] ;
 .
 
@@ -129,7 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "INSPIRE theme register" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
-            schema:contentUrl "theme.en.ttl"
+            schema:contentUrl "content/theme.en.ttl"
         ] ;
 .
 
@@ -192,7 +192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <http://vocab.nerc.ac.uk/collection/L11/current/>
     a sa:Vocabulary ;
     schema:distribution [
-            schema:contentUrl "L11.ttl"
+            schema:contentUrl "content/L11.ttl"
         ] ;
 .
 
@@ -304,7 +304,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "MEDATLAS Parameter Usage Vocabulary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
     schema:distribution [
-            schema:contentUrl "P09.ttl"
+            schema:contentUrl "content/P09.ttl"
         ] ;
 .
 
@@ -585,7 +585,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <http://vocab.nerc.ac.uk/collection/L19/current/005/> ,
         <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
     schema:distribution [
-            schema:contentUrl "gemet-4.2.3.ttl"
+            schema:contentUrl "content/gemet-4.2.3.ttl"
         ] ;
     sa:aliasFor
         <https://www.eionet.europa.eu/gemet/en/exports/rdf/latest> ,
@@ -1006,7 +1006,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Global Change Master Directory (GCMD) Horizontal Data Resolution Keywords" ;
     skos:prefLabel "GCMD Horizontal Resolution Range Keywords" ;
     schema:distribution [
-            schema:contentUrl "gcmd-horizontalresolutionrange.ttl"
+            schema:contentUrl "content/gcmd-horizontalresolutionrange.ttl"
         ] ;
 .
 
@@ -1030,7 +1030,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "GCMD Instruments" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
     schema:distribution [
-            schema:contentUrl "gcmd-instruments.ttl"
+            schema:contentUrl "content/gcmd-instruments.ttl"
         ] ;
 .
 
@@ -1051,7 +1051,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "GCMD Locations" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
     schema:distribution [
-            schema:contentUrl "gcmd-locations.ttl"
+            schema:contentUrl "content/gcmd-locations.ttl"
         ] ;
 .
 
@@ -1075,7 +1075,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "GCMD Platforms" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
     schema:distribution [
-            schema:contentUrl "gcmd-platforms.ttl"
+            schema:contentUrl "content/gcmd-platforms.ttl"
         ] ;
 .
 
@@ -1093,7 +1093,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "GCMD Projects" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG02/> ;
     schema:distribution [
-            schema:contentUrl "gcmd-projects.ttl"
+            schema:contentUrl "content/gcmd-projects.ttl"
         ] ;
 .
 
@@ -1108,7 +1108,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                            NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ;
     skos:prefLabel "GCMD Providers" ;
     schema:distribution [
-            schema:contentUrl "gcmd-providers.ttl"
+            schema:contentUrl "content/gcmd-providers.ttl"
         ] ;
 .
 
@@ -1140,7 +1140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "GCMD Science Keywords" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
-            schema:contentUrl "gcmd-sciencekeywords.ttl"
+            schema:contentUrl "content/gcmd-sciencekeywords.ttl"
         ] ;
 .
 
@@ -1152,7 +1152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Temporal resolution" ;
     skos:prefLabel "GCMD Temporal Resolution Range Keywords" ;
     schema:distribution [
-            schema:contentUrl "gcmd-temporalresolutionrange.ttl"
+            schema:contentUrl "content/gcmd-temporalresolutionrange.ttl"
         ] ;
 .
 
@@ -1163,7 +1163,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "Global Change Master Directory (GCMD) Vertical Data Resolution Keywords" ;
     skos:prefLabel "GCMD Vertical Resolution Range Keywords" ;
     schema:distribution [
-            schema:contentUrl "gcmd-verticalresolutionrange.ttl"
+            schema:contentUrl "content/gcmd-verticalresolutionrange.ttl"
         ] ;
 .
 
@@ -1173,7 +1173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "NALT Full" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
-            schema:contentUrl "nalt-full.ttl"
+            schema:contentUrl "content/nalt-full.ttl"
         ] ;
 .
 
@@ -1219,6 +1219,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
     skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+    schema:distribution [
+            schema:contentUrl "content/C19.ttl"
+        ] ;
 .
 
 <https://vocab.nerc.ac.uk/collection/L11/current/>
@@ -1276,6 +1279,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
             schema:value 2
         ] ;
+    skos:prefLabel "Experimental Factor Ontology" ;
+    schema:comment "This is an ontology, not a vocabulary. It appears not to be able to be downloaded"
 .
 
 <https://www.ncei.noaa.gov/access/paleo-search/cvterms>
@@ -1284,7 +1289,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Paleoenvironmental Standard Terms (PaST) thesaurus" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
     schema:distribution [
-            schema:contentUrl "past-thesaurus-v1.1.ttl"
+            schema:contentUrl "content/past-thesaurus-v1.1.ttl"
         ] ;
 .
 

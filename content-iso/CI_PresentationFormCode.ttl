@@ -1,0 +1,187 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/CI_PresentationFormCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/CI_PresentationFormCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:CI_PresentationFormCode_documentDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "documentDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_documentHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "documentHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_imageDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "imageDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_imageHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "imageHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_mapDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mapDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_mapHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mapHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_modelDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "modelDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_modelHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "modelHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_profileDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "profileDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_profileHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "profileHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_tableDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tableDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_tableHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tableHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_videoDigital
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "videoDigital"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CI_PresentationFormCode_videoHardcopy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "videoHardcopy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Mode in which the data are represented"@en ;
+    skos:hasTopConcept
+        :CI_PresentationFormCode_documentDigital ,
+        :CI_PresentationFormCode_documentHardcopy ,
+        :CI_PresentationFormCode_imageDigital ,
+        :CI_PresentationFormCode_imageHardcopy ,
+        :CI_PresentationFormCode_mapDigital ,
+        :CI_PresentationFormCode_mapHardcopy ,
+        :CI_PresentationFormCode_modelDigital ,
+        :CI_PresentationFormCode_modelHardcopy ,
+        :CI_PresentationFormCode_profileDigital ,
+        :CI_PresentationFormCode_profileHardcopy ,
+        :CI_PresentationFormCode_tableDigital ,
+        :CI_PresentationFormCode_tableHardcopy ,
+        :CI_PresentationFormCode_videoDigital ,
+        :CI_PresentationFormCode_videoHardcopy ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Presentation Form Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.

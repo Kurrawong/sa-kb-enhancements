@@ -1,0 +1,237 @@
+PREFIX : <http://def.isotc211.org/iso19139/2005/MD_TopicCategoryCode/>
+PREFIX cs: <http://def.isotc211.org/iso19139/2005/MD_TopicCategoryCode>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:MD_TopicCategoryCode_biota
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "biota"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_boundaries
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "boundaries"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_climatologyMeteorologyAtmosphere
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "climatologyMeteorologyAtmosphere"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_economy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "economy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_elevation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "elevation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_environment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "environment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_farming
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "farming"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_geoscientificInformation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geoscientificInformation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_health
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "health"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_imageryBaseMapsEarthCover
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "imageryBaseMapsEarthCover"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_inlandWaters
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "inlandWaters"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_intelligenceMilitary
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intelligenceMilitary"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_location
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "location"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_oceans
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oceans"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_planningCadastre
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planningCadastre"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_society
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "society"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "structure"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_transportation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transportation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MD_TopicCategoryCode_utilitiesCommunication
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "utilitiesCommunication"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://kurrawong.ai>
+    a schema:Organization ;
+    schema:description "KurrawongAI is a small, Australian-based company enabling organisations to take control of their data." ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/bodc>
+    a schema:Organization ;
+    owl:sameAs <https://ror.org/03102fn17> ;
+    schema:description """The BODC's mission is to 'operate as a world-class data centre in support of UK marine science'.
+    
+The BODC is an independent self-governing organisation.""" ;
+    schema:name "British Oceanographic Data Centre" ;
+    schema:url "https://www.bodc.ac.uk"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/tc211>
+    a schema:Organization ;
+    schema:description "The International Organization for Standardization's Technical Committee on \"Geographic information/Geomatics\", is charged with standardization in the field of digital geographic information." ;
+    schema:name "ISO's Technical Committee 211" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/iso> ;
+    schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "High-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive."@en ;
+    skos:hasTopConcept
+        :MD_TopicCategoryCode_biota ,
+        :MD_TopicCategoryCode_boundaries ,
+        :MD_TopicCategoryCode_climatologyMeteorologyAtmosphere ,
+        :MD_TopicCategoryCode_economy ,
+        :MD_TopicCategoryCode_elevation ,
+        :MD_TopicCategoryCode_environment ,
+        :MD_TopicCategoryCode_farming ,
+        :MD_TopicCategoryCode_geoscientificInformation ,
+        :MD_TopicCategoryCode_health ,
+        :MD_TopicCategoryCode_imageryBaseMapsEarthCover ,
+        :MD_TopicCategoryCode_inlandWaters ,
+        :MD_TopicCategoryCode_intelligenceMilitary ,
+        :MD_TopicCategoryCode_location ,
+        :MD_TopicCategoryCode_oceans ,
+        :MD_TopicCategoryCode_planningCadastre ,
+        :MD_TopicCategoryCode_society ,
+        :MD_TopicCategoryCode_structure ,
+        :MD_TopicCategoryCode_transportation ,
+        :MD_TopicCategoryCode_utilitiesCommunication ;
+    skos:historyNote "This SKOS form of this codelist was produces for the British Oceanographic Data Centre's contribution to the FAIR EASE project which involved the establishment of a Semantic Analyser tool that extracted keywords from ISO 19139 XML data and comared them to a knowledge Base" ;
+    skos:prefLabel "Topic Category Code"@en ;
+    schema:contributor
+        <https://kurrawong.ai> ,
+        <https://linked.data.gov.au/org/bodc> ;
+    schema:creator <https://linked.data.gov.au/org/tc211> ;
+    schema:dateCreated "2005"^^xsd:gYear ;
+    schema:dateModified "2005"^^xsd:gYear ;
+    schema:publisher <https://linked.data.gov.au/org/tc211> ;
+.
