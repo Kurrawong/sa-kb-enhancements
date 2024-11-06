@@ -15,7 +15,6 @@ This repository contains enhancements to the Semantic Analyser's Knowledge Base 
 ## Contents
 
 * `config/` - configuration information for the KB in Fuseki
-* `content/` - new content to load and scripts for it
+* `content/` - new content to load into the KB, using scripts from `scripts/`
 * `scripts/` - a series of SPARQL scripts to be run on the KB as dumped on 22nd July to improve it
 * `requirements.txt` - Python packages needed for all the scripts in this repo
-* `system-graph*.ttl` - various parts of an update System Graph
