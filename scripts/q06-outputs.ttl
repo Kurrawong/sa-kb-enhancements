@@ -1,8 +1,5 @@
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX sa: <http://w3id.org/semanticanalyser/>
-PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://dd.eionet.europa.eu/vocabulary/common/NilReasonType/>
     a sa:Vocabulary ;
@@ -71,7 +68,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://dd.eionet.europa.eu/vocabulary/common/nuts/>
     a sa:Vocabulary ;
-    skos:prefLabel "The NUTS vocabulary version 2010" ;
+    skos:prefLabel
+        "Nomenclature of territorial units for statistics" ,
+        "The NUTS vocabulary version 2010" ;
 .
 
 <http://dd.eionet.europa.eu/vocabulary/common/nuts2016/>
@@ -94,405 +93,345 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Spatial scope" ;
 .
 
-<http://purl.obolibrary.org/obo/envo.owl>
-    a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
-            schema:value 1
-        ] ;
-.
-
-<http://qudt.org/2.1/vocab/quantitykind>
-    a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 2
-        ] ;
-.
-
 <http://vocab.nerc.ac.uk/collection/C17/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
-            schema:value 4
-        ] ;
-    skos:altLabel
-        "ICES Platform Codes" ,
-        "ICES/SeaDataNet Ship Codes" ,
-        "Mooring ID" ,
-        "Mooring Name" ;
+    skos:altLabel "ICES Platforms" ;
     skos:prefLabel "ICES Platform Codes" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
-.
-
-<http://vocab.nerc.ac.uk/collection/C34/current/>
-    a sa:Vocabulary ;
-    skos:prefLabel "Activity purpose categories" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L05/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 6
-        ] ;
-    skos:altLabel "SeaDataNet device categories" ;
+    skos:altLabel "SDN devices" ;
     skos:prefLabel "SeaDataNet device categories" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L06/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
-            schema:value 3
-        ] ;
     skos:altLabel "SeaVoX Platform Categories" ;
     skos:prefLabel "SeaVoX Platform Categories" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L22/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 7
-        ] ;
+    skos:altLabel "SeaVoX Device Catalogue" ;
     skos:prefLabel "SeaVoX Device Catalogue" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L33/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 4
-        ] ;
+    skos:altLabel "C3 XBT types" ;
     skos:prefLabel "WMO C3 vocabulary of XBT data types" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 10
-        ] ;
-    skos:altLabel
-        "BODC Parameter Usage Vocabulary" ,
-        "Mission Atlantic - BODC Parameters" ;
+    skos:altLabel "BODC PUV" ;
     skos:prefLabel "BODC Parameter Usage Vocabulary" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P02/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 8
-        ] ;
-    skos:altLabel
-        "Parameter Discovery Vocabulary (P02)" ,
-        "SeaDataNet P021 parameter discovery vocabulary" ,
-        "SeaDataNet Parameter Discovery Vocabulary" ;
+    skos:altLabel "SeaDataNet PDV" ;
     skos:prefLabel "SeaDataNet Parameter Discovery Vocabulary" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
-            schema:value 3
-        ] ;
-    skos:altLabel
-        "Agreed Parameter Groups (P03)" ,
-        "SeaDataNet Agreed Parameter Groups" ;
+    skos:altLabel "SeaDataNet APG" ;
     skos:prefLabel "SeaDataNet Agreed Parameter Groups" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P05/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
-            schema:value 4
-        ] ;
+    skos:altLabel "ISO Topic Categories" ;
     skos:prefLabel "International Standards Organisation ISO19115 Topic Categories" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P06/current/>
     a sa:Vocabulary ;
+    skos:altLabel "BODC units" ;
     skos:prefLabel "BODC-approved data storage units" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 9
-        ] ;
-    skos:altLabel
-        "CF Standard Name Table v29" ,
-        "CF Standard Name Table v55" ,
-        "CF Standard Name Table v70" ,
-        "CF Standard Names" ,
-        "CF-12" ,
-        "Climate and Forecast Standard Names" ,
-        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Name Table" ,
-        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Names" ;
+    skos:altLabel "CF Standard Names" ;
     skos:prefLabel "Climate and Forecast Standard Names" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P08/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
-            schema:value 2
-        ] ;
-    skos:altLabel "SeaDataNet Parameter Disciplines" ;
+    skos:altLabel "SeaDataNet Disciplines" ;
     skos:prefLabel "SeaDataNet Parameter Disciplines" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/001/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P22/current/>
     a sa:Vocabulary ;
-    skos:altLabel
-        "GEMET - INSPIRE themes version 1.0" ,
-        "GEMET - INSPIRE themes, version 1.0" ,
-        "GEMET - Inspire theme, version 1.0" ,
-        "GEMET -INSPARE themes, version 1.0" ,
-        "GEMET INSPIRE themes, version 1.0" ;
+    skos:altLabel "INSPIRE themes" ;
     skos:prefLabel "GEMET - INSPIRE themes, version 1.0" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P24/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Dimensions" ;
     skos:prefLabel "Units of measure dimensions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P35/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 6
-        ] ;
-    skos:altLabel "EMODnet Chemistry aggregated parameter names" ;
+    skos:altLabel "EMODNET chemistry aggregations" ;
     skos:prefLabel "EMODnet Chemistry aggregated parameter names" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P36/current/>
     a sa:Vocabulary ;
+    skos:altLabel "EMODNET Chemistry themes" ;
     skos:prefLabel "EMODnet Chemistry chemical groups" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R01/current/>
     a sa:Vocabulary ;
+    skos:altLabel "DATA_TYPE" ;
     skos:prefLabel "Argo data type" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 7
-        ] ;
+    skos:altLabel "PARAMETER" ;
     skos:prefLabel "Argo parameter codes" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R04/current/>
     a sa:Vocabulary ;
+    skos:altLabel "DATA_CENTRE_CODES" ;
     skos:prefLabel "Argo data centres and institutions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R05/current/>
     a sa:Vocabulary ;
+    skos:altLabel "POSITION_ACCURACY" ;
     skos:prefLabel "Argo position accuracy" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R06/current/>
     a sa:Vocabulary ;
+    skos:altLabel "DATA_STATE_INDICATOR" ;
     skos:prefLabel "Argo data state indicators" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R07/current/>
     a sa:Vocabulary ;
+    skos:altLabel "HISTORY_ACTION" ;
     skos:prefLabel "Argo history action codes" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R08/current/>
     a sa:Vocabulary ;
+    skos:altLabel "ARGO_WMO_INST_TYPE" ;
     skos:prefLabel "Argo instrument types" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R09/current/>
     a sa:Vocabulary ;
+    skos:altLabel "POSITIONING_SYSTEM" ;
     skos:prefLabel "Argo positioning system" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R10/current/>
     a sa:Vocabulary ;
+    skos:altLabel "TRANS_SYSTEM" ;
     skos:prefLabel "Argo transmission systems" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R11/current/>
     a sa:Vocabulary ;
+    skos:altLabel "RTQC_TESTID" ;
     skos:prefLabel "Argo real-time quality-control test identifiers" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R12/current/>
     a sa:Vocabulary ;
+    skos:altLabel "HISTORY_STEP" ;
     skos:prefLabel "Argo history processing step codes" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R13/current/>
     a sa:Vocabulary ;
+    skos:altLabel "OCEAN_CODE" ;
     skos:prefLabel "Argo ocean area codes and boundary definitions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R14/current/>
     a sa:Vocabulary ;
+    skos:altLabel "TECHNICAL_PARAMETER_NAME" ;
     skos:prefLabel "Argo technical parameter names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R15/current/>
     a sa:Vocabulary ;
+    skos:altLabel "MEASUREMENT_CODE_ID" ;
     skos:prefLabel "Argo trajectory measurement code identifiers" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R16/current/>
     a sa:Vocabulary ;
+    skos:altLabel "VERTICAL_SAMPLING_SCHEME" ;
     skos:prefLabel "Argo vertical sampling schemes" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R18/current/>
     a sa:Vocabulary ;
+    skos:altLabel "CONFIG_PARAMETER_NAME" ;
     skos:prefLabel "Argo configuration parameter names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R19/current/>
     a sa:Vocabulary ;
+    skos:altLabel "STATUS" ;
     skos:prefLabel "Argo STATUS flags" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R20/current/>
     a sa:Vocabulary ;
+    skos:altLabel "GROUNDED" ;
     skos:prefLabel "Argo GROUNDED flags" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R21/current/>
     a sa:Vocabulary ;
+    skos:altLabel "REPRESENTATIVE_PARK_PRESSURE_STATUS" ;
     skos:prefLabel "Argo status flag on the Representative Park Pressure (RPP)" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R22/current/>
     a sa:Vocabulary ;
+    skos:altLabel "PLATFORM_FAMILY" ;
     skos:prefLabel "Argo platform family" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R23/current/>
     a sa:Vocabulary ;
+    skos:altLabel "PLATFORM_TYPE" ;
     skos:prefLabel "Argo platform type" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R24/current/>
     a sa:Vocabulary ;
+    skos:altLabel "PLATFORM_MAKER" ;
     skos:prefLabel "Argo platform maker" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R25/current/>
     a sa:Vocabulary ;
+    skos:altLabel "SENSOR" ;
     skos:prefLabel "Argo sensor types" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R26/current/>
     a sa:Vocabulary ;
+    skos:altLabel "SENSOR_MAKER" ;
     skos:prefLabel "Argo sensor manufacturers" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R27/current/>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 3
-        ] ;
+    skos:altLabel "SENSOR_MODEL" ;
     skos:prefLabel "Argo sensor models" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R28/current/>
     a sa:Vocabulary ;
+    skos:altLabel "CONTROLLER_BOARD_TYPE" ;
     skos:prefLabel "Argo controller board types and generations" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R40/current/>
     a sa:Vocabulary ;
+    skos:altLabel "PI_NAME" ;
     skos:prefLabel "Argo Principal Investigator (PI) names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/RD2/current/>
     a sa:Vocabulary ;
+    skos:altLabel "DM_QC_FLAG" ;
     skos:prefLabel "Argo delayed-mode quality control measurement flags" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/RMC/current/>
     a sa:Vocabulary ;
+    skos:altLabel "MEASUREMENT_CODE_CATEGORY" ;
     skos:prefLabel "Argo measurement code categories" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/RP2/current/>
     a sa:Vocabulary ;
+    skos:altLabel "PROF_QC_FLAG" ;
     skos:prefLabel "Argo profile quality control flags" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/RR2/current/>
     a sa:Vocabulary ;
+    skos:altLabel "RT_QC_FLAG" ;
     skos:prefLabel "Argo real-time quality control measurement flags" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/RTV/current/>
     a sa:Vocabulary ;
+    skos:altLabel "CYCLE_TIMING_VARIABLE" ;
     skos:prefLabel "Argo float cycle timing variables" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S03/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Sample preparation" ;
     skos:prefLabel "BODC parameter semantic model sample preparation entity descriptions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S04/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Analytical method" ;
     skos:prefLabel "BODC parameter semantic model analytical method entity descriptions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S05/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Data processing" ;
     skos:prefLabel "BODC parameter semantic model data processing entity descriptions" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S06/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Parameter entity names" ;
     skos:prefLabel "BODC parameter semantic model parameter entity names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S18/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Physical entity" ;
     skos:prefLabel "BODC parameter semantic model physical entity names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S19/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Physical entity subgroup name" ;
     skos:prefLabel "BODC parameter semantic model physical entity subgroup names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S25/current/>
     a sa:Vocabulary ;
+    skos:altLabel "Biological entity names" ;
     skos:prefLabel "BODC parameter semantic model biological entity names" ;
 .
 
 <http://vocab.nerc.ac.uk/collection/S27/current/>
     a sa:Vocabulary ;
+    skos:altLabel "BODC substances" ;
     skos:prefLabel "BODC parameter semantic model chemical substances" ;
+.
+
+<http://www.eionet.europa.eu/gemet/gemetThesaurus>
+    a sa:Vocabulary ;
+    skos:prefLabel "GEMET - Concepts, version 4.2.3, 2021-12-06T13:37:25.364764+00:00" ;
 .
 
 <http://www.eionet.europa.eu/gemet/group/10111>
@@ -885,46 +824,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "economics" ;
 .
 
-<https://bioportal.bioontology.org/ontologies/NCBITAXON>
-    a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 3
-        ] ;
-.
-
-<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName>
-    a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 1
-        ] ;
-.
-
 <https://vocab.aeris-data.fr/instrument>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 1
-        ] ;
     skos:prefLabel "AERIS Instruments" ;
 .
 
 <https://vocab.aeris-data.fr/parameter>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 5
-        ] ;
     skos:prefLabel "AERIS Parameters" ;
 .
 
 <https://vocab.aeris-data.fr/platform>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
-            schema:value 1
-        ] ;
     skos:prefLabel "AERIS Platforms" ;
 .
 
@@ -936,12 +847,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://vocab.aeris-data.fr/project/highlight>
     a sa:Vocabulary ;
     skos:prefLabel "Highlights" ;
-.
-
-<https://vocab.nerc.ac.uk/collection/L11/current/>
-    a sa:Vocabulary ;
-    skos:altLabel "SeaDataNet depth measurement reference planes" ;
-    skos:prefLabel "SeaDataNet depth measurement reference planes" ;
 .
 
 <https://w3id.org/ozcar-theia>
@@ -981,20 +886,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://w3id.org/ozcar-theia/variableGroup>
     a sa:Vocabulary ;
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-            schema:value 4
-        ] ;
     skos:prefLabel "Variables" ;
-.
-
-<https://www.ebi.ac.uk/ols/ontologies/efo>
-    sa:hasPreference [
-            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
-            schema:value 2
-        ] ;
-    skos:prefLabel "Experimental Factor Ontology" ;
-    schema:comment "This is an ontology, not a vocabulary. Download from http://www.ebi.ac.uk/efo/releases/v3.71.0/efo.owl"
 .
 
 <urn:ogc:def:crs:EPSG::>

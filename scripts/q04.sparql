@@ -1,0 +1,16 @@
+# Find all the Collections & ConceptSchemes missing a prefLabels
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?cs
+WHERE {
+    {
+        ?c skos:inScheme ?cs
+    } UNION {
+        ?cs skos:member ?c
+    }
+
+    MINUS {
+        ?cs skos:prefLabel ?pl
+    }
+}

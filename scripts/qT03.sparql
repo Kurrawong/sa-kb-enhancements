@@ -1,0 +1,11 @@
+# Partial word search with scored matches
+
+PREFIX text:    <http://jena.apache.org/text#>
+
+SELECT *
+WHERE {
+  GRAPH ?g {
+  (?s ?score ?literal ?g) text:query ("Nor*")
+  }
+}
+

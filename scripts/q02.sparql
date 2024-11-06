@@ -1,0 +1,3 @@
+# Remove the secret default graph
+
+DROP GRAPH <urn:x-arq:DefaultGraph>

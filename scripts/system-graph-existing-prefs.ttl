@@ -1,0 +1,196 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<http://purl.obolibrary.org/obo/envo.owl>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 1
+        ] ;
+.
+
+<http://qudt.org/2.1/vocab/quantitykind>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 2
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/C17/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 4
+        ] ;
+    skos:altLabel
+        "ICES Platform Codes" ,
+        "ICES/SeaDataNet Ship Codes" ,
+        "Mooring ID" ,
+        "Mooring Name" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L05/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 6
+        ] ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L06/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 3
+        ] ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L22/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 7
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L33/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 4
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P01/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 10
+        ] ;
+    skos:altLabel
+        "BODC Parameter Usage Vocabulary" ,
+        "Mission Atlantic - BODC Parameters" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P02/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 8
+        ] ;
+    skos:altLabel
+        "Parameter Discovery Vocabulary (P02)" ,
+        "SeaDataNet P021 parameter discovery vocabulary" ,
+        "SeaDataNet Parameter Discovery Vocabulary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P03/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 3
+        ] ;
+    skos:altLabel
+        "Agreed Parameter Groups (P03)" ,
+        "SeaDataNet Agreed Parameter Groups" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P05/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 4
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P07/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 9
+        ] ;
+    skos:altLabel
+        "CF Standard Name Table v29" ,
+        "CF Standard Name Table v55" ,
+        "CF Standard Name Table v70" ,
+        "CF Standard Names" ,
+        "CF-12" ,
+        "Climate and Forecast Standard Names" ,
+        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Name Table" ,
+        "NetCDF Climate and Forecast (CF) Metadata Convention Standard Names" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P08/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 2
+        ] ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/001/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P22/current/>
+    skos:altLabel
+        "GEMET - INSPIRE themes version 1.0" ,
+        "GEMET - INSPIRE themes, version 1.0" ,
+        "GEMET - Inspire theme, version 1.0" ,
+        "GEMET -INSPARE themes, version 1.0" ,
+        "GEMET INSPIRE themes, version 1.0" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P35/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 6
+        ] ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R03/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 7
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/R27/current/>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 3
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 1
+        ] ;
+.
+
+<https://vocab.aeris-data.fr/instrument>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 1
+        ] ;
+.
+
+<https://vocab.aeris-data.fr/parameter>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 5
+        ] ;
+.
+
+<https://vocab.aeris-data.fr/platform>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 1
+        ] ;
+.
+
+<https://w3id.org/ozcar-theia/variableGroup>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 4
+        ] ;
+.

@@ -1,0 +1,34 @@
+# Patch missing ConceptScheme & Collection prefLabels
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+INSERT DATA {
+    GRAPH <http://inferred> {
+        <http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> skos:prefLabel "NETMAR_OCEAN" .
+        <http://vocab.nerc.ac.uk/scheme/NETOC_ORTHO/current/> skos:prefLabel "NETOC_ORTHO" .
+        <http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current/> skos:prefLabel "EDMED_DCAT_THEMES" .
+        <http://vocab.nerc.ac.uk/scheme/EMODNET_PEST/current/> skos:prefLabel "EMODNET_PEST" .
+        <http://vocab.nerc.ac.uk/scheme/EMODNET_CHEM/current/> skos:prefLabel "EMODNET_CHEM" .
+        <http://vocab.nerc.ac.uk/scheme/SDNDEV/current/> skos:prefLabel "SDNDEV" .
+        <http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current/> skos:prefLabel "NETOC_INSTRUMENT" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/projects> skos:prefLabel "GCMD Projects" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords> skos:prefLabel "GCMD Science Keywords" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms> skos:prefLabel "GCMD Platforms" .
+        <http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/> skos:prefLabel "NETOC_PARAM" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/providers> skos:prefLabel "GCMD Providers" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments> skos:prefLabel "GCMD Instruments" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MimeType> skos:prefLabel "GCMD MimeTypes" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/locations> skos:prefLabel "GCMD Locations" .
+        <http://vocab.nerc.ac.uk/scheme/NETOC_PLATCLASS/current/> skos:prefLabel "NETOC_PLATCLASS" .
+        <http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> skos:prefLabel "ICANCOERO" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/DataFormat> skos:prefLabel "GCMD Data Format" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/chronounits> skos:prefLabel "GCMD Chrono Units" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> skos:prefLabel "GCMD Temporal Resolution Range" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/rucontenttype> skos:prefLabel "GCMD ru contenttype" .
+        <http://inspire.ec.europa.eu/metadata-codelist> skos:prefLabel "INSPIRE metadata-codelist" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName> skos:prefLabel "GCMD Measurement Name" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange> skos:prefLabel "GCMD Vertical Resolution Range" .
+        <http://vocab.nerc.ac.uk/scheme/NETOC_PLAT/current/> skos:prefLabel "NETOC_PLAT" .
+        <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/horizontalresolutionrange> skos:prefLabel "GCMD Horizontal Resolution Range" .
+    }
+}

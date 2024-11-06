@@ -1,0 +1,34 @@
+# Find all the Concept Schemes and Collections with their labels and insert into the System Graph
+# Select only the English or non-language prefLabels
+# Store only no-language pref and alt labels
+
+PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+INSERT  {
+  GRAPH sa:system-graph {
+    ?v a sa:Vocabulary ;
+      skos:prefLabel ?pl_str ;
+      skos:altLabel ?al_str ;
+    .
+  }
+}
+WHERE {
+  VALUES ?t {
+    skos:ConceptScheme
+    skos:Collection
+  }
+
+  ?v a ?t ;
+  	skos:prefLabel ?pl ;
+  .
+  BIND (STR(?pl) AS ?pl_str)
+
+
+  OPTIONAL {
+	?v skos:altLabel ?al ;
+    BIND (STR(?al) AS ?al_str)
+  }
+
+  FILTER ((LANG(?pl) = "en") || (LANG(?pl) = ""))
+}

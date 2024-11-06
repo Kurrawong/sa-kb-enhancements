@@ -302,3 +302,28 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:contentUrl "content/new-vocs/past-thesaurus-v1.1.ttl"
         ] ;
 .
+
+<https://bioportal.bioontology.org/ontologies/NCBITAXON>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+            schema:value 3
+        ] ;
+    schema:comment "This is an ontology, not a vocabulary. Download from https://data.bioontology.org/ontologies/NCBITAXON/submissions/24/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb"
+.
+
+<https://www.ebi.ac.uk/ols/ontologies/efo>
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 2
+        ] ;
+    schema:comment "This is an ontology, not a vocabulary. Download from http://www.ebi.ac.uk/efo/releases/v3.71.0/efo.owl"
+.
+
+<http://vocab.nerc.ac.uk/collection/C34/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Activity purpose categories" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/C34.ttl"
+        ] ;
+.

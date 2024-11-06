@@ -1,0 +1,11 @@
+# Search for "Norway" using text index
+
+PREFIX text:    <http://jena.apache.org/text#>
+
+SELECT *
+WHERE {
+  GRAPH ?g {
+  (?s ?score ?literal ?g) text:query ("Norway")
+  }
+}
+# should be ~5 results

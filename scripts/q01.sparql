@@ -1,0 +1,11 @@
+# Copy all the triples in the secrete default graph to a named graph
+INSERT {
+  GRAPH <http://example.com/default> {
+	  ?s ?p ?o
+  }
+}
+WHERE {
+  GRAPH <urn:x-arq:DefaultGraph> {
+	?s ?p ?o
+  }
+}
