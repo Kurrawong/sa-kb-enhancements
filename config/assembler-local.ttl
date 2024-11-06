@@ -1,0 +1,108 @@
+PREFIX : <file:///api/#>
+PREFIX fuseki: <http://jena.apache.org/fuseki#>
+PREFIX ja: <http://jena.hpl.hp.com/2005/11/Assembler#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tdb2: <http://jena.apache.org/2016/tdb#>
+PREFIX text: <http://jena.apache.org/text#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+[]    a fuseki:Server ;
+.
+
+<#service_tdb_all>
+    a fuseki:Service ;
+    rdfs:label "TDB2 Dataset" ;
+    fuseki:dataset <#text_dataset> ;
+    fuseki:endpoint
+        [
+            fuseki:name "data" ;
+            fuseki:operation fuseki:gsp-rw ;
+        ] ,
+        [
+            fuseki:name "sparql" ;
+            fuseki:operation fuseki:query ;
+        ] ,
+        [
+            fuseki:operation fuseki:query ;
+        ] ,
+        [
+            fuseki:name "query" ;
+            fuseki:operation fuseki:query ;
+        ] ,
+        [
+            fuseki:name "get" ;
+            fuseki:operation fuseki:gsp-r ;
+        ] ,
+        [
+            fuseki:operation fuseki:gsp-rw ;
+        ] ,
+        [
+            fuseki:name "update" ;
+            fuseki:operation fuseki:update ;
+        ] ,
+        [
+            fuseki:operation fuseki:update ;
+        ] ;
+    fuseki:name "ds" ;
+.
+
+<#entMap>
+    a text:EntityMap ;
+    text:defaultField "prefLabel" ;
+    text:entityField "uri" ;
+    text:graphField "graph" ;
+    text:langField "lang" ;
+    text:map (
+        [
+            text:field "label" ;
+            text:predicate rdfs:label ;
+        ]
+        [
+            text:field "prefLabel" ;
+            text:predicate skos:prefLabel ;
+        ]
+        [
+            text:field "altLabel" ;
+            text:predicate skos:altLabel ;
+        ]
+        [
+            text:field "notation" ;
+            text:predicate skos:notation ;
+        ]
+        [
+            text:field "identifier" ;
+            text:predicate sdo:identifier ;
+        ]
+    ) ;
+    text:uidField "uid" ;
+.
+
+<#indexLucene>
+    a text:TextIndexLucene ;
+    text:analyzer [
+        a text:StandardAnalyzer
+    ] ;
+    text:directory "/Users/nick/Work/bodc/sakb/fuseki/databases/ds_lucene_index" ;
+    text:entityMap <#entMap> ;
+    text:multilingualSupport true ;
+    text:storeValues true ;
+.
+
+<#tdb_dataset_readwrite>
+    a tdb2:DatasetTDB2 ;
+    tdb2:location "/Users/nick/Work/bodc/sakb/fuseki/databases/ds" ;
+    tdb2:unionDefaultGraph true ;
+    ja:context [
+        ja:cxtName "arq:queryTimeout" ;
+        ja:cxtValue "60000"
+    ] ;
+.
+
+<#text_dataset>
+    a text:TextDataset ;
+    text:dataset <#tdb_dataset_readwrite> ;
+    text:index <#indexLucene> ;
+.

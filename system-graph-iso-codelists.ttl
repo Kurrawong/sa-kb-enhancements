@@ -6,7 +6,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Date Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/CI_DateTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/CI_DateTypeCode.ttl"
         ] ;
 .
 
@@ -14,7 +14,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "On Line Function Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/CI_OnLineFunctionCode.ttl"
+            schema:contentUrl "content/iso-codelists/CI_OnLineFunctionCode.ttl"
         ] ;
 .
 
@@ -22,7 +22,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Presentation Form Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/CI_PresentationFormCode.ttl"
+            schema:contentUrl "content/iso-codelists/CI_PresentationFormCode.ttl"
         ] ;
 .
 
@@ -30,7 +30,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Role Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/CI_RoleCode.ttl"
+            schema:contentUrl "content/iso-codelists/CI_RoleCode.ttl"
         ] ;
 .
 
@@ -38,7 +38,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Evaluation Method Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/DQ_EvaluationMethodTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/DQ_EvaluationMethodTypeCode.ttl"
         ] ;
 .
 
@@ -46,7 +46,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Association Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/DS_AssociationTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/DS_AssociationTypeCode.ttl"
         ] ;
 .
 
@@ -54,7 +54,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Initiative Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/DS_InitiativeTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/DS_InitiativeTypeCode.ttl"
         ] ;
 .
 
@@ -62,7 +62,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/LanguageCode.ttl"
+            schema:contentUrl "content/iso-codelists/LanguageCode.ttl"
         ] ;
 .
 
@@ -70,7 +70,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Cell Geometry Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_CellGeometryCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_CellGeometryCode.ttl"
         ] ;
 .
 
@@ -78,7 +78,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Character Set Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_CharacterSetCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_CharacterSetCode.ttl"
         ] ;
 .
 
@@ -86,7 +86,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Classification Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_ClassificationCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_ClassificationCode.ttl"
         ] ;
 .
 
@@ -94,7 +94,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Coverage Content Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_CoverageContentTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_CoverageContentTypeCode.ttl"
         ] ;
 .
 
@@ -102,7 +102,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Datatype Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_DatatypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_DatatypeCode.ttl"
         ] ;
 .
 
@@ -110,7 +110,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Dimension Name Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_DimensionNameTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_DimensionNameTypeCode.ttl"
         ] ;
 .
 
@@ -118,7 +118,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Geometric Object Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_GeometricObjectTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_GeometricObjectTypeCode.ttl"
         ] ;
 .
 
@@ -126,7 +126,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Imaging Condition Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_ImagingConditionCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_ImagingConditionCode.ttl"
         ] ;
 .
 
@@ -134,7 +134,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Keyword Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_KeywordTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_KeywordTypeCode.ttl"
         ] ;
 .
 
@@ -142,7 +142,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Maintenance Frequency Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_MaintenanceFrequencyCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_MaintenanceFrequencyCode.ttl"
         ] ;
 .
 
@@ -150,7 +150,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Medium Format Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_MediumFormatCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_MediumFormatCode.ttl"
         ] ;
 .
 
@@ -158,7 +158,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Medium Name Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_MediumNameCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_MediumNameCode.ttl"
         ] ;
 .
 
@@ -166,7 +166,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Obligation Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_ObligationCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_ObligationCode.ttl"
         ] ;
 .
 
@@ -174,7 +174,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Pixel Orientation Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_PixelOrientationCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_PixelOrientationCode.ttl"
         ] ;
 .
 
@@ -182,7 +182,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Progress Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_ProgressCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_ProgressCode.ttl"
         ] ;
 .
 
@@ -190,7 +190,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Restriction Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_RestrictionCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_RestrictionCode.ttl"
         ] ;
 .
 
@@ -198,7 +198,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Scope Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_ScopeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_ScopeCode.ttl"
         ] ;
 .
 
@@ -206,7 +206,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Spatial Representation Type Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_SpatialRepresentationTypeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_SpatialRepresentationTypeCode.ttl"
         ] ;
 .
 
@@ -214,7 +214,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Topic Category Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_TopicCategoryCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_TopicCategoryCode.ttl"
         ] ;
 .
 
@@ -222,7 +222,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Topology Level Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MD_TopologyLevelCode.ttl"
+            schema:contentUrl "content/iso-codelists/MD_TopologyLevelCode.ttl"
         ] ;
 .
 
@@ -230,7 +230,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     a sa:Vocabulary ;
     skos:prefLabel "Scope Code" ;
     schema:distribution [
-            schema:contentUrl "content-iso/MX_ScopeCode.ttl"
+            schema:contentUrl "content/iso-codelists/MX_ScopeCode.ttl"
         ] ;
 .
 

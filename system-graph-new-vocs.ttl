@@ -1,0 +1,304 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://eurovoc.europa.eu/100141>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "EUROVOC (ver: 4.4)" ,
+        "EuroVoc" ;
+    skos:prefLabel "EuroVoc" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/eurovoc-100141.ttl"
+        ] ;
+.
+
+<http://inspire.ec.europa.eu/featureconcept>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "INSPIRE - Feature Concept Dictionary, version 3" ,
+        "INSPIRE Feature Concept Dictionary" ,
+        "INSPIRE feature concept dictionary" ,
+        "INSPIRE feature concept dictionary (Version: Linked Data 1.0)" ;
+    skos:prefLabel "INSPIRE feature concept dictionary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/featureconcepts.en.ttl"
+        ] ;
+.
+
+<http://inspire.ec.europa.eu/theme>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "INSPIRE THEMES" ,
+        "INSPIRE theme register" ,
+        "external.theme.inspire-theme" ;
+    skos:prefLabel "INSPIRE theme register" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/theme.en.ttl"
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L11/current/>
+    a sa:Vocabulary ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/L11.ttl"
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P09/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "MEDATLAS Parameter Usage Vocabulary" ;
+    skos:prefLabel "MEDATLAS Parameter Usage Vocabulary" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/P09.ttl"
+        ] ;
+.
+
+<http://www.eionet.europa.eu/gemet/gemetThesaurus>
+    a sa:Vocabulary ;
+    sa:aliasFor
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.0> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.1.0> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.0> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.1> ,
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/latest> ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 6
+        ] ;
+    skos:altLabel
+        "GEMET" ,
+        "GEMET (version 3.1, 2012-07-20)" ,
+        "GEMET - Concepts version 3.0" ,
+        "GEMET - Concepts, version 2." ,
+        "GEMET - Concepts, version 2.1" ,
+        "GEMET - Concepts, version 2.4" ,
+        "GEMET - Concepts, version 3.1" ,
+        "GEMET - Concepts, version 4.1.4" ,
+        "GEMET - Concepts, version 4.2.0" ,
+        "GEMET - Concepts, version 4.2.1" ,
+        "GEMET - Concepts, version 4.2.1, 1 Jun 2021" ,
+        "GEMET - Concepts, version 4.2.3" ,
+        "GEMET - Concepts, version 4.2.3, 2021-12-06T13:37:25.364764+00:00" ,
+        "GEMET - Groups, version 2.4" ,
+        "GEMET - Groups, version 4.2.1" ,
+        "GEMET - Groups, version 4.2.3" ,
+        "GEMET - Supergroups, version 2.4" ,
+        "GEMET - Themes, version 2.4" ,
+        "GEMET - Themes, version 4.2.1" ,
+        "GEMET - Themes, version 4.2.1, 1 Jun 2021" ,
+        "GEMET - Themes, version 4.2.3" ,
+        "GemetInspireTheme" ,
+        "SeaDataNet device categories" ,
+        "external.theme.gemet" ;
+    skos:prefLabel "GEMET - Concepts" ;
+    dcat:theme
+        <http://vocab.nerc.ac.uk/collection/L19/current/005/> ,
+        <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gemet-4.2.3.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/horizontalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Horizontal Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Horizontal Data Resolution Keywords" ;
+    skos:prefLabel "GCMD Horizontal Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-horizontalresolutionrange.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+            schema:value 5
+        ] ;
+    skos:altLabel
+        "GCMD Instrument Keywords" ,
+        "Global Change Master Directory (GCMD) Instrument Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Instrument Keywords" ,
+        "NASA/GCMD Instrument Keyword Thesaurus" ,
+        "NASA/GCMD Instrument Keywords" ,
+        """NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Instrument Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ;
+    skos:prefLabel "GCMD Instruments" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-instruments.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/locations>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Location Keywords" ,
+        "GCMD spatial location (places) Keywords" ,
+        "Global Change Master Directory (GCMD) Location Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Location Keywords" ,
+        "NASA/GCMD Location Keywords" ,
+        """NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Location Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ,
+        "NASA/GCMD Place Keywords" ;
+    skos:prefLabel "GCMD Locations" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-locations.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+            schema:value 2
+        ] ;
+    skos:altLabel
+        "GCMD Platform Keywords" ,
+        "Global Change Master Directory (GCMD) Platform Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Platform Keywords" ,
+        "NASA/GCMD Platform Keyword Thesaurus" ,
+        "NASA/GCMD Platform Keywords" ,
+        """NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Platform Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ;
+    skos:prefLabel "GCMD Platforms" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-platforms.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/projects>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Data Project Keywords" ,
+        "GCMD Project Keywords" ,
+        "GCMD Projects" ,
+        "Global Change Master Directory (GCMD) Project Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Project Keywords" ,
+        "NASA/GCMD Project Keywords" ,
+        """NASA/GCMD Project Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0""" ;
+    skos:prefLabel "GCMD Projects" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG02/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-projects.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/providers>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Data Center Keywords" ,
+        "GCMD Data Centres" ,
+        "Global Change Master Directory (GCMD) Data Center Keywords" ,
+        "NASA/GCMD Data Center Keywords" ,
+        """NASA/GCMD Data Center Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ;
+    skos:prefLabel "GCMD Providers" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-providers.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords>
+    a sa:Vocabulary ;
+    sa:hasPreference [
+            dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+            schema:value 5
+        ] ;
+    skos:altLabel
+        "Earth Science Keywords" ,
+        "GCMD Keyword Thesaurus" ,
+        "GCMD Science Keywords" ,
+        "Global Change Master Directory (GCMD) Science Keywords" ,
+        "Global Change Master Directory (GCMD) Science and Services Keywords" ,
+        "Global Change Master Directory (GCMD) Theme Keywords" ,
+        "NASA Global Change Master Directory (GCMD) Science and Services Keywords" ,
+        "NASA/GCMD Earth Science Keywords" ,
+        """NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 .\r\r
+                           NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        """NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master\r\r
+									Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0.""" ,
+        "NASA/GCMD Earth Science Keywords; Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 6.0.0.0.0." ,
+        "NASA/GCMD Science Keyword Thesaurus" ,
+        "NASA/GCMD Science Keywords" ,
+        "NASA/Global Change Master Directory (GCMD) Earth Science Services Keywords" ,
+        "Uncontrolled Keywords GCMD" ,
+        "Uncontrolled Keywords as used in GCMD DIF" ;
+    skos:prefLabel "GCMD Science Keywords" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-sciencekeywords.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Temporal Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Temporal Data Resolution Keywords" ,
+        "Temporal resolution" ;
+    skos:prefLabel "GCMD Temporal Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-temporalresolutionrange.ttl"
+        ] ;
+.
+
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange>
+    a sa:Vocabulary ;
+    skos:altLabel
+        "GCMD Vertical Resolution Keywords" ,
+        "Global Change Master Directory (GCMD) Vertical Data Resolution Keywords" ;
+    skos:prefLabel "GCMD Vertical Resolution Range Keywords" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/gcmd-verticalresolutionrange.ttl"
+        ] ;
+.
+
+<https://lod.nal.usda.gov/nalt>
+    a sa:Vocabulary ;
+    skos:altLabel "NALT Full" ;
+    skos:prefLabel "USDA National Agricultural Library's Agricultural Thesaurus (NALT)" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/nalt-full.ttl"
+        ] ;
+.
+
+<https://vocab.nerc.ac.uk/collection/C19/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
+    skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/C19.ttl"
+        ] ;
+.
+
+<https://www.ncei.noaa.gov/access/paleo-search/cvterms>
+    a sa:Vocabulary ;
+    skos:prefLabel "Paleoenvironmental Standard Terms (PaST) thesaurus" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/past-thesaurus-v1.1.ttl"
+        ] ;
+.
