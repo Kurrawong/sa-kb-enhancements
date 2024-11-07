@@ -2,7 +2,7 @@
 # Select only the English or non-language prefLabels
 # Store only no-language pref and alt labels
 
-PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX sa: <https://w3id.org/semanticanalyser/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 INSERT  {

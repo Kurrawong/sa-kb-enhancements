@@ -1,5 +1,5 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX sa: <https://w3id.org/semanticanalyser/>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -62,12 +62,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://www.eionet.europa.eu/gemet/gemetThesaurus>
     a sa:Vocabulary ;
-    sa:aliasFor
+    sa:hasAlias
         <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.0> ,
         <https://www.eionet.europa.eu/gemet/en/exports/rdf/3.1.0> ,
         <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.0> ,
         <https://www.eionet.europa.eu/gemet/en/exports/rdf/4.2.1> ,
-        <https://www.eionet.europa.eu/gemet/en/exports/rdf/latest> ;
+        <https://www.eionet.europa.eu/gemet/en/exports/rdf/latest> ,
+        <https://sdi.eea.europa.eu/catalogue/srv/api/registries/vocabularies/external.theme.gemet> ;
     sa:hasPreference [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
             schema:value 6
@@ -292,6 +293,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/C19.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.reference-geographical-area.NVS.C19> ;
 .
 
 <https://www.ncei.noaa.gov/access/paleo-search/cvterms>
@@ -326,4 +328,30 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/C34.ttl"
         ] ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope>
+    a sa:Vocabulary ;
+    skos:prefLabel "Spatial scope" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/SpatialScope.ttl"
+        ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P36/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EMODnet Chemistry chemical groups" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/P36.ttl"
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P36> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L04/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EMODnet Chemistry chemical groups" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/L04.ttl"
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.L04> ;
 .

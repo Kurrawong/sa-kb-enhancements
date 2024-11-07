@@ -5,7 +5,7 @@ This repository contains enhancements to the Semantic Analyser's Knowledge Base 
 * new content 
     * mostly new vocabularies
 * new structures
-    * the "system Graph", identified by the Semantic Analyser namespace-based IRI of `<http://w3id.org/semanticanalyser/system-graph>`
+    * the "system Graph", identified by the Semantic Analyser namespace-based IRI of `<https://w3id.org/semanticanalyser/system-graph>`
 
 > [!NOTE]  
 > This repository does _NOT_ contain any parts of the Semantic Analyser's metadata processing code. It contains enhancements built on top of the [data dump of the SA' original KB](https://github.com/Kurrawong/fair-ease-matcher/tree/bodc/triple_store_dump_2024_07_22/data/fuseki_triple_store_dump_2024_07_22) only.

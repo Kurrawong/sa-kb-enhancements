@@ -1,0 +1,213 @@
+PREFIX adms: <http://www.w3.org/ns/adms#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.csv>
+    rdfs:label "CSV"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.html>
+    rdfs:label "HTML"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.iso19135xml>
+    rdfs:label "ISO19135XML"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ISO19135XML> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.json>
+    rdfs:label "JSON"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.rdf>
+    rdfs:label "RDF"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/RDF> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.xml>
+    rdfs:label "XML"@en ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:language <http://publications.europa.eu/resource/authority/file-type/ENG> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european>
+    a skos:Concept ;
+    dcterms:created "2019-03-22"^^xsd:date ;
+    dcterms:description "The scope of the data set intends to cover Europe."@en ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european"^^rdfs:Literal ;
+    dcterms:title "European"@en ;
+    vann:usageNote "The term may be applied to a loose definition of Europe, i.e. strictly covering the full continent or alternatively diverse configurations of countries with a clear European scope, e.g. European Union, EEA/Eionet countries, etc."@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-technical> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european:3> ;
+    skos:broader <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:definition "The scope of the data set intends to cover Europe."@en ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:prefLabel "European"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european> ;
+    adms:prev
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european:1> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european:2> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global>
+    a skos:Concept ;
+    dcterms:created "2019-03-22"^^xsd:date ;
+    dcterms:description "The scope of the data set intends to cover the whole Earth."@en ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global"^^rdfs:Literal ;
+    dcterms:title "Global"@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-technical> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global:2> ;
+    skos:broader <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:definition "The scope of the data set intends to cover the whole Earth."@en ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:prefLabel "Global"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global> ;
+    adms:prev <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global:1> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local>
+    a skos:Concept ;
+    dcterms:created "2019-03-22"^^xsd:date ;
+    dcterms:description "The scope of the data set intends to cover the territory of one or several local administrative units."@en ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local"^^rdfs:Literal ;
+    dcterms:title "Local"@en ;
+    vann:usageNote "A local territory may consist of one or several municipalities (or any other similar local entity). Datasets intending to contain all the objects of a certain theme of one or several municipalities (or any other similar local entity) of a member state are seen here as datasets of local scope."@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-technical> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local:3> ;
+    skos:broader <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:definition "The scope of the data set intends to cover the territory of one or several local administrative units."@en ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:prefLabel "Local"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local> ;
+    adms:prev
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local:1> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local:2> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national>
+    a skos:Concept ;
+    dcterms:created "2019-03-22"^^xsd:date ;
+    dcterms:description "The scope of the data set intends to cover the national territory."@en ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national"^^rdfs:Literal ;
+    dcterms:title "National"@en ;
+    vann:usageNote "Datasets intending to contain all objects of a certain theme for the national territory shall be considered as datasets of national scope.\\n The territory covered by a dataset of national scope may be different from the actual geographical extent of the national territory (e.g. a dataset of drilling platforms would only extend over the maritime area of a country, a dataset comprising buildings or forests would only cover terrestrial areas).\\n The national territory may consist of several subdivisions, for administrative or other purposes, at different levels (e.g. federal states, regions, provinces, municipalities). Datasets intending to contain all objects of a certain theme for all relevant entities on a certain subdivision level (e.g. all relevant federal states, all relevant regions, all relevant provinces, all relevant municipalities) of a member state are seen here as datasets of national scope."@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-legal> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national:3> ;
+    skos:broader <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:definition "The scope of the data set intends to cover the national territory."@en ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:prefLabel "National"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national> ;
+    adms:prev
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national:1> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national:2> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional>
+    a skos:Concept ;
+    dcterms:created "2019-03-22"^^xsd:date ;
+    dcterms:description "The scope of the data set intends to cover the territory of one or several sub-national level administrative units."@en ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional"^^rdfs:Literal ;
+    dcterms:title "Regional"@en ;
+    vann:usageNote "The regional territory may consist of several subdivisions, for administrative or other purposes, at different levels (e.g. provinces, municipalities).\\n Datasets intending to contain all objects of a certain theme for all relevant entities on a certain subdivision level (e.g. all relevant provinces, all relevant municipalities) of one or several regions of a member state are seen here as datasets of regional scope."@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-legal> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional:3> ;
+    skos:broader <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:definition "The scope of the data set intends to cover the territory of one or several sub-national level administrative units."@en ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    skos:prefLabel "Regional"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional> ;
+    adms:prev
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional:1> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional:2> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+.
+
+<http://inspire.ec.europa.eu/registry>
+    a dcat:Catalog ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist>
+    a dcat:Catalog ;
+.
+
+<http://inspire.ec.europa.eu/metadata-codelist/SpatialScope>
+    a skos:ConceptScheme ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/UNKNOWN> ;
+    dcterms:created "2019-03-21"^^xsd:date ;
+    dcterms:description "Administrative level that the data set intends to cover."@en ;
+    dcterms:format <http://www.iana.org/assignments/media-types/application/rdf+xml> ;
+    dcterms:hasFormat
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.csv> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.html> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.iso19135xml> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.json> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.rdf> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/SpatialScope.en.xml> ;
+    dcterms:hasPart
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional> ;
+    dcterms:identifier "http://inspire.ec.europa.eu/metadata-codelist/SpatialScope"^^rdfs:Literal ;
+    dcterms:title "Spatial scope"@en ;
+    vann:usageNote "The spatial scope can be different from the actual geographical coverage, e.g. a national coastline data set may cover only a fraction of the full spatial extent of a country.\\n The spatial scope of the data set does not necessarily reflect the administrative level responsible for collecting and maintaining the data, e.g. the responsibility for maintaining the data inside the national address data set can be at regional or local level.\\n The code list contains values governed at the level of INSPIRE legal acts (governance level: Legal (EU)) and values governed at the level of INSPIRE Technical Guidelines (governance level: Technical (EU)). The former directly support the INSPIRE Monitoring and Reporting Decision, while the latter  provide additional options for tagging other data sets."@en ;
+    rdfs:isDefinedBy <http://inspire.ec.europa.eu/registry/governance-level/eu-technical> ;
+    owl:sameAs <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope:1> ;
+    skos:definition "Administrative level that the data set intends to cover."@en ;
+    skos:hasTopConcept
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/global> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/local> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/national> ,
+        <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/regional> ;
+    skos:inScheme <http://inspire.ec.europa.eu/metadata-codelist> ;
+    skos:prefLabel "Spatial scope"@en ;
+    skos:topConceptOf <http://inspire.ec.europa.eu/metadata-codelist> ;
+    adms:last <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+    adms:status <http://inspire.ec.europa.eu/registry/status/valid> ;
+    dcat:isPartOf
+        <http://inspire.ec.europa.eu/metadata-codelist> ,
+        <http://inspire.ec.europa.eu/registry> ;
+    foaf:primaryTopic <http://inspire.ec.europa.eu/metadata-codelist/SpatialScope> ;
+.
+

@@ -1,5 +1,5 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX sa: <https://w3id.org/semanticanalyser/>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -83,6 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "SeaDataNet P021 parameter discovery vocabulary" ,
         "SeaDataNet Parameter Discovery Vocabulary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P02> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/>

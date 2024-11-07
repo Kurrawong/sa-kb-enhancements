@@ -7,8 +7,8 @@ from utils import kb_graph_add, kb_graph_replace
 REPO_HOME = Path(__file__).parent.parent.resolve()
 
 
-SA = Namespace("http://w3id.org/semanticanalyser/")
-SYSTEM_GRAPH_IRI = "http://w3id.org/semanticanalyser/system-graph"
+SA = Namespace("https://w3id.org/semanticanalyser/")
+SYSTEM_GRAPH_IRI = "https://w3id.org/semanticanalyser/system-graph"
 
 
 if __name__ == "__main__":

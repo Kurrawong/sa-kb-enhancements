@@ -4,7 +4,7 @@
 from pathlib import Path
 from utils import kb_graph_add
 
-SYSTEM_GRAPH_IRI = "http://w3id.org/semanticanalyser/system-graph"
+SYSTEM_GRAPH_IRI = "https://w3id.org/semanticanalyser/system-graph"
 
 if __name__ == "__main__":
     print(kb_graph_add(Path("system-graph-existing-prefs.ttl"), SYSTEM_GRAPH_IRI))

@@ -1,4 +1,4 @@
-PREFIX sa: <http://w3id.org/semanticanalyser/>
+PREFIX sa: <https://w3id.org/semanticanalyser/>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
