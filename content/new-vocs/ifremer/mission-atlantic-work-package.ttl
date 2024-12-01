@@ -1,0 +1,114 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/2f9c6437-2e0b-4d6d-bcc1-8bf4af81fe3c>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP5 Assessing state, drivers and tipping points"@en ,
+        "WP5 Assessing state, drivers and tipping points"@fr ;
+    skos:scopeNote
+        "Indicators"@en ,
+        "Indicators"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/54cf41f8-ada4-4c1d-81b1-12d717f3df2d>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP4 Benthic Mapping"@en ,
+        "WP4 Benthic Mapping"@fr ;
+    skos:scopeNote
+        "Benthic Mapping"@en ,
+        "Benthic Mapping"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/64ef1edd-c26d-4f7e-a614-e83211f60c57>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP1 Atlantic Ocean IEA"@en ,
+        "WP1 Atlantic Ocean IEA"@fr ;
+    skos:scopeNote
+        "Atlantic Ocean IEA"@en ,
+        "Atlantic Ocean IEA"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/99a07ea9-7661-4b53-807a-98996c8d542b>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP6 Dynamics of ecosystem state and resources"@en ,
+        "WP6 Dynamics of ecosystem state and resources"@fr ;
+    skos:scopeNote
+        "WP6 Dynamics of ecosystem state and resources"@en ,
+        "WP6 Dynamics of ecosystem state and resources"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/e5099db2-f3f9-478b-afd5-9ae36c53d828>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP3 Pelagic Mapping"@en ,
+        "WP3 Pelagic Mapping"@fr ;
+    skos:scopeNote
+        "Pelagic Mapping"@en ,
+        "Pelagic Mapping"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package/ed22c68d-ae58-495c-83e6-eb3390a4bff6>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package> ;
+    skos:prefLabel
+        "WP7 Risk assessment and uncertainties"@en ,
+        "WP7 Risk assessment and uncertainties"@fr ;
+    skos:scopeNote
+        "Risk assessment and uncertainties"@en ,
+        "Risk assessment and uncertainties"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package>
+    a skos:ConceptScheme ;
+    dc:title
+        "Mission Atlantic - Work Package"@en ,
+        "Mission Atlantic - Work Package"@fr ;
+    dcterms:identifier "mission-atlantic-work-package" ;
+    dcterms:type "theme" ;
+.

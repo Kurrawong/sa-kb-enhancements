@@ -1,0 +1,40 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.discipline/24f7deec-a807-4e24-b91a-2b4e72ed2247>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.discipline> ;
+    skos:prefLabel
+        "numerical-model"@en ,
+        "Produits"@fr ;
+    skos:scopeNote ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.discipline/a9f2224a-0e1b-4815-9abc-7a7d6ba6fa76>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.discipline> ;
+    skos:prefLabel
+        "satellite-observation"@en ,
+        "Télédetection"@fr ;
+    skos:scopeNote ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.discipline/c58ad46f-6495-46e6-93fe-2d6d7979111d>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.discipline> ;
+    skos:prefLabel
+        "in-situ-observation"@en ,
+        "Observations in-situ"@fr ;
+    skos:scopeNote ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.discipline>
+    a skos:ConceptScheme ;
+    dc:description "Origin of data among in-situ or satellite observation or numerical models."@en ;
+    dc:title
+        "Discipline"@en ,
+        "Discipline"@fr ;
+    dcterms:identifier "myocean.discipline" ;
+    dcterms:type "discipline" ;
+.

@@ -1,0 +1,132 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/17a2cf3f-95c0-48da-8270-d6d7b294e3c0>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Imaging data"@en ,
+        "Imaging data"@fr ;
+    skos:scopeNote
+        "Imaging data"@en ,
+        "Imaging data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/26682553-ffdd-49f7-aae9-e20066af171c>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Socio-economic data"@en ,
+        "Socio-economic data"@fr ;
+    skos:scopeNote
+        "Socio-economic data"@en ,
+        "Socio-economic data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/5d6ffc65-e7bf-493c-b007-5ca6caf72e45>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Modelling data"@en ,
+        "Modelling data"@fr ;
+    skos:scopeNote
+        "Modelling data"@en ,
+        "Modelling data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/5fbb3cac-7511-412b-b1c3-8d506de42e1b>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Spatial data products"@en ,
+        "Spatial data products"@fr ;
+    skos:scopeNote
+        "Spatial data products"@en ,
+        "Spatial data products"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/846baa26-10ed-450b-9ab2-362f8434ba18>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Acoustic data"@en ,
+        "Acoustic data"@fr ;
+    skos:scopeNote
+        "Acoustic data"@en ,
+        "Acoustic data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/a0e5a5f8-fc0c-4c52-a1e4-145b1e0662d3>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Environmental data"@en ,
+        "Environmental data"@fr ;
+    skos:scopeNote
+        "Environmental data"@en ,
+        "Environmental data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type/fdff2068-a8b8-4e9f-b6ac-30eec60dc7b2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type> ;
+    skos:prefLabel
+        "Biological data"@en ,
+        "Biological data"@fr ;
+    skos:scopeNote
+        "Biological data"@en ,
+        "Biological data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type>
+    a skos:ConceptScheme ;
+    dc:title
+        "Mission Atlantic - Data type (DMP)"@en ,
+        "Mission Atlantic - Data type (DMP)"@fr ;
+    dcterms:identifier "mission-atlantic-data-type" ;
+    dcterms:type "theme" ;
+.

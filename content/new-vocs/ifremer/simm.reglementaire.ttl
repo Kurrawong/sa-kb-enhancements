@@ -1,0 +1,327 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/19e06ed7-0b27-4e15-8ea6-1c1fc63a4e26>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Birds Directive (BD)"@en ,
+        "Directive Oiseaux"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Birds Directive (BD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Oiseaux"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/202490d0-74e7-4a41-823e-7f54ec83b941>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Maritime Spatial Planning Directive (MSP)"@en ,
+        "Directive Cadre pour la Planification de l'Espace Maritime (DCPEM)"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Maritime Spatial Planning Directive (MSP)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Cadre pour la Planification de l'Espace Maritime (DCPEM)"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/311abf2d-6be9-472f-9f1a-ac5729745a97>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Marine Strategy Framework Directive (MSFD)"@en ,
+        "Directive Cadre Stratégie pour le Milieu Marin (DCSMM)"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Marine Strategy Framework Directive (MSFD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Cadre Stratégie pour le Milieu Marin (DCSMM)"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/4582caf4-bed1-4fc8-b53a-aac739b6e957>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "National Coastline Strategy"@en ,
+        "Stratégie Nationale du trait de côte"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "National Coastline Strategy"@en ,
+        ""@es ,
+        ""@fi ,
+        "Stratégie Nationale du trait de côte"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/588d0fdc-6e5a-4c87-8861-49f7ff122141>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Marine Protected Areas"@en ,
+        "Aires Marines Protégées"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Marine Protected Areas"@en ,
+        ""@es ,
+        ""@fi ,
+        "Aires Marines Protégées"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/5a262bfc-e4c0-4dcb-9de1-df5ba08cef98>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Invasive Alien Species (IAS) Regulation"@en ,
+        "Réglementation Espèces Exotiques Envahissantes"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Invasive Alien Species (IAS) Regulation"@en ,
+        ""@es ,
+        ""@fi ,
+        "Réglementation Espèces Exotiques Envahissantes"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/5ffc6dd8-bdeb-4484-bbbd-3f813cff9da0>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Water Framework Directive (WFD)"@en ,
+        "Directive Cadre sur l'Eau (DCE)"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Water Framework Directive (WFD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Cadre sur l'Eau (DCE)"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/6c48c58e-a7f1-42fc-89a5-92819d50b9c7>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Convention on Biological Diversity"@en ,
+        "Convention sur la Diversité Biologique"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Convention on Biological Diversity"@en ,
+        ""@es ,
+        ""@fi ,
+        "Convention sur la Diversité Biologique"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/8cc9e95b-7746-4e90-8dbd-f62bd834aa19>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Regional Sea Conventions"@en ,
+        "Conventions des mers régionales"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Regional Sea Conventions"@en ,
+        ""@es ,
+        ""@fi ,
+        "Conventions des mers régionales"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/cc26cbb5-4563-4443-8f9f-0baf3465a3c4>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Habitats Directive (HD)"@en ,
+        "Directive Habitat, Faune et Flore"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Habitats Directive (HD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Habitat, Faune et Flore"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/e23fee72-c17f-4b07-96bd-39b2b0e8dcd0>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Waste Framework Directive (WaFD)"@en ,
+        "Directive Cadre sur les Déchets"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Waste Framework Directive (WaFD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Cadre sur les Déchets"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/ecb47d97-61c0-4cbe-b1ae-23dc9b59ac54>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Common fisheries policy (CFP)"@en ,
+        "Politique Commune des Pêches"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Common fisheries policy (CFP)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Politique Commune des Pêches"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/f6f29f14-e5c8-49a4-8a93-174897c436d6>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "National Strategy for the Sea and Coastline"@en ,
+        "Stratégie Nationale pour la mer et le littoral"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "National Strategy for the Sea and Coastline"@en ,
+        ""@es ,
+        ""@fi ,
+        "Stratégie Nationale pour la mer et le littoral"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/f6f9c54f-2615-411e-8a52-653f1a470486>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "International Maritime Organisation conventions and protocols"@en ,
+        "Conventions et protocoles de l’Organisation Maritime Internationale"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "International Maritime Organisation conventions and protocols"@en ,
+        ""@es ,
+        ""@fi ,
+        "Conventions et protocoles de l’Organisation Maritime Internationale"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire/fc2ddbcc-e172-41dc-9b1f-3067f4c99a84>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire> ;
+    skos:prefLabel
+        "Bathing Water Directive (BWD)"@en ,
+        "Directive Eaux de baignade"@fr ;
+    skos:scopeNote
+        ""@ca ,
+        ""@ch ,
+        ""@de ,
+        ""@en ,
+        "Bathing Water Directive (BWD)"@en ,
+        ""@es ,
+        ""@fi ,
+        "Directive Eaux de baignade"@fr ,
+        ""@it ,
+        ""@nl ,
+        ""@pt ,
+        ""@ru ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire>
+    a skos:ConceptScheme ;
+    dc:title
+        "Cadre Réglementaire - SIMM"@en ,
+        "Cadre Réglementaire - SIMM"@fr ;
+    dcterms:identifier "simm.reglementaire" ;
+    dcterms:type "theme" ;
+.

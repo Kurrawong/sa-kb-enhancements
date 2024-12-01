@@ -1,0 +1,101 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#>
+    a skos:ConceptScheme ;
+    dc:description "" ;
+    dc:title "Model assimilation" ;
+    dcterms:issued "2016-02-03" ;
+    dcterms:modified "2016-02-03" ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#in-situ-ts-profiles>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "In-Situ TS Profiles"@en ,
+        "In-Situ TS Profiles"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#none>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "None"@en ,
+        "None"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#not-applicable>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Not Applicable"@en ,
+        "Not Applicable"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#nutrients>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Nutrients (O2 N P)"@en ,
+        "Nutrients (O2 N P)"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#satellite-chlorophyll>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Satellite Chlorophyll"@en ,
+        "Satellite Chlorophyll"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#sea-ice-concentration-thickness>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Sea Ice Concentration and/or Thickness"@en ,
+        "Sea Ice Concentration and/or Thickness"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#sea-level>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Sea Level"@en ,
+        "Sea Level"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#sea-wave-height>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "Sea Wave Height (SWH)"@en ,
+        "Sea Wave Height (SWH)"@fr ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#sst>
+    a skos:Concept ;
+    skos:definition
+        ""@en ,
+        ""@fr ;
+    skos:prefLabel
+        "SST"@en ,
+        "SST"@fr ;
+.

@@ -68,8 +68,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:value 10
         ] ;
     skos:altLabel
-        "BODC Parameter Usage Vocabulary" ,
-        "Mission Atlantic - BODC Parameters" ;
+        "BODC Parameter Usage Vocabulary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
 .
 
@@ -93,8 +92,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     skos:altLabel
         "Agreed Parameter Groups (P03)" ,
-        "SeaDataNet Agreed Parameter Groups" ;
+        "SeaDataNet Agreed Parameter Groups" ,
+        "Mission Atlantic - BODC Parameters" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P03> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P05/current/>

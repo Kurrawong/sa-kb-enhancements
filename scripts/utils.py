@@ -25,3 +25,21 @@ def kb_graph_replace(ttl_file: Path, graph_iri: str):
     kb_graph_add(ttl_file, graph_iri)
 
     return r.status_code, r.text
+
+
+def graph_exist(iri: str) -> bool:
+    q = """
+        ASK
+        WHERE {
+          GRAPH <IRI> {
+                ?s ?p ?o
+            }
+        }    
+        """.replace("IRI", iri)
+
+    r = httpx.get(
+        "http://localhost:3030/ds",
+        params={"query": q}
+    )
+
+    return r.json()["boolean"]

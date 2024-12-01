@@ -1,0 +1,122 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/5f6824e5-a2da-4f4c-a2cc-0a1aeb9d590c>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "Analysis data"@en ,
+        "Données d'analyse"@fr ;
+    skos:scopeNote
+        "Research products resulting from the analysis of samples"@en ,
+        "Produits de recherche issus de l'analyse d'échantillons"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/73360e4a-0082-4973-b1a1-836a728c8bbd>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "Experimental data"@en ,
+        "Données expérimentales"@fr ;
+    skos:scopeNote
+        "Data collected in a controlled measurement environment"@en ,
+        "Données obtenues dans un environnement de mesure contrôlé"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/ad1acbcb-a75a-4541-8214-c505c6c134bd>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "Simulation data"@en ,
+        "Données de simulation"@fr ;
+    skos:scopeNote
+        "Data generated in silico"@en ,
+        "Données générées in silico"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/c0d4cb33-61b7-4e83-8103-67c8b6a11671>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "Aggregate data"@en ,
+        "Données combinées"@fr ;
+    skos:scopeNote
+        "Data produced by combining data sets, without modifying the data itself"@en ,
+        "Données issues de la combinaison de jeux de données, dans modification des données en elles-mêmes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/308699d0-2a4a-40d3-a418-b0396dbe7534>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/69c1d1e8-df22-458c-8daa-34c67bfb3f8d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "/Observational data/in-situ"@en ,
+        "/Données d'observation/in-situ"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/ee886158-f9cc-470d-b9cb-b2c7bec0fea2>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/69c1d1e8-df22-458c-8daa-34c67bfb3f8d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:prefLabel
+        "/Observational data/satellite"@en ,
+        "/Données d'observation/satellite"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/69c1d1e8-df22-458c-8daa-34c67bfb3f8d>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/308699d0-2a4a-40d3-a418-b0396dbe7534> ,
+        <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee/ee886158-f9cc-470d-b9cb-b2c7bec0fea2> ;
+    skos:prefLabel
+        "/Observational data"@en ,
+        "/Données d'observation"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee>
+    a skos:ConceptScheme ;
+    dc:title
+        "Type de jeux de donnée ODATIS"@en ,
+        "Type de jeux de donnée ODATIS"@fr ;
+    dcterms:identifier "type_jeux_donnee" ;
+    dcterms:type "theme" ;
+.

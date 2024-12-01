@@ -1,0 +1,103 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/175e6f92-9e9d-402f-8f93-97fbe2183ea4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "Data"@en ,
+        "Data"@fr ;
+    skos:scopeNote
+        "Data"@en ,
+        "Data"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/2100364e-2c6a-4de5-8d67-4905096b90b4>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "MISSION ATLANTIC Results"@en ,
+        "MISSION ATLANTIC Results"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/83d41b04-7b78-4908-b524-e30da14dc64e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "Program and project"@en ,
+        "Program and project"@fr ;
+    skos:scopeNote
+        "Program and project"@en ,
+        "Program and project"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/a480e214-4a2a-4965-bde5-b8ea7860c851>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "Tool"@en ,
+        "Tool"@fr ;
+    skos:scopeNote
+        "Tool"@en ,
+        "Tool"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/dbb25ecb-537f-41b5-beaf-1e3dae1b4222>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "Article"@en ,
+        "Article"@fr ;
+    skos:scopeNote
+        "Article"@en ,
+        "Article"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources/f349ad2d-6b22-4062-9581-310ba1e4af0e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources> ;
+    skos:prefLabel
+        "Database"@en ,
+        "Database"@fr ;
+    skos:scopeNote
+        "Database"@en ,
+        "Database"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources>
+    a skos:ConceptScheme ;
+    dc:title
+        "Mission Atlantic - Resources"@en ,
+        "Mission Atlantic - Resources"@fr ;
+    dcterms:identifier "mission-atlantic-resources" ;
+    dcterms:type "theme" ;
+.

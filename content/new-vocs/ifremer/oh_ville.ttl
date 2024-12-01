@@ -1,0 +1,1987 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/1a9e808d-b4a5-4a4e-a442-9f04f62e4ea2>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/CINOR"@en ,
+        "/CINOR"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c8fb5b6f-66d5-4dff-9c7f-0e18545b8fe5>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/International and global data portals"@en ,
+        "/International and global data portals"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/049719bc-328e-4892-9951-6e8c1ce32308>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR01"@en ,
+        "/Bournemouth/BOR01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/070704ba-853d-45b0-a66b-96e7c5321a37>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON06"@en ,
+        "/Concepción/CON06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c6bc08a-512d-4895-9ccf-ef1ecb65b5b7>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL04"@en ,
+        "/Boulogne-sur-Mer/BOL04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/0ee71b7e-15e2-4697-999d-c92ccbc9b087>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d9352d4-d4fd-406c-be62-24e995837968> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nord de la Réunion/REU01"@en ,
+        "/Nord de la Réunion/REU01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/0ff3feac-1183-41c7-91f0-d08ff46782d2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU11"@en ,
+        "/Nouméa/NOU11"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/1448c266-e427-48df-bf6f-63e667feb444>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE12"@en ,
+        "/Brest/BRE12"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/1a701215-4647-4513-a274-d9e9281380f8>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL06"@en ,
+        "/Kuala Lumpur/KUL06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/1b14c9d1-c8f8-489f-a493-07f2cd2a227b>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR07"@en ,
+        "/La Rochelle/LAR07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/1daf0639-812e-4f03-88f5-5adc8cf18e54>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR07"@en ,
+        "/Bournemouth/BOR07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/27c6a5d6-6b25-4259-85a6-8f6d34475fe4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/19bc30d4-cc0d-4c9f-9342-a01e80bbcc67> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cherbourg/CHE02"@en ,
+        "/Cherbourg/CHE02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/289f2c59-b02d-4388-9df0-55e1d4bb3b63>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/9ca8cc4d-a0e1-46e2-a588-4f3f06297992> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Peniche/PEN01"@en ,
+        "/Peniche/PEN01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/2c2bc071-4834-47a0-beef-a37a0809f502>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR05"@en ,
+        "/La Rochelle/LAR05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/3061ae7e-4010-4720-ae1f-673c681a36ef>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE01"@en ,
+        "/Brest/BRE01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/316ff8be-af9a-41f3-936e-50a8580ca9c6>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR06"@en ,
+        "/La Rochelle/LAR06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/31eadaa1-0173-4d31-8d06-87b5401a73a3>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL01"@en ,
+        "/Kuala Lumpur/KUL01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/33c184c2-31bb-44c0-99ca-bfdc4bf45669>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL03"@en ,
+        "/Kuala Lumpur/KUL03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/3870e1a0-8413-4136-b881-c4089c1daff8>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL12"@en ,
+        "/Kuala Lumpur/KUL12"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/3b2fd8e2-b729-4e31-9ff6-35ed43596cf4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE02"@en ,
+        "/Brest/BRE02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/3b3a7c9b-56a7-4a47-a50c-009bd2568b31>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR03"@en ,
+        "/Bournemouth/BOR03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/42e63989-ab8f-4cc4-8f7a-93e68605f70c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU07"@en ,
+        "/Toulon/TOU07"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/45bb4b6a-aacb-4a38-9fc6-f7500c07b691>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/19bc30d4-cc0d-4c9f-9342-a01e80bbcc67> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cherbourg/CHE03"@en ,
+        "/Cherbourg/CHE03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/4ff1c7ff-78cd-413b-8ffc-ab065d34de87>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU08"@en ,
+        "/Toulon/TOU08"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/536a9a08-065b-4d61-8b45-cf3a0ffc7f75>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/19bc30d4-cc0d-4c9f-9342-a01e80bbcc67> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cherbourg/CHE01"@en ,
+        "/Cherbourg/CHE01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/585a374b-44ff-427d-b07a-19d1a2057876>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL08"@en ,
+        "/Kuala Lumpur/KUL08"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/5b0240a0-5898-4214-acc5-9717c0104086>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL06"@en ,
+        "/Boulogne-sur-Mer/BOL06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d212e0e-d63e-4649-9ad5-5be0bfb06055>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3d7a4ea7-4fb6-4d5f-b418-062a44eaa7bb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cape Town/CAP01"@en ,
+        "/Cape Town/CAP01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/5ff9658c-3812-4617-be5b-89af56b2a4d4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE11"@en ,
+        "/Brest/BRE11"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/63db0894-de99-4c2a-9ce1-32fc7644b88b>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU03"@en ,
+        "/Toulon/TOU03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/64b8d726-c22a-45b2-bd18-47b854a0b32e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU08"@en ,
+        "/Nouméa/NOU08"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/65e037b8-7773-40b3-a2f8-1d90f286eb6b>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL03"@en ,
+        "/Boulogne-sur-Mer/BOL03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/6a06df8a-4d54-406b-aea8-3cc5c513c602>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE09"@en ,
+        "/Brest/BRE09"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/6a93054a-6b1c-4d26-b449-6e91fec2c90d>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR02"@en ,
+        "/Bournemouth/BOR02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/6aec96f6-29b7-488e-b49b-ca3051acfd72>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON01"@en ,
+        "/Concepción/CON01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/6b959dd8-9f82-419b-a2a0-9fa5aec24306>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL05"@en ,
+        "/Boulogne-sur-Mer/BOL05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/6eb45dc8-6547-469e-99e9-32ceab0a546a>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU06"@en ,
+        "/Nouméa/NOU06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/70d9d1ca-f351-40f5-822e-43ff21a71d0e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR06"@en ,
+        "/Bournemouth/BOR06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/721df760-760d-439d-a8ed-7dd32b2dd1c8>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE06"@en ,
+        "/Brest/BRE06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/76a2093e-3f27-4fa8-b926-42c85f5816d6>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL05"@en ,
+        "/Kuala Lumpur/KUL05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/774e2f12-d908-427a-bc3e-a01ba6d34e4e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU09"@en ,
+        "/Nouméa/NOU09"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/7b2d9e57-53c1-484b-b0c5-2f14eb1a90be>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3d7a4ea7-4fb6-4d5f-b418-062a44eaa7bb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cape Town/CAP04"@en ,
+        "/Cape Town/CAP04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/7d1fea8f-b3e6-4b8b-9b46-f69dde19e274>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE03"@en ,
+        "/Brest/BRE03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/7d5ceef5-9647-440a-be83-8e5418bd16c4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/07bab309-fcee-42b9-a659-62fba303e90f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Rimouski/RIM04"@en ,
+        "/Rimouski/RIM04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/80be0613-2d78-4e6b-a26d-54414d9bef4a>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL07"@en ,
+        "/Kuala Lumpur/KUL07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/80e4f018-174e-490e-a0d1-04a774aeb802>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR03"@en ,
+        "/La Rochelle/LAR03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/837f03e7-3098-44a4-a0d3-b3b31fc1dd26>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3d7a4ea7-4fb6-4d5f-b418-062a44eaa7bb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cape Town/CAP02"@en ,
+        "/Cape Town/CAP02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/84d9b1fd-8c90-44f8-a718-8ceb3250f290>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/07bab309-fcee-42b9-a659-62fba303e90f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Rimouski/RIM03"@en ,
+        "/Rimouski/RIM03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/8a09313b-31d0-4119-bebc-7b17559e6d45>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON02"@en ,
+        "/Concepción/CON02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/8c29413a-6898-4cb8-b84f-6455810f834c>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU02"@en ,
+        "/Toulon/TOU02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/97e8bb04-2166-4b7e-bbec-1223b1acdd71>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR02"@en ,
+        "/La Rochelle/LAR02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/a087229e-4fcd-43dc-bb2a-fbc6cb0eee9d>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU10"@en ,
+        "/Nouméa/NOU10"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/a1738d84-fd52-43de-b143-bbb9af1dccd3>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL07"@en ,
+        "/Boulogne-sur-Mer/BOL07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/a5ade470-0ed7-48bf-9499-add86a4c7dce>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d9352d4-d4fd-406c-be62-24e995837968> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nord de la Réunion/REU04"@en ,
+        "/Nord de la Réunion/REU04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/a876202e-1585-4b75-a1f7-8938cd4f9397>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU05"@en ,
+        "/Nouméa/NOU05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/aacdee3d-aea2-49a9-b220-f6cbf877d6c8>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON04"@en ,
+        "/Concepción/CON04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/aaec7257-3800-484f-bf8d-d61e44338557>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON03"@en ,
+        "/Concepción/CON03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/abb46f64-d984-4372-b411-19afddb11cea>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE10"@en ,
+        "/Brest/BRE10"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/adca18bb-ac18-46cd-bb64-05f13fda963e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU02"@en ,
+        "/Nouméa/NOU02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/b7d58891-f3e0-4627-9111-ffd295638419>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/9ca8cc4d-a0e1-46e2-a588-4f3f06297992> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Peniche/PEN03"@en ,
+        "/Peniche/PEN03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/bad19f9b-45ca-40d9-a527-d8bf635c9e5e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL02"@en ,
+        "/Kuala Lumpur/KUL02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/bbfb6ae9-2bd4-4af4-85fc-7ced17854cc6>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU06"@en ,
+        "/Toulon/TOU06"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c2b0c883-cf0c-4042-991e-804e254e0d48>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d9352d4-d4fd-406c-be62-24e995837968> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nord de la Réunion/REU03"@en ,
+        "/Nord de la Réunion/REU03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c2cb61f1-e5b3-4cd9-b790-ab28e2939aae>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c39beaa-3679-44fa-88d0-ce328503eb78> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Plymouth/PLY02"@en ,
+        "/Plymouth/PLY02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c684937a-5bac-487d-b5b2-5efbc80f1c3e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU07"@en ,
+        "/Nouméa/NOU07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c69562d6-8a3b-4c54-b2c4-79a784b8724d>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU04"@en ,
+        "/Toulon/TOU04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c72ffb2f-6e72-4904-8a8e-dbadeeebb736>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c39beaa-3679-44fa-88d0-ce328503eb78> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Plymouth/PLY01"@en ,
+        "/Plymouth/PLY01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/c842cd69-c10a-4f90-a967-349c0f8448cd>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL01"@en ,
+        "/Boulogne-sur-Mer/BOL01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ca18df41-9e52-4e79-8f98-428816f8ac79>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU05"@en ,
+        "/Toulon/TOU05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/cf10e5aa-d7bf-492e-9758-26fda5ecbdba>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3d7a4ea7-4fb6-4d5f-b418-062a44eaa7bb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Cape Town/CAP03"@en ,
+        "/Cape Town/CAP03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/cf278f80-3005-4aab-8da0-5362d1e0efec>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU04"@en ,
+        "/Nouméa/NOU04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/d09f8dfa-6da8-44b2-a3b6-5df2ab6b41e2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE05"@en ,
+        "/Brest/BRE05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/d5a4fe21-3fb0-440b-a712-c37e28b1625e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Toulon/TOU01"@en ,
+        "/Toulon/TOU01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/d6a4000f-b889-4364-9ad3-d16962ba4361>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/9ca8cc4d-a0e1-46e2-a588-4f3f06297992> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Peniche/PEN04"@en ,
+        "/Peniche/PEN04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/d6c11f4c-bc8f-48a1-a6f9-d2fc4cd7d5a6>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d9352d4-d4fd-406c-be62-24e995837968> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nord de la Réunion/REU02"@en ,
+        "/Nord de la Réunion/REU02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/daa17164-4ef7-49f6-b4f9-5f4ef70dd4af>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE04"@en ,
+        "/Brest/BRE04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/dc6ee600-1169-4e9b-9122-3ed1c69c0c60>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Concepción/CON05"@en ,
+        "/Concepción/CON05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ddc26222-fc91-409d-8df8-ea4abbed6018>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR08"@en ,
+        "/Bournemouth/BOR08"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/e2fca91e-e185-4299-9d1b-d1187eb87732>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE08"@en ,
+        "/Brest/BRE08"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/e3c402f2-814f-4bc7-942e-2390a0bdaffa>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR04"@en ,
+        "/Bournemouth/BOR04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/e46e9529-2b11-491e-a804-957a6b756bbd>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU03"@en ,
+        "/Nouméa/NOU03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/e4f774c0-4b88-426a-8690-9c2d4e3d91c5>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/07bab309-fcee-42b9-a659-62fba303e90f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Rimouski/RIM02"@en ,
+        "/Rimouski/RIM02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/eb3287ae-83f0-4ea6-8fca-1e6460f636be>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c39beaa-3679-44fa-88d0-ce328503eb78> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Plymouth/PLY04"@en ,
+        "/Plymouth/PLY04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/eba15327-0664-4f49-93e3-26de66c89bd2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c39beaa-3679-44fa-88d0-ce328503eb78> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Plymouth/PLY03"@en ,
+        "/Plymouth/PLY03"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ec7e9633-15fe-466e-8cb0-b6bcfb293e3a>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL09"@en ,
+        "/Kuala Lumpur/KUL09"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ed80ca8d-3ce8-4852-b80b-f8ebbccb72e3>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer/BOL02"@en ,
+        "/Boulogne-sur-Mer/BOL02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ef08a61a-5058-48ea-891b-d704c4116059>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR04"@en ,
+        "/La Rochelle/LAR04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/efb2027f-dc66-4d2a-a746-ffa91bfcd162>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL11"@en ,
+        "/Kuala Lumpur/KUL11"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f07ba08b-7dd1-44b7-b5fb-8f9fac7bc228>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU12"@en ,
+        "/Nouméa/NOU12"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f215aead-c548-4aac-9655-3340f9321ab2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/07bab309-fcee-42b9-a659-62fba303e90f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Rimouski/RIM01"@en ,
+        "/Rimouski/RIM01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f316f514-934b-40ba-8a5c-e3c49006ddb9>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL04"@en ,
+        "/Kuala Lumpur/KUL04"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f3170e18-d451-4324-80dd-a7c3bd0f0db4>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Kuala Lumpur/KUL10"@en ,
+        "/Kuala Lumpur/KUL10"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f5d598c9-fb73-4bab-87e1-673a2c26c089>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/9ca8cc4d-a0e1-46e2-a588-4f3f06297992> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Peniche/PEN02"@en ,
+        "/Peniche/PEN02"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f76bb59e-99cd-41d6-9403-287b68c8e226>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Bournemouth/BOR05"@en ,
+        "/Bournemouth/BOR05"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f7b2510a-20f7-4ef1-bca2-196ba8514431>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/La Rochelle/LAR01"@en ,
+        "/La Rochelle/LAR01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f9c9c0c7-3de7-4402-80d6-f73a9333c0fd>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Brest/BRE07"@en ,
+        "/Brest/BRE07"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/fe41d99e-f441-4d94-8674-a85e0c8ce01e>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "0 0" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "0 0" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:prefLabel
+        "/Nouméa/NOU01"@en ,
+        "/Nouméa/NOU01"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/19bc30d4-cc0d-4c9f-9342-a01e80bbcc67>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/27c6a5d6-6b25-4259-85a6-8f6d34475fe4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/45bb4b6a-aacb-4a38-9fc6-f7500c07b691> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/536a9a08-065b-4d61-8b45-cf3a0ffc7f75> ;
+    skos:prefLabel
+        "/Cherbourg"@en ,
+        "/Cherbourg"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/07bab309-fcee-42b9-a659-62fba303e90f>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/7d5ceef5-9647-440a-be83-8e5418bd16c4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/84d9b1fd-8c90-44f8-a718-8ceb3250f290> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/e4f774c0-4b88-426a-8690-9c2d4e3d91c5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f215aead-c548-4aac-9655-3340f9321ab2> ;
+    skos:prefLabel
+        "/Rimouski"@en ,
+        "/Rimouski"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c39beaa-3679-44fa-88d0-ce328503eb78>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c2cb61f1-e5b3-4cd9-b790-ab28e2939aae> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c72ffb2f-6e72-4904-8a8e-dbadeeebb736> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/eb3287ae-83f0-4ea6-8fca-1e6460f636be> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/eba15327-0664-4f49-93e3-26de66c89bd2> ;
+    skos:prefLabel
+        "/Plymouth"@en ,
+        "/Plymouth"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/3d7a4ea7-4fb6-4d5f-b418-062a44eaa7bb>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d212e0e-d63e-4649-9ad5-5be0bfb06055> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/7b2d9e57-53c1-484b-b0c5-2f14eb1a90be> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/837f03e7-3098-44a4-a0d3-b3b31fc1dd26> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/cf10e5aa-d7bf-492e-9758-26fda5ecbdba> ;
+    skos:prefLabel
+        "/Cape Town"@en ,
+        "/Cape Town"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/5d9352d4-d4fd-406c-be62-24e995837968>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0ee71b7e-15e2-4697-999d-c92ccbc9b087> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/a5ade470-0ed7-48bf-9499-add86a4c7dce> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c2b0c883-cf0c-4042-991e-804e254e0d48> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/d6c11f4c-bc8f-48a1-a6f9-d2fc4cd7d5a6> ;
+    skos:prefLabel
+        "/Nord de la Réunion"@en ,
+        "/Nord de la Réunion"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/9ca8cc4d-a0e1-46e2-a588-4f3f06297992>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/289f2c59-b02d-4388-9df0-55e1d4bb3b63> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/b7d58891-f3e0-4627-9111-ffd295638419> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/d6a4000f-b889-4364-9ad3-d16962ba4361> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f5d598c9-fb73-4bab-87e1-673a2c26c089> ;
+    skos:prefLabel
+        "/Peniche"@en ,
+        "/Peniche"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/00d1db2b-aa20-43e0-8cd6-93cae4895526>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/070704ba-853d-45b0-a66b-96e7c5321a37> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/6aec96f6-29b7-488e-b49b-ca3051acfd72> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8a09313b-31d0-4119-bebc-7b17559e6d45> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/aacdee3d-aea2-49a9-b220-f6cbf877d6c8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/aaec7257-3800-484f-bf8d-d61e44338557> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/dc6ee600-1169-4e9b-9122-3ed1c69c0c60> ;
+    skos:prefLabel
+        "/Concepción"@en ,
+        "/Concepción"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/887604ec-15b0-49b4-aae9-f211ce48a224>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/1b14c9d1-c8f8-489f-a493-07f2cd2a227b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/2c2bc071-4834-47a0-beef-a37a0809f502> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/316ff8be-af9a-41f3-936e-50a8580ca9c6> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/80e4f018-174e-490e-a0d1-04a774aeb802> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/97e8bb04-2166-4b7e-bbec-1223b1acdd71> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ef08a61a-5058-48ea-891b-d704c4116059> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f7b2510a-20f7-4ef1-bca2-196ba8514431> ;
+    skos:prefLabel
+        "/La Rochelle"@en ,
+        "/La Rochelle"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/da1b12dc-31e6-406b-bfb9-fde2a8b123a4>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0c6bc08a-512d-4895-9ccf-ef1ecb65b5b7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5b0240a0-5898-4214-acc5-9717c0104086> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/65e037b8-7773-40b3-a2f8-1d90f286eb6b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/6b959dd8-9f82-419b-a2a0-9fa5aec24306> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/a1738d84-fd52-43de-b143-bbb9af1dccd3> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c842cd69-c10a-4f90-a967-349c0f8448cd> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ed80ca8d-3ce8-4852-b80b-f8ebbccb72e3> ;
+    skos:prefLabel
+        "/Boulogne-sur-Mer"@en ,
+        "/Boulogne-sur-Mer"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/4f2ef23a-b778-4c28-bc3f-507d3b3825bc>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/42e63989-ab8f-4cc4-8f7a-93e68605f70c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/4ff1c7ff-78cd-413b-8ffc-ab065d34de87> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/63db0894-de99-4c2a-9ce1-32fc7644b88b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/8c29413a-6898-4cb8-b84f-6455810f834c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/bbfb6ae9-2bd4-4af4-85fc-7ced17854cc6> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c69562d6-8a3b-4c54-b2c4-79a784b8724d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ca18df41-9e52-4e79-8f98-428816f8ac79> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/d5a4fe21-3fb0-440b-a712-c37e28b1625e> ;
+    skos:prefLabel
+        "/Toulon"@en ,
+        "/Toulon"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/8e0b85a0-46e3-4796-b2ac-89aaec816feb>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/049719bc-328e-4892-9951-6e8c1ce32308> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/1daf0639-812e-4f03-88f5-5adc8cf18e54> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3b3a7c9b-56a7-4a47-a50c-009bd2568b31> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/6a93054a-6b1c-4d26-b449-6e91fec2c90d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/70d9d1ca-f351-40f5-822e-43ff21a71d0e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ddc26222-fc91-409d-8df8-ea4abbed6018> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/e3c402f2-814f-4bc7-942e-2390a0bdaffa> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f76bb59e-99cd-41d6-9403-287b68c8e226> ;
+    skos:prefLabel
+        "/Bournemouth"@en ,
+        "/Bournemouth"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/4834fef9-1216-419f-82e5-8bd315fb565d>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/1a701215-4647-4513-a274-d9e9281380f8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/31eadaa1-0173-4d31-8d06-87b5401a73a3> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/33c184c2-31bb-44c0-99ca-bfdc4bf45669> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3870e1a0-8413-4136-b881-c4089c1daff8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/585a374b-44ff-427d-b07a-19d1a2057876> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/76a2093e-3f27-4fa8-b926-42c85f5816d6> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/80be0613-2d78-4e6b-a26d-54414d9bef4a> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/bad19f9b-45ca-40d9-a527-d8bf635c9e5e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/ec7e9633-15fe-466e-8cb0-b6bcfb293e3a> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/efb2027f-dc66-4d2a-a746-ffa91bfcd162> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f316f514-934b-40ba-8a5c-e3c49006ddb9> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f3170e18-d451-4324-80dd-a7c3bd0f0db4> ;
+    skos:prefLabel
+        "/Kuala Lumpur"@en ,
+        "/Kuala Lumpur"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/ea9e8f17-2adf-4020-af55-0ac90c81ac2f>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/0ff3feac-1183-41c7-91f0-d08ff46782d2> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/64b8d726-c22a-45b2-bd18-47b854a0b32e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/6eb45dc8-6547-469e-99e9-32ceab0a546a> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/774e2f12-d908-427a-bc3e-a01ba6d34e4e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/a087229e-4fcd-43dc-bb2a-fbc6cb0eee9d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/a876202e-1585-4b75-a1f7-8938cd4f9397> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/adca18bb-ac18-46cd-bb64-05f13fda963e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/c684937a-5bac-487d-b5b2-5efbc80f1c3e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/cf278f80-3005-4aab-8da0-5362d1e0efec> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/e46e9529-2b11-491e-a804-957a6b756bbd> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f07ba08b-7dd1-44b7-b5fb-8f9fac7bc228> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/fe41d99e-f441-4d94-8674-a85e0c8ce01e> ;
+    skos:prefLabel
+        "/Nouméa"@en ,
+        "/Nouméa"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville/f8d53a57-05dd-4307-b3d9-e853f5a7612c>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/oh_ville> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/1448c266-e427-48df-bf6f-63e667feb444> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3061ae7e-4010-4720-ae1f-673c681a36ef> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/3b2fd8e2-b729-4e31-9ff6-35ed43596cf4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/5ff9658c-3812-4617-be5b-89af56b2a4d4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/6a06df8a-4d54-406b-aea8-3cc5c513c602> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/721df760-760d-439d-a8ed-7dd32b2dd1c8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/7d1fea8f-b3e6-4b8b-9b46-f69dde19e274> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/abb46f64-d984-4372-b411-19afddb11cea> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/d09f8dfa-6da8-44b2-a3b6-5df2ab6b41e2> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/daa17164-4ef7-49f6-b4f9-5f4ef70dd4af> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/e2fca91e-e185-4299-9d1b-d1187eb87732> ,
+        <https://vocab.ifremer.fr/scheme/SXT/oh_ville/f9c9c0c7-3de7-4402-80d6-f73a9333c0fd> ;
+    skos:prefLabel
+        "/Brest"@en ,
+        "/Brest"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville>
+    a skos:ConceptScheme ;
+    dc:description "Ocean Hackathon - Ville et défi"@fr ;
+    dc:title
+        "Ocean Hackathon - City and challenge"@en ,
+        "Ocean Hackathon - Ville et défi"@fr ;
+    dcterms:identifier "oh_ville" ;
+    dcterms:type "place" ;
+.

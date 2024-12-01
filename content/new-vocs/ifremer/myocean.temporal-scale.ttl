@@ -1,0 +1,61 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/096fd53f-0c3a-49ab-bc4f-a6fb1248d63c>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "invariant"@en ,
+        "invariant"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/3fee7ba0-0a1f-4558-a9d1-7a8078a26ee2>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "near-real-time"@en ,
+        "near-real-time"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/46a27efa-ff91-402a-a85b-84bb65870502>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "nrt-forecast"@en ,
+        "nrt-forecast"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/d0b74b0a-4a5d-4189-8399-660984fb756b>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "invariant*"@en ,
+        "invariant*"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/dc220820-f871-4383-b54e-e3a05e26ab7f>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "multi-year"@en ,
+        "multi-year"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale/e0465645-474c-4726-91c2-8a1ac08a1591>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale> ;
+    skos:prefLabel
+        "forecast"@en ,
+        "forecast"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale>
+    a skos:ConceptScheme ;
+    dc:description "Temporal scale or domain."@en ;
+    dc:title
+        "Temporal scale"@en ,
+        "Temporal scale"@fr ;
+    dcterms:identifier "myocean.temporal-scale" ;
+    dcterms:type "temporal-scale" ;
+.

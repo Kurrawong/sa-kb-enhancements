@@ -1,0 +1,150 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/00bf457e-568f-41d2-9103-1fd6996883db>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "Celtic Seas"@en ,
+        "Celtic Seas"@fr ;
+    skos:scopeNote
+        "Celtic Seas"@en ,
+        "Celtic Seas"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/2d2fc7d1-7736-4b61-b2e9-dd73e2671393>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "North Mid-Atlantic Ridge"@en ,
+        "North Mid-Atlantic Ridge"@fr ;
+    skos:scopeNote
+        "North Mid-Atlantic Ridge"@en ,
+        "North Mid-Atlantic Ridge"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/6a2ef342-7c3f-41f6-9631-e0b47351b1f2>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "Norwegian Sea"@en ,
+        "Norwegian Sea"@fr ;
+    skos:scopeNote
+        "Norwegian Sea"@en ,
+        "Norwegian Sea"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/b5e62cee-fc15-44c2-b4a6-71403d3e15fe>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "Atlantic Ocean"@en ,
+        "Atlantic Ocean"@fr ;
+    skos:scopeNote
+        "Atlantic Ocean"@en ,
+        "Atlantic Ocean"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/bf5cfe4a-da97-4d3d-ada4-f69b3cd8457c>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "South Brazilian Shelf"@en ,
+        "South Brazilian Shelf"@fr ;
+    skos:scopeNote
+        "South Brazilian Shelf"@en ,
+        "South Brazilian Shelf"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/bfe9bb31-f057-41a3-aa30-146830321560>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "South Mid-Atlantic Ridge"@en ,
+        "South Mid-Atlantic Ridge"@fr ;
+    skos:scopeNote
+        "South Mid-Atlantic Ridge"@en ,
+        "South Mid-Atlantic Ridge"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/ee81655e-8233-46b8-af6c-d7567508d6e7>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "Southern Benguela"@en ,
+        "Southern Benguela"@fr ;
+    skos:scopeNote
+        "Southern Benguela"@en ,
+        "Southern Benguela"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies/ef462e9c-0568-490d-867e-0010bc4ccf40>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies> ;
+    skos:prefLabel
+        "Canary Current system"@en ,
+        "Canary Current system"@fr ;
+    skos:scopeNote
+        "Canary Current system"@en ,
+        "Canary Current system"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies>
+    a skos:ConceptScheme ;
+    dc:title
+        "Mission Atlantic - Case Studies"@en ,
+        "Mission Atlantic - Case Studies"@fr ;
+    dcterms:identifier "mission-atlantic-case-studies" ;
+    dcterms:type "theme" ;
+.

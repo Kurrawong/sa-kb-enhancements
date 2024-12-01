@@ -48,6 +48,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/L11.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L11> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P07/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "Climate and Forecast Standard Names" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/P07.ttl"
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.myocean.ocean-variables>
 .
 
 <http://vocab.nerc.ac.uk/collection/P09/current/>
@@ -338,6 +349,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
 .
 
+<http://vocab.nerc.ac.uk/collection/P02/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "SeaDataNet Parameter Discovery Vocabulary" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/P02.ttl"
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P02> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/P35/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EMODnet Chemistry aggregated parameter names" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/P35.ttl"
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P35> ;
+.
+
 <http://vocab.nerc.ac.uk/collection/P36/current/>
     a sa:Vocabulary ;
     skos:prefLabel "EMODnet Chemistry chemical groups" ;
@@ -349,9 +378,172 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://vocab.nerc.ac.uk/collection/L04/current/>
     a sa:Vocabulary ;
-    skos:prefLabel "EMODnet Chemistry chemical groups" ;
+    skos:prefLabel "Matrix Categories" ;
     schema:distribution [
             schema:contentUrl "content/new-vocs/L04.ttl"
         ] ;
     sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.L04> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L05/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "EMODnet Chemistry chemical groups" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/L05.ttl"
+        ] ;
+    sa:hasAlias
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L05> ,
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L05POS> ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area>
+    a sa:Vocabulary ;
+    skos:prefLabel "Sous-regions marines" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/dcsmm.area.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname>
+    a sa:Vocabulary ;
+    skos:prefLabel "Project name" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/emodnet-bathymetry.projectname.ttl"
+        ] ;
+.
+
+<http://rdfdata.eionet.europa.eu/inspirethemes/themes>
+    a sa:Vocabulary ;
+    skos:prefLabel "Inspire Themes" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/inspirethemes.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters>
+    a sa:Vocabulary ;
+    skos:prefLabel "Mission Atlantic - BODC Parameters" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-bodc-parameters.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies>
+    a sa:Vocabulary ;
+    skos:prefLabel "Mission Atlantic - Case Studies" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-case-studies.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type>
+    a sa:Vocabulary ;
+    skos:prefLabel "Mission Atlantic - Data type (DMP)" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-data-type.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources>
+    a sa:Vocabulary ;
+    skos:prefLabel "Mission Atlantic - Resources" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-resources.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package>
+    a sa:Vocabulary ;
+    skos:prefLabel "Mission Atlantic - Work Package" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-work-package.ttl"
+        ] ;
+.
+
+<http://purl.org/myocean/ontology/vocabulary/model-assimilation#>
+    a sa:Vocabulary ;
+    skos:prefLabel "Model assimilation" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/model-assimilation.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit>
+    a sa:Vocabulary ;
+    skos:prefLabel "Area of benefit" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/myocean.area-of-benefit.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.discipline>
+    a sa:Vocabulary ;
+    skos:prefLabel "Discipline" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/myocean.discipline.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level>
+    a sa:Vocabulary ;
+    skos:prefLabel "Processing level" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/myocean.processing-level.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area>
+    a sa:Vocabulary ;
+    skos:prefLabel "Reference Geographical Areas" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/myocean.reference-geographical-area.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale>
+    a sa:Vocabulary ;
+    skos:prefLabel "Temporal scale" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/myocean.temporal-scale.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/oh_ville>
+    a sa:Vocabulary ;
+    skos:prefLabel "Ocean Hackathon - City and challenge" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/oh_ville.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme>
+    a sa:Vocabulary ;
+    skos:prefLabel "Thèmes Sextant" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/sextant-theme.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire>
+    a sa:Vocabulary ;
+    skos:prefLabel "Cadre Réglementaire - SIMM" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/simm.reglementaire.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques>
+    a sa:Vocabulary ;
+    skos:prefLabel "Thématiques - SIMM" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/simm.thematiques.ttl"
+        ] ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee>
+    a sa:Vocabulary ;
+    skos:prefLabel "Type de jeux de donnée ODATIS" ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/ifremer/type_jeux_donnee.ttl"
+        ] ;
 .

@@ -1,0 +1,50 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit/2e1374cd-3cce-4955-abc7-aa448a4e8c53>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit> ;
+    skos:notation "IFR:myocean.area-of-benefit::2e1374cd-3cce-4955-abc7-aa448a4e8c53" ;
+    skos:prefLabel
+        "marine-safety"@en ,
+        "marine-safety"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit/361657b6-6b9e-40f5-b75f-0d50e6ccd2fe>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit> ;
+    skos:notation "IFR:myocean.area-of-benefit::361657b6-6b9e-40f5-b75f-0d50e6ccd2fe" ;
+    skos:prefLabel
+        "marine-resources"@en ,
+        "marine-resourcesy"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit/440849d3-a62f-428e-b679-c815afd74084>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit> ;
+    skos:notation "IFR:myocean.area-of-benefit::440849d3-a62f-428e-b679-c815afd74084" ;
+    skos:prefLabel
+        "coastal-marine-environment"@en ,
+        "coastal-marine-environment"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit/8c77fb97-7415-45d6-8cf2-a90686ef7032>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit> ;
+    skos:notation "IFR:myocean.area-of-benefit::8c77fb97-7415-45d6-8cf2-a90686ef7032" ;
+    skos:prefLabel
+        "weather-climate-and-seasonal-forecasting"@en ,
+        "weather-climate-and-seasonal-forecasting"@fr ;
+.
+
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit>
+    a skos:ConceptScheme ;
+    dc:description "Origin of data among coastal-marine-environment or remote-sensing observation or numerical models."@en ;
+    dc:title
+        "Area of benefit"@en ,
+        "Area of benefit"@fr ;
+    dcterms:identifier "myocean.area-of-benefit" ;
+    dcterms:type "area-of-benefit" ;
+.

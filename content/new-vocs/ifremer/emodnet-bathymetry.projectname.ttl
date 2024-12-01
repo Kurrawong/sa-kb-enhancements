@@ -1,0 +1,82 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/11e74a8d-89ba-4e58-a3ea-6b03f59e2b11>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:srsName "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+        ] ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODnetHRSM2"@en ,
+        "EMODnetHRSM2"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/354b0722-9380-4c4b-9f47-69848f935459>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODnet HRSM"@en ,
+        "EMODnet HRSM"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/69715236-a6c6-4c68-be9f-f0d4dbffe878>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODNet Hydrography"@en ,
+        "EMODNet Hydrography"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/9fec8303-da12-4033-b4ba-841c27c6a3fb>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODNet Bathymetry"@en ,
+        "EMODNet Bathymetry"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/a93847e4-a5a7-40bf-916d-1758e0a1b1a0>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODNet Chemistry"@en ,
+        "EMODNet Chemistry"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/b0fefdfa-7dec-4023-add2-d212a59eb303>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODNet Biology"@en ,
+        "EMODNet Biology"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/b74d9fc5-52be-4cef-878e-c74302993705>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "EMODNet Seabed Mapping"@en ,
+        "EMODNet Seabed Mapping"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname/e52b1a73-2d56-43c2-92b8-d56074231022>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname> ;
+    skos:prefLabel
+        "Geo-Seas"@en ,
+        "Geo-Seas"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname>
+    a skos:ConceptScheme ;
+    dc:title
+        "Project name"@en ,
+        "Project name"@fr ;
+    dcterms:identifier "emodnet-bathymetry.projectname" ;
+    dcterms:type "theme" ;
+.

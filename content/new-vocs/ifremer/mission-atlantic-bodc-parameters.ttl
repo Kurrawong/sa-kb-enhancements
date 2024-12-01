@@ -1,0 +1,129 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/09543204-0fc3-473c-96e8-859d2f0fed3e>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "Cryosphere"@en ,
+        "Cryosphere"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/036df73a-e206-4916-abb2-4710110b6ad4>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/3b5ba08a-e8ec-4f13-9377-c5c6ea925581> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Physical oceanography/Sea level"@en ,
+        "/Physical oceanography/Sea level"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/075c3153-5788-4b0d-b02e-33cdc50aa32b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/61dae67d-e2f9-4592-b8aa-b4f22d168331> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Marine geology/Rock and sediment physical properties"@en ,
+        "/Marine geology/Rock and sediment physical properties"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/0b77af91-30ef-44fa-a591-7aba62fcaa06>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/a74b867f-3e3f-4c70-ae16-d26adf45dba8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Biological oceanography/Microzooplankton"@en ,
+        "/Biological oceanography/Microzooplankton"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/0ece3e00-1aec-47a8-80aa-5b4d1ed63fdc>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/a74b867f-3e3f-4c70-ae16-d26adf45dba8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Biological oceanography/Other biological measurements"@en ,
+        "/Biological oceanography/Other biological measurements"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/0f8b8687-6efe-4f6f-a84d-9de873120e03>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/3b5ba08a-e8ec-4f13-9377-c5c6ea925581> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Physical oceanography/Acoustics"@en ,
+        "/Physical oceanography/Acoustics"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/139d407b-2a1d-41c0-a2c5-501940a72e52>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/fb5161bb-fe13-4beb-91fe-ca232d3e5ca4> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Chemical oceanography/Other inorganic chemical measurements"@en ,
+        "/Chemical oceanography/Other inorganic chemical measurements"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/14def5b8-331c-42e1-bdb2-7c9bc9ea0073>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/a74b867f-3e3f-4c70-ae16-d26adf45dba8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Biological oceanography/Phytoplankton and microphytobenthos"@en ,
+        "/Biological oceanography/Phytoplankton and microphytobenthos"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/1530b8bb-9891-481c-ab75-2546d3ecec14>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/54a3c199-b2d4-4e53-b608-00bea6c01d31> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Human activities/Salt extraction"@en ,
+        "/Human activities/Salt extraction"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/1ab87716-ce24-42a4-a33b-396893f5bb34>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/a74b867f-3e3f-4c70-ae16-d26adf45dba8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Biological oceanography/Biota abundance, biomass and diversity"@en ,
+        "/Biological oceanography/Biota abundance, biomass and diversity"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/22be1951-b01e-4c23-857b-bc555c138abf>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/a74b867f-3e3f-4c70-ae16-d26adf45dba8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Biological oceanography/Underwater photography"@en ,
+        "/Biological oceanography/Underwater photography"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/23448edc-2ce9-49ab-a5a4-7e70a85b3d62>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/61dae67d-e2f9-4592-b8aa-b4f22d168331> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Marine geology/Rock and sediment biota"@en ,
+        "/Marine geology/Rock and sediment biota"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/2e6dd221-ad30-4293-9422-86886e232558>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters/6a2a323f-5b48-4027-bbb5-0d21a5da3e36> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters> ;
+    skos:prefLabel
+        "/Cross-discipline/Fluxes"@en ,
+        "/Cross-discipline/Fluxes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters>
+    a skos:ConceptScheme ;
+    dc:title
+        "Mission Atlantic - BODC Parameters"@en ,
+        "Mission Atlantic - BODC Parameters"@fr ;
+    dcterms:identifier "mission-atlantic-bodc-parameters" ;
+    dcterms:type "parameters" ;
+.
+

@@ -1,0 +1,89 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/3558ee2a-cbb3-4488-bce1-fd8222c19276>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 1 B"@en ,
+        "Level 1 B"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/52aac36d-cd51-411a-bafe-d0877de9731d>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 0"@en ,
+        "Level 0"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/5e160cf9-9a12-4cfd-890d-ba4efe6952c2>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 2"@en ,
+        "Level 2"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/78a4ba97-b2b9-4a16-8680-1eef0bdf8481>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 4"@en ,
+        "Level 4"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/ae61f7ad-05e6-431a-a165-d45cdf56aef4>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 3"@en ,
+        "Level 3"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/c63f0a13-c90b-420d-ba54-69efa4446bf9>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 1 A"@en ,
+        "Level 1 A"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/dc56d781-5746-4b62-9329-188f82ea7e08>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "Level 2 P"@en ,
+        "Level 2 P"@fr ;
+    skos:scopeNote
+        "Level 2 P"@en ,
+        "Level 2 P"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/1c7f0535-16f1-4b54-b12d-f2e7cd5550fe>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/41527de2-b553-4d41-a754-57c5b2102f92> ;
+    skos:prefLabel
+        "N"@en ,
+        "N"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/41527de2-b553-4d41-a754-57c5b2102f92>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level/1c7f0535-16f1-4b54-b12d-f2e7cd5550fe> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level> ;
+    skos:prefLabel
+        "N/A"@en ,
+        "N/A"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level>
+    a skos:ConceptScheme ;
+    dc:title
+        "Processing level"@en ,
+        "Processing level"@fr ;
+    dcterms:identifier "myocean.processing-level" ;
+    dcterms:type "processing-level" ;
+.

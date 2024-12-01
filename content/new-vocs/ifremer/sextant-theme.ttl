@@ -1,0 +1,1431 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gml: <http://www.opengis.net/gml#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0470b995-f8d8-4d18-9a33-bb537b91cfc5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Undesirable Proliferating Species"@en ,
+        "/Milieu biologique/Espèces/Espèces proliférantes indésirables"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0b7d8274-e377-4fe6-8cd5-a712530a38a1>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0043d17-b853-40f3-8a0f-4393aa165115> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Bathymetry/Depth Sounder"@en ,
+        "/Milieu physique/Bathymétrie/Sonde"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0d2356f4-bcea-4eb1-a584-05def26f19a6>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Various"@en ,
+        "/Activités humaines/Divers"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0f5ff382-62d1-4f0f-ac75-e48cab079c3b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8466f1f8-68d0-474f-8c2e-c0423ffab068> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/Ifremer/Sedimentology"@en ,
+        "/Cartes scannées/Ifremer/Sédimentologie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/110a9a47-6af7-488d-a57a-6de268026512>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Coastal monitoring networks"@en ,
+        "/Activités humaines/Réseaux d'observation et de surveillance du littoral"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1188361d-ce72-449b-b7ab-89e73b764997>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Terrestrial Administrative Data"@en ,
+        "/Réglementation et gestion/Données administratives à terre"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/12072aff-9017-4815-bca6-ee81a0aa7b7e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/23bfa317-c0b6-4513-99f6-9e34a93b501a> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Seafloor Obstacles/Pipelines"@en ,
+        "/Réglementation et gestion/Données de navigation/Obstacles de fond/Canalisations"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1389da9b-308f-45f9-b5a8-a89e9a4ade58>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/986b8fd9-2f22-4f63-838c-78a008ea5a89> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Humid Coastal Zones/Lagoons"@en ,
+        "/Milieu biologique/Habitats remarquables/Zones humides littorales/Lagunes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/16379831-6f19-4737-9d2d-4c438d4ede4e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Hydrodynamics/Currents"@en ,
+        "/Milieu physique/Hydrodynamique/Courants"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/19bfa5ab-c624-4896-be75-e99fbd366031>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/355023fd-7289-40ce-8c5c-c725232e039f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Chemical Environment/Biotope"@en ,
+        "/Milieu chimique/Biotope"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1b3449ab-b51c-4877-9649-2e9277713dc8>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Marine cultures"@en ,
+        "/Activités humaines/Cultures marines"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1df98de9-e2c9-467b-b93d-37e9b866d8e9>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Coastal Erosion"@en ,
+        "/Milieu physique/Géologie/Erosion côtière"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/253c7dd3-c7d2-424d-8f2f-5877d5602c92>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Marine Administrative Data"@en ,
+        "/Réglementation et gestion/Données administratives en mer"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/259a1c4b-50f0-4f58-adac-77ec08d0e122>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4c03a9de-4ab3-44c4-a058-e2b23f76ec71> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Terrestrial Hydrography/Drainage Basin"@en ,
+        "/Milieu physique/Hydrographie terrestre/Bassins versants"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/279dbbd0-3967-401c-a42b-ffce576c1482>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Hydrodynamics/Swell"@en ,
+        "/Milieu physique/Hydrodynamique/Houle"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2a432b3a-8fd5-452d-a307-930fb5b84eca>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4d8e11c9-2852-491e-b163-f8b06e761714> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Technical and Management Zonations/Zonations resulting from the Coastal Law Decree"@en ,
+        "/Réglementation et gestion/Zonages techniques et de gestion/Zonages résultant des prescriptions de la loi littoral"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2a52c99c-e573-4afd-896b-6e8e1256d041>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Physical Habitats"@en ,
+        "/Milieu physique/Habitats physiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2ebbf441-af2a-42b6-aa94-0bdd1467d279>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/57aa6316-4d57-4083-b5fc-e0203e41c0c5> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Marine Structures/Ports"@en ,
+        "/Activités humaines/Structures en mer/Ports"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/346abc6c-bb24-4a02-8c89-1823c1d34f39>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Plot or Concession"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Parcelle ou concession"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/36c832d8-8599-4e74-bc77-c5cc38c7662f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3e513bd-53dd-4dcb-9de6-290e9e6cd130> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Land Occupation/CORINE Land Cover"@en ,
+        "/Activités humaines/Occupation du sol/CORINE Land Cover"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/39526b38-0bab-46b5-a3c2-6e3dfb73560b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4a04775a-1067-4dcd-8360-860c6098e29e> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/Oceanographic Institute/Mollusk Maps"@en ,
+        "/Cartes scannées/Institut océanographique/Cartes mollusques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/397212e3-d308-4ceb-b2e4-537d05a1b5fe>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f8480c3-a031-4fc7-93f4-01960b971611> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Physiographic Limits/Toponyme"@en ,
+        "/Milieu physique/Limites physiographiques/Toponyme"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/3ee68304-bb4f-4a8f-aa83-52fb89c18194>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3e513bd-53dd-4dcb-9de6-290e9e6cd130> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Land Occupation/IPLI 77"@en ,
+        "/Activités humaines/Occupation du sol/IPLI 77"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/3f264afd-82b3-4e5e-a53f-91042d0284c4>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/57aa6316-4d57-4083-b5fc-e0203e41c0c5> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Marine Structures/Seamarks and Beacons"@en ,
+        "/Activités humaines/Structures en mer/Amers et balises"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4429526e-7ba7-4ec9-8c58-4b3a636b585a>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/986b8fd9-2f22-4f63-838c-78a008ea5a89> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Humid Coastal Zones/Salt Meadows"@en ,
+        "/Milieu biologique/Habitats remarquables/Zones humides littorales/Schorres"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44ba715a-5c8f-43e6-91cf-41a1fa0db69b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Natural Heritage Inventory and Protection/DIREN"@en ,
+        "/Réglementation et gestion/Protection patrimoniale et inventaire/DIREN"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/493a8f9c-6792-422e-b534-0e7dacd4e55c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Maerl"@en ,
+        "/Milieu biologique/Habitats remarquables/Maërl"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4be78aec-c1da-45e3-aed5-cc4472f36116>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Fish Species preyed on by Avifauna"@en ,
+        "/Milieu biologique/Espèces/Espèces d'intérêt alimentaire pour avifaune"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4cfa5c0a-8919-42c7-aca1-85bb05b3f342>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Natural Heritage Inventory and Protection/MNHN"@en ,
+        "/Réglementation et gestion/Protection patrimoniale et inventaire/MNHN"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4f114dfd-084b-44e2-9169-92e47bcded43>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/23bfa317-c0b6-4513-99f6-9e34a93b501a> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Seafloor Obstacles/Obstructions"@en ,
+        "/Réglementation et gestion/Données de navigation/Obstacles de fond/Obstructions"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/543c7bce-cce0-4225-a276-84bc520400c3>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Isopachs"@en ,
+        "/Milieu physique/Géologie/Isopaques"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5934d8c7-04f7-4624-a94e-d14990de5f0b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/166c8193-f635-41b7-821c-4181cd5a6b2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Surface Navigation/Dangerous Areas"@en ,
+        "/Réglementation et gestion/Données de navigation/Navigation de surface/Zones de danger"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5a35d256-8822-4192-b17c-b2b545a82083>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Communication Networks (road, train, electricity)"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Réseaux de communication terrestres (réseaux routiers, ferrés, EDF)"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5bb5ca1c-c6ee-4773-807d-717f11566257>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f8480c3-a031-4fc7-93f4-01960b971611> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Physiographic Limits/Shoreline"@en ,
+        "/Milieu physique/Limites physiographiques/Trait de côte"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f9afe9d-8608-43c2-a09b-d66f28698ec7>
+    a skos:Concept ;
+    gml:BoundedBy
+        [
+            a gml:Envelope ;
+            gml:lowerCorner "" ;
+            gml:srsName
+                <http://www.opengis.net/gml/srs/epsg.xml#epsg:4326> ,
+                "http://www.opengis.net/gml/srs/epsg.xml#epsg:4326" ;
+            gml:upperCorner "" ;
+        ] ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Sedimentology"@en ,
+        "/Milieu physique/Géologie/Sédimentologie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/606dd9e0-80d3-4043-a284-11fe71439801>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Urban Establishments"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Implantations urbaines"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/611c44d1-ee38-4fd8-a80e-e6145d59cbec>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Fauna"@en ,
+        "/Milieu biologique/Espèces/Faune"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6196826c-0f57-4e80-b86f-350f3e1baad7>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/86b6f31c-b9bc-4815-9c9e-ca7b51416c0d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Wastewater Networks/Treatment Plants"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Réseaux assainissements/Stations épuration"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6262a22c-960a-4d66-8a16-1d4eec6017c0>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/Scan Littoral"@en ,
+        "/Cartes scannées/Scan Littoral"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/62e44243-f6c2-4f44-b968-fc1dbdc97e57>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/afb0f14a-54dc-41f1-89ec-68cee69c0b85> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Fisheries/Closed Areas"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Pêche/Cantonnements"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/657cb559-f758-497f-938c-fc505ad3c69c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery/Numeric Imagery"@en ,
+        "/Imagerie/Imagerie aérienne/Imagerie numérique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/65847821-1c53-43ce-b791-d9c57465b19d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Ocean Hydrodynamics"@en ,
+        "/Milieu physique/Hydrodynamique océanique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/65d04005-2718-4d5b-9e57-62bc5b58a5b5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4c03a9de-4ab3-44c4-a058-e2b23f76ec71> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Terrestrial Hydrography/Hydrographic Network"@en ,
+        "/Milieu physique/Hydrographie terrestre/Réseau hydrographique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6cbc7d12-1e2a-40ee-9525-6c0a1250b744>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/afb0f14a-54dc-41f1-89ec-68cee69c0b85> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Fisheries/Fishing Area Limits"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Pêche/Limites de pêche"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6ddaddc7-1f50-419a-b5af-6ea5177498de>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Habitats"@en ,
+        "/Milieu biologique/Habitats"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6e77379f-501c-460c-9592-5093c51dbda6>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8e43594-e30b-42cd-9946-086b90650b77> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/IGN/scan100"@en ,
+        "/Cartes scannées/IGN/scan100"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6f550a25-d637-4cdf-8c11-1b88316e7a6c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Avifauna"@en ,
+        "/Milieu biologique/Espèces/Espèces avifaune"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6f6633c1-8513-47f3-ac70-ef2b6123b5db>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/166c8193-f635-41b7-821c-4181cd5a6b2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Surface Navigation/Regulated Navigation"@en ,
+        "/Réglementation et gestion/Données de navigation/Navigation de surface/Navigation réglementée"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/734a87f0-3592-4609-a22a-5c3849d0c27d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Recreational Fishing"@en ,
+        "/Activités humaines/Pêche de loisir"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73834f27-c17f-4488-809c-8117dbd704c1>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4c03a9de-4ab3-44c4-a058-e2b23f76ec71> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Terrestrial Hydrography/Surface Waters"@en ,
+        "/Milieu physique/Hydrographie terrestre/Surface en eaux"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73cf1bad-b56b-4481-9461-9e7183c78a4c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery/Coastal Orthophotos"@en ,
+        "/Imagerie/Imagerie aérienne/Orthophotographies littorales"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/753b1fe2-b56c-4158-a194-ba784099b57b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Industrial Fishing"@en ,
+        "/Activités humaines/Pêche professionnelle"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/77a14427-fcc7-4fa8-8c17-5762650a1704>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery/Infrared Orthophotos"@en ,
+        "/Imagerie/Imagerie aérienne/Orthophotographie infrarouge"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7f6edc70-0465-4da6-a1a1-1aa64fc8ba85>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery/Hyperspectral Imagery"@en ,
+        "/Imagerie/Imagerie aérienne/Imagerie hyperspectrale"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/80f15c76-4901-40c6-be47-0e004ca50028>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery/Historic Photos"@en ,
+        "/Imagerie/Imagerie aérienne/Photos anciennes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8176a367-40e5-4271-8134-41734406b9f4>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4d8e11c9-2852-491e-b163-f8b06e761714> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Technical and Management Zonations/Sensitive Zones"@en ,
+        "/Réglementation et gestion/Zonages techniques et de gestion/Zones sensibles"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8404fcfd-4756-422e-adcd-4fad32d261c7>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Military Zones"@en ,
+        "/Réglementation et gestion/Zones militaires"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8a9d5f09-b8bb-45fe-9921-ea6847ed1131>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/aab17d6b-d235-4cd0-b2eb-56883ffe00aa> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Marine Cultures/Shellfish Farm Cadastre"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Cultures marines/Cadastre conchylicole"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8b744b55-1fa7-4cdb-8538-c34b803ff0e3>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/23bfa317-c0b6-4513-99f6-9e34a93b501a> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Seafloor Obstacles/Wrecks"@en ,
+        "/Réglementation et gestion/Données de navigation/Obstacles de fond/Epaves"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/90fbc5b3-3b93-47a3-8d9c-833b8b370573>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Honeycomb Worm"@en ,
+        "/Milieu biologique/Habitats remarquables/Hermelles"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9469c943-fc77-41b4-95fb-e02537e87e03>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Hydromorphology"@en ,
+        "/Milieu physique/Géologie/Hydromorphologie"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9761094f-e6c3-48e6-830e-44d50f88cf7f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Mineral Resources"@en ,
+        "/Milieu physique/Géologie/Ressources Minérales"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/999b46af-009b-4c50-abd8-c211134f0f2b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Pollution"@en ,
+        "/Activités humaines/Pollution"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9ddab5a0-08aa-40e6-98f3-1b912a4d9f7d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3c8deed-b81d-468b-b150-ff53b64a9d8f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Acoustic Imagery/Multibeam"@en ,
+        "/Imagerie/Imagerie acoustique/Multifaisceaux"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9ed0e8da-109f-4954-b97e-86cfe6b785f1>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Works"@en ,
+        "/Milieu physique/Géologie/Travaux"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a0889f3e-6ae4-4971-9488-5ddaa7bb9951>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/355023fd-7289-40ce-8c5c-c725232e039f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Chemical Environment/Sediment"@en ,
+        "/Milieu chimique/Sédiment"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a37b3eb2-f2c9-44fd-a942-bc3531eb9737>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Ocean Observation Network"@en ,
+        "/Activités humaines/Réseaux d'observation de l'océan"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a387bf52-9857-4246-a600-93165ae26299>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Agricultural Activities"@en ,
+        "/Activités humaines/Activités agricoles"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a4af5404-83cf-4420-9803-9b838dd619f1>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Bioinformatics"@en ,
+        "/Milieu biologique/Bio-Informatique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ab437c77-f26c-49bb-879b-dde48c4f6fcd>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3c8deed-b81d-468b-b150-ff53b64a9d8f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Acoustic Imagery/Sonar"@en ,
+        "/Imagerie/Imagerie acoustique/Sonar"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/af2239e5-687d-4439-ba71-398cb01a74f2>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/986b8fd9-2f22-4f63-838c-78a008ea5a89> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Humid Coastal Zones/Maritime diked marsh"@en ,
+        "/Milieu biologique/Habitats remarquables/Zones humides littorales/Marais maritimes endigués"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0c782d1-bd5c-436b-8318-900edb34aec0>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Seagrass"@en ,
+        "/Milieu biologique/Habitats remarquables/Herbiers"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0fc91d6-4ad2-45fd-90a6-1dd601db86a0>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/447319bf-3e3a-46a4-bfc3-22d790fdbe93> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Recreative Activities/Swimming Areas"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Activités récréatives/Zones de baignade"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b180e362-0fea-453d-ad3e-68038ada8819>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/166c8193-f635-41b7-821c-4181cd5a6b2f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Surface Navigation/Moorings"@en ,
+        "/Réglementation et gestion/Données de navigation/Navigation de surface/Mouillages"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b2b3a773-328a-4308-9e76-27a1136863ee>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f8480c3-a031-4fc7-93f4-01960b971611> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Physiographic Limits/Foreshore"@en ,
+        "/Milieu physique/Limites physiographiques/Estran"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b3946b91-cda0-4bee-a8a4-c6aba80d9382>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/34bad830-04ed-4d92-83ad-bf35d5c840a1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Imagery/Satellite Imagery"@en ,
+        "/Imagerie/Imagerie satellitale"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b5278f34-acb4-4350-a2c4-9265b7cd3d3e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Natural Heritage Inventory and Protection/CELRL"@en ,
+        "/Réglementation et gestion/Protection patrimoniale et inventaire/CELRL"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b6d61b86-93ab-4a72-b8a8-7b4864ebf01a>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/afb0f14a-54dc-41f1-89ec-68cee69c0b85> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Fisheries/Deposits"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Pêche/Gisements"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ba12df3c-e19d-4b55-a7f2-b23d67a1df88>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0043d17-b853-40f3-8a0f-4393aa165115> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Bathymetry/Digital Terrain Model"@en ,
+        "/Milieu physique/Bathymétrie/MNT"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ba57efdb-82bd-4c88-ac2c-075c42972413>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Scientific Activities"@en ,
+        "/Activités humaines/Activités scientifiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bb4b5072-f7df-49ee-8331-5928e450e855>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Seabed Nature"@en ,
+        "/Milieu physique/Géologie/Nature des fonds"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bb92d1a4-35b2-406a-95ab-de5d40c2ab94>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Natural Heritage Inventory and Protection/Other"@en ,
+        "/Réglementation et gestion/Protection patrimoniale et inventaire/Autre"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c4b843dd-3a12-4ede-b23b-bd4964e7d343>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Hydrodynamics/Water Column"@en ,
+        "/Milieu physique/Hydrodynamique/Colonne d'eau"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c4baffb4-928d-46f2-9f98-af9fd0e1e34e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Rare, Protected Species, and Species in Danger of Extinction"@en ,
+        "/Milieu biologique/Espèces/Espèces rares, protégées ou en voie de disparition"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c5cad77c-25ca-4672-a189-1b3eaeb8e757>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8e43594-e30b-42cd-9946-086b90650b77> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/IGN/scan1000"@en ,
+        "/Cartes scannées/IGN/scan1000"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c7715b4f-9daf-4cdd-a780-7859de5c33ec>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/86b6f31c-b9bc-4815-9c9e-ca7b51416c0d> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Wastewater Networks/Discharge points"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Réseaux assainissements/Points de rejets"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c858954c-e113-4e10-9821-e0f7e7565502>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Hydrodynamics/Tide"@en ,
+        "/Milieu physique/Hydrodynamique/Marée"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/cc1c27f0-8120-470a-bf65-53ba05616108>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0043d17-b853-40f3-8a0f-4393aa165115> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Bathymetry/Bathymetric Contours"@en ,
+        "/Milieu physique/Bathymétrie/Isobathes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d0aee15b-7dd0-4992-a8c7-80e6f806d51c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Climatology"@en ,
+        "/Milieu physique/Climatologie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d2094c45-2ee9-443f-a95b-8aaa94894905>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/355023fd-7289-40ce-8c5c-c725232e039f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Chemical Environment/Water Column"@en ,
+        "/Milieu chimique/Colonne d'eau"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d57aca9b-863b-46fb-8e2b-e7b3c836b2d5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/09864733-722c-450d-b6bd-00d14ac6308c> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/SHOM/Marine Maps"@en ,
+        "/Cartes scannées/SHOM/Cartes marines"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/de3eae82-5f27-4a4c-9e2a-827420204a59>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/57aa6316-4d57-4083-b5fc-e0203e41c0c5> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Marine Structures/Underwater Objects"@en ,
+        "/Activités humaines/Structures en mer/Objets sous-marins"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/de688da2-5fa4-4918-bee8-8cfe29b35f6c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3e513bd-53dd-4dcb-9de6-290e9e6cd130> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Land Occupation/BD Carto"@en ,
+        "/Activités humaines/Occupation du sol/BD Carto"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e037639f-adc4-4aa6-b5b8-c489dc1f8b70>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Tourism Activities"@en ,
+        "/Activités humaines/Activités touristiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e07169d6-9cd6-4d5d-aeba-220a2b47ef11>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Oceanographical Cruises"@en ,
+        "/Activités humaines/Campagnes océanographiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e0b31b99-3da4-4af5-80b3-837904b4129d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/355023fd-7289-40ce-8c5c-c725232e039f> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Chemical Environment/Contaminants"@en ,
+        "/Milieu chimique/Contaminants"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e5687e7d-5e37-4799-8240-4216b92b36d3>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Species/Fish Species of Commercial Interest"@en ,
+        "/Milieu biologique/Espèces/Espèces d'intérêt halieutique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8b27539-2900-435b-bf84-27816cd3a0c9>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Industrial Establishments"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Implantations industrielles"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e95c79ce-707b-43a0-b1e5-6b84a0cbf46f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Biological Environment/Contaminants"@en ,
+        "/Milieu biologique/Contaminants"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ebbb070b-98db-44da-8305-2b5e1baa3ce8>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4d8e11c9-2852-491e-b163-f8b06e761714> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Regulation and Management/Technical and Management Zonations/Zones of Seafood Quality Labelling"@en ,
+        "/Réglementation et gestion/Zonages techniques et de gestion/Zones de label de qualité"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f1876ff5-b5e0-4932-8779-c720bda5a8b8>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Coastal Hydrodynamics"@en ,
+        "/Milieu physique/Hydrodynamique côtière"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f528c13d-c732-4f5a-8a4e-346edea2f41a>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8e43594-e30b-42cd-9946-086b90650b77> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Scanned Maps/IGN/scan25"@en ,
+        "/Cartes scannées/IGN/scan25"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ff685e30-68d9-4403-8770-e457048651fc>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:prefLabel
+        "/Physical Environment/Geology/Geomorphology"@en ,
+        "/Milieu physique/Géologie/Géomorphologie"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/09864733-722c-450d-b6bd-00d14ac6308c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d57aca9b-863b-46fb-8e2b-e7b3c836b2d5> ;
+    skos:prefLabel
+        "/Scanned Maps/SHOM"@en ,
+        "/Cartes scannées/SHOM"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/447319bf-3e3a-46a4-bfc3-22d790fdbe93>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0fc91d6-4ad2-45fd-90a6-1dd601db86a0> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Recreative Activities"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Activités récréatives"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4a04775a-1067-4dcd-8360-860c6098e29e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/39526b38-0bab-46b5-a3c2-6e3dfb73560b> ;
+    skos:prefLabel
+        "/Scanned Maps/Oceanographic Institute"@en ,
+        "/Cartes scannées/Institut océanographique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8466f1f8-68d0-474f-8c2e-c0423ffab068>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0f5ff382-62d1-4f0f-ac75-e48cab079c3b> ;
+    skos:prefLabel
+        "/Scanned Maps/Ifremer"@en ,
+        "/Cartes scannées/Ifremer"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/aab17d6b-d235-4cd0-b2eb-56883ffe00aa>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8a9d5f09-b8bb-45fe-9921-ea6847ed1131> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Marine Cultures"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Cultures marines"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/34bad830-04ed-4d92-83ad-bf35d5c840a1>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b3946b91-cda0-4bee-a8a4-c6aba80d9382> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3c8deed-b81d-468b-b150-ff53b64a9d8f> ;
+    skos:prefLabel
+        "/Imagery"@en ,
+        "/Imagerie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/86b6f31c-b9bc-4815-9c9e-ca7b51416c0d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6196826c-0f57-4e80-b86f-350f3e1baad7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c7715b4f-9daf-4cdd-a780-7859de5c33ec> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques/Wastewater Networks"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre/Réseaux assainissements"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3c8deed-b81d-468b-b150-ff53b64a9d8f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/34bad830-04ed-4d92-83ad-bf35d5c840a1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9ddab5a0-08aa-40e6-98f3-1b912a4d9f7d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ab437c77-f26c-49bb-879b-dde48c4f6fcd> ;
+    skos:prefLabel
+        "/Imagery/Acoustic Imagery"@en ,
+        "/Imagerie/Imagerie acoustique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e73980d8-03e8-49d1-b95a-2fcec63b3b52>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/166c8193-f635-41b7-821c-4181cd5a6b2f> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/23bfa317-c0b6-4513-99f6-9e34a93b501a> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data"@en ,
+        "/Réglementation et gestion/Données de navigation"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/166c8193-f635-41b7-821c-4181cd5a6b2f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e73980d8-03e8-49d1-b95a-2fcec63b3b52> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5934d8c7-04f7-4624-a94e-d14990de5f0b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6f6633c1-8513-47f3-ac70-ef2b6123b5db> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b180e362-0fea-453d-ad3e-68038ada8819> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Surface Navigation"@en ,
+        "/Réglementation et gestion/Données de navigation/Navigation de surface"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/23bfa317-c0b6-4513-99f6-9e34a93b501a>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e73980d8-03e8-49d1-b95a-2fcec63b3b52> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/12072aff-9017-4815-bca6-ee81a0aa7b7e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4f114dfd-084b-44e2-9169-92e47bcded43> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8b744b55-1fa7-4cdb-8538-c34b803ff0e3> ;
+    skos:prefLabel
+        "/Regulation and Management/Navigation Data/Seafloor Obstacles"@en ,
+        "/Réglementation et gestion/Données de navigation/Obstacles de fond"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/355023fd-7289-40ce-8c5c-c725232e039f>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/19bfa5ab-c624-4896-be75-e99fbd366031> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a0889f3e-6ae4-4971-9488-5ddaa7bb9951> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d2094c45-2ee9-443f-a95b-8aaa94894905> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e0b31b99-3da4-4af5-80b3-837904b4129d> ;
+    skos:prefLabel
+        "/Chemical Environment"@en ,
+        "/Milieu chimique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4c03a9de-4ab3-44c4-a058-e2b23f76ec71>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/259a1c4b-50f0-4f58-adac-77ec08d0e122> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/65d04005-2718-4d5b-9e57-62bc5b58a5b5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73834f27-c17f-4488-809c-8117dbd704c1> ;
+    skos:prefLabel
+        "/Physical Environment/Terrestrial Hydrography"@en ,
+        "/Milieu physique/Hydrographie terrestre"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4d8e11c9-2852-491e-b163-f8b06e761714>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2a432b3a-8fd5-452d-a307-930fb5b84eca> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8176a367-40e5-4271-8134-41734406b9f4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ebbb070b-98db-44da-8305-2b5e1baa3ce8> ;
+    skos:prefLabel
+        "/Regulation and Management/Technical and Management Zonations"@en ,
+        "/Réglementation et gestion/Zonages techniques et de gestion"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/57aa6316-4d57-4083-b5fc-e0203e41c0c5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2ebbf441-af2a-42b6-aa94-0bdd1467d279> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/3f264afd-82b3-4e5e-a53f-91042d0284c4> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/de3eae82-5f27-4a4c-9e2a-827420204a59> ;
+    skos:prefLabel
+        "/Human Activities/Marine Structures"@en ,
+        "/Activités humaines/Structures en mer"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f8480c3-a031-4fc7-93f4-01960b971611>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/397212e3-d308-4ceb-b2e4-537d05a1b5fe> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5bb5ca1c-c6ee-4773-807d-717f11566257> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b2b3a773-328a-4308-9e76-27a1136863ee> ;
+    skos:prefLabel
+        "/Physical Environment/Physiographic Limits"@en ,
+        "/Milieu physique/Limites physiographiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/986b8fd9-2f22-4f63-838c-78a008ea5a89>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1389da9b-308f-45f9-b5a8-a89e9a4ade58> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4429526e-7ba7-4ec9-8c58-4b3a636b585a> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/af2239e5-687d-4439-ba71-398cb01a74f2> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats/Humid Coastal Zones"@en ,
+        "/Milieu biologique/Habitats remarquables/Zones humides littorales"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/afb0f14a-54dc-41f1-89ec-68cee69c0b85>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/62e44243-f6c2-4f44-b968-fc1dbdc97e57> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6cbc7d12-1e2a-40ee-9525-6c0a1250b744> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b6d61b86-93ab-4a72-b8a8-7b4864ebf01a> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations/Fisheries"@en ,
+        "/Réglementation et gestion/Réglementation des usages/Pêche"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0043d17-b853-40f3-8a0f-4393aa165115>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0b7d8274-e377-4fe6-8cd5-a712530a38a1> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ba12df3c-e19d-4b55-a7f2-b23d67a1df88> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/cc1c27f0-8120-470a-bf65-53ba05616108> ;
+    skos:prefLabel
+        "/Physical Environment/Bathymetry"@en ,
+        "/Milieu physique/Bathymétrie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3e513bd-53dd-4dcb-9de6-290e9e6cd130>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/36c832d8-8599-4e74-bc77-c5cc38c7662f> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/3ee68304-bb4f-4a8f-aa83-52fb89c18194> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/de688da2-5fa4-4918-bee8-8cfe29b35f6c> ;
+    skos:prefLabel
+        "/Human Activities/Land Occupation"@en ,
+        "/Activités humaines/Occupation du sol"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8e43594-e30b-42cd-9946-086b90650b77>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6e77379f-501c-460c-9592-5093c51dbda6> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c5cad77c-25ca-4672-a189-1b3eaeb8e757> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f528c13d-c732-4f5a-8a4e-346edea2f41a> ;
+    skos:prefLabel
+        "/Scanned Maps/IGN"@en ,
+        "/Cartes scannées/IGN"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/493a8f9c-6792-422e-b534-0e7dacd4e55c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/90fbc5b3-3b93-47a3-8d9c-833b8b370573> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/986b8fd9-2f22-4f63-838c-78a008ea5a89> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0c782d1-bd5c-436b-8318-900edb34aec0> ;
+    skos:prefLabel
+        "/Biological Environment/Key Habitats"@en ,
+        "/Milieu biologique/Habitats remarquables"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44ba715a-5c8f-43e6-91cf-41a1fa0db69b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4cfa5c0a-8919-42c7-aca1-85bb05b3f342> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b5278f34-acb4-4350-a2c4-9265b7cd3d3e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bb92d1a4-35b2-406a-95ab-de5d40c2ab94> ;
+    skos:prefLabel
+        "/Regulation and Management/Natural Heritage Inventory and Protection"@en ,
+        "/Réglementation et gestion/Protection patrimoniale et inventaire"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/346abc6c-bb24-4a02-8c89-1823c1d34f39> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/447319bf-3e3a-46a4-bfc3-22d790fdbe93> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/aab17d6b-d235-4cd0-b2eb-56883ffe00aa> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/afb0f14a-54dc-41f1-89ec-68cee69c0b85> ;
+    skos:prefLabel
+        "/Regulation and Management/Usage Regulations"@en ,
+        "/Réglementation et gestion/Réglementation des usages"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/16379831-6f19-4737-9d2d-4c438d4ede4e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/279dbbd0-3967-401c-a42b-ffce576c1482> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c4b843dd-3a12-4ede-b23b-bd4964e7d343> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c858954c-e113-4e10-9821-e0f7e7565502> ;
+    skos:prefLabel
+        "/Physical Environment/Hydrodynamics"@en ,
+        "/Milieu physique/Hydrodynamique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ac4c92ba-171b-4e0a-aa3b-a81adf497921>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/09864733-722c-450d-b6bd-00d14ac6308c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4a04775a-1067-4dcd-8360-860c6098e29e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6262a22c-960a-4d66-8a16-1d4eec6017c0> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8466f1f8-68d0-474f-8c2e-c0423ffab068> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8e43594-e30b-42cd-9946-086b90650b77> ;
+    skos:prefLabel
+        "/Scanned Maps"@en ,
+        "/Cartes scannées"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5a35d256-8822-4192-b17c-b2b545a82083> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/606dd9e0-80d3-4043-a284-11fe71439801> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/86b6f31c-b9bc-4815-9c9e-ca7b51416c0d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e8b27539-2900-435b-bf84-27816cd3a0c9> ;
+    skos:prefLabel
+        "/Human Activities/Economic Equipment and On-land Techniques"@en ,
+        "/Activités humaines/Equipements économiques et techniques à terre"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1be82a30-c257-4305-8f27-7b3fcef241d8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6ddaddc7-1f50-419a-b5af-6ea5177498de> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a4af5404-83cf-4420-9803-9b838dd619f1> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e95c79ce-707b-43a0-b1e5-6b84a0cbf46f> ;
+    skos:prefLabel
+        "/Biological Environment"@en ,
+        "/Milieu biologique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/63f06d90-4f85-4d95-91c0-b41ba9015dca>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/34bad830-04ed-4d92-83ad-bf35d5c840a1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/657cb559-f758-497f-938c-fc505ad3c69c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73cf1bad-b56b-4481-9461-9e7183c78a4c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/77a14427-fcc7-4fa8-8c17-5762650a1704> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7f6edc70-0465-4da6-a1a1-1aa64fc8ba85> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/80f15c76-4901-40c6-be47-0e004ca50028> ;
+    skos:prefLabel
+        "/Imagery/Aerial Imagery"@en ,
+        "/Imagerie/Imagerie aérienne"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/73a55b62-adf3-4b89-9fd2-5f277cffb47b>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1188361d-ce72-449b-b7ab-89e73b764997> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/253c7dd3-c7d2-424d-8f2f-5877d5602c92> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/327741a3-e81f-47f6-87e7-2c0b8978785d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/44c4e0a4-3afe-43d9-83a3-579d4a436b12> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4d8e11c9-2852-491e-b163-f8b06e761714> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8404fcfd-4756-422e-adcd-4fad32d261c7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e73980d8-03e8-49d1-b95a-2fcec63b3b52> ;
+    skos:prefLabel
+        "/Regulation and Management"@en ,
+        "/Réglementation et gestion"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d347d418-2e5e-4279-951a-acbf1bda32eb>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c17e50a2-5e3d-40da-94e0-b31327977947> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0470b995-f8d8-4d18-9a33-bb537b91cfc5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4be78aec-c1da-45e3-aed5-cc4472f36116> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/611c44d1-ee38-4fd8-a80e-e6145d59cbec> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/6f550a25-d637-4cdf-8c11-1b88316e7a6c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/c4baffb4-928d-46f2-9f98-af9fd0e1e34e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e5687e7d-5e37-4799-8240-4216b92b36d3> ;
+    skos:prefLabel
+        "/Biological Environment/Species"@en ,
+        "/Milieu biologique/Espèces"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/2a52c99c-e573-4afd-896b-6e8e1256d041> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/4c03a9de-4ab3-44c4-a058-e2b23f76ec71> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f8480c3-a031-4fc7-93f4-01960b971611> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/65847821-1c53-43ce-b791-d9c57465b19d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/8e3044e6-9720-491b-ac10-42e9b8e74245> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/b0043d17-b853-40f3-8a0f-4393aa165115> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d0aee15b-7dd0-4992-a8c7-80e6f806d51c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f1876ff5-b5e0-4932-8779-c720bda5a8b8> ;
+    skos:prefLabel
+        "/Physical Environment"@en ,
+        "/Milieu physique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/f0b5d6ed-da78-41aa-88f5-7f179c804299>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d6f5b49f-fa79-4788-a34c-ab342cb85463> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1df98de9-e2c9-467b-b93d-37e9b866d8e9> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/543c7bce-cce0-4225-a276-84bc520400c3> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/5f9afe9d-8608-43c2-a09b-d66f28698ec7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9469c943-fc77-41b4-95fb-e02537e87e03> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9761094f-e6c3-48e6-830e-44d50f88cf7f> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/9ed0e8da-109f-4954-b97e-86cfe6b785f1> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bb4b5072-f7df-49ee-8331-5928e450e855> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ff685e30-68d9-4403-8770-e457048651fc> ;
+    skos:prefLabel
+        "/Physical Environment/Geology"@en ,
+        "/Milieu physique/Géologie"@fr ;
+    skos:scopeNote
+        ""@en ,
+        ""@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme/7898b87e-208a-421f-b1b4-3697f895ddd9>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/sextant-theme> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/0d2356f4-bcea-4eb1-a584-05def26f19a6> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/110a9a47-6af7-488d-a57a-6de268026512> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/1b3449ab-b51c-4877-9649-2e9277713dc8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/57aa6316-4d57-4083-b5fc-e0203e41c0c5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/734a87f0-3592-4609-a22a-5c3849d0c27d> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/753b1fe2-b56c-4158-a194-ba784099b57b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/999b46af-009b-4c50-abd8-c211134f0f2b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a37b3eb2-f2c9-44fd-a942-bc3531eb9737> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/a387bf52-9857-4246-a600-93165ae26299> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/ba57efdb-82bd-4c88-ac2c-075c42972413> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/bc2a8ec0-ec4c-4d42-a66a-20372d1ac0b3> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/d3e513bd-53dd-4dcb-9de6-290e9e6cd130> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e037639f-adc4-4aa6-b5b8-c489dc1f8b70> ,
+        <https://vocab.ifremer.fr/scheme/SXT/sextant-theme/e07169d6-9cd6-4d5d-aeba-220a2b47ef11> ;
+    skos:prefLabel
+        "/Human Activities"@en ,
+        "/Activités humaines"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/sextant-theme>
+    a skos:ConceptScheme ;
+    dc:title
+        "Thèmes Sextant"@en ,
+        "Thèmes Sextant"@fr ;
+    dcterms:identifier "sextant-theme" ;
+    dcterms:type "theme" ;
+.

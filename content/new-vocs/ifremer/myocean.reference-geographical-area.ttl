@@ -1,0 +1,77 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/0ea3d280-b1f1-4d12-9037-6acb6104b4b3>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "global-ocean"@en ,
+        "global-ocean"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/45e2a50e-0bac-4471-8810-1d0fbe0a11af>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "antarctic-ocean"@en ,
+        "antarctic-ocean"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/a1bafd34-447f-49ac-80cc-7bcd9e255691>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "black-sea"@en ,
+        "black-sea"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/a9b1ea06-e21f-4c01-afb7-8eb027b2ccfa>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "mediterranean-sea"@en ,
+        "mediterranean-sea"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/af963abd-2ecb-459d-9622-db1f22999b27>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "iberian-biscay-irish-seas"@en ,
+        "iberian-biscay-irish-seas"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/bf2c2f16-3f48-4104-89c1-7269317d03ce>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "north-west-shelf-seas"@en ,
+        "north-west-shelf-seas"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/d9a03423-c641-4eaf-a184-4c1767033fa5>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "baltic-sea"@en ,
+        "baltic-sea"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area/e66ceb40-9449-44a9-8b3f-dc1cdc379506>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area> ;
+    skos:prefLabel
+        "arctic-ocean"@en ,
+        "arctic-ocean"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area>
+    a skos:ConceptScheme ;
+    dc:description "."@en ;
+    dc:title
+        "Reference Geographical Areas"@en ,
+        "Reference Geographical Areas"@fr ;
+    dcterms:identifier "myocean.reference-geographical-area" ;
+    dcterms:type "reference-geographical-area" ;
+.

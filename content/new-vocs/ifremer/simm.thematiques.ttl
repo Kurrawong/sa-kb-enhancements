@@ -1,0 +1,186 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/44c273ab-fa88-4e5c-b8da-b4955ea53b71>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "Research"@en ,
+        "Recherche"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/c490db2c-638c-4c5d-b9b4-8cddc1367263>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "Concrete action"@en ,
+        "Actions concrètes"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/09df2246-ba74-4efa-ad0e-e7e51e2b7f55>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Coastal areas"@en ,
+        "/Etat du Milieu/Littoral"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/1d67f209-3f72-4da4-83fc-d40ad32c0611>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Habitats"@en ,
+        "/Etat du Milieu/Habitats"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/1ea69d5d-d463-47b5-a845-72beca4b5647>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Bathymetry"@en ,
+        "/Etat du Milieu/Bathymétrie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/26d81817-062c-4a2c-9adf-2cc0a16df3da>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Leisure activities"@en ,
+        "/Activités et Usages/Loisirs"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2bb57f48-0333-45d2-8266-96bf77ee0711>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Economic and social analysis"@en ,
+        "/Activités et Usages/Analyse économique et sociale"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2e86760d-f69b-4eee-9c2a-c7a75ab1d37f>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Fisheries and aquaculture"@en ,
+        "/Activités et Usages/Pêche et Aquaculture"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3081c36d-416d-46a8-9d3d-fdadfba5ae15>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Hydrodynamics"@en ,
+        "/Etat du Milieu/Hydrodynamique"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/454b4260-caae-41eb-821c-9eb5530bccc7>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Industry and energy"@en ,
+        "/Activités et Usages/Industrie et énergie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/547fbfca-468b-47b0-a6b0-0bad5696e4d8>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Geology"@en ,
+        "/Etat du Milieu/Géologie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/69bef58d-3038-4ad7-9f26-3ec8061b2b5a>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Pollution"@en ,
+        "/Etat du Milieu/Pollutions"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/7269b1e9-2c97-43f5-8768-0dc6322ccd56>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Shipping and Ports"@en ,
+        "/Activités et Usages/Transport maritime et Ports"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/b5e8a6c6-d485-4927-94e8-a0596cc53d69>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Uses and Human Activities/Urbanisation and Artificialisation"@en ,
+        "/Activités et Usages/Urbanisation et Artificialisation"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/ccd86170-17fb-4811-9a78-9b12505ae73e>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Biogeochemistry"@en ,
+        "/Etat du Milieu/Biogéochimie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/e7ad3ca8-465a-40df-9120-97959435dffc>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:prefLabel
+        "/Environmental Status/Species"@en ,
+        "/Etat du Milieu/Espèces"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3fbc8709-e75a-4dab-9ab1-b19232580898>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/26d81817-062c-4a2c-9adf-2cc0a16df3da> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2bb57f48-0333-45d2-8266-96bf77ee0711> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2e86760d-f69b-4eee-9c2a-c7a75ab1d37f> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/454b4260-caae-41eb-821c-9eb5530bccc7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/7269b1e9-2c97-43f5-8768-0dc6322ccd56> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/b5e8a6c6-d485-4927-94e8-a0596cc53d69> ;
+    skos:prefLabel
+        "/Uses and Human Activities"@en ,
+        "/Activités et Usages"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/2c421016-799d-4f26-98e9-a3521223d6e8>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/09df2246-ba74-4efa-ad0e-e7e51e2b7f55> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/1d67f209-3f72-4da4-83fc-d40ad32c0611> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/1ea69d5d-d463-47b5-a845-72beca4b5647> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/3081c36d-416d-46a8-9d3d-fdadfba5ae15> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/547fbfca-468b-47b0-a6b0-0bad5696e4d8> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/69bef58d-3038-4ad7-9f26-3ec8061b2b5a> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/ccd86170-17fb-4811-9a78-9b12505ae73e> ,
+        <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques/e7ad3ca8-465a-40df-9120-97959435dffc> ;
+    skos:prefLabel
+        "/Environmental Status"@en ,
+        "/Etat du Milieu"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/simm.thematiques>
+    a skos:ConceptScheme ;
+    dc:title
+        "Thématiques - SIMM"@en ,
+        "Thématiques - SIMM"@fr ;
+    dcterms:identifier "simm.thematiques" ;
+    dcterms:type "theme" ;
+.

@@ -1,0 +1,158 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/7cec884a-14b2-49a4-9ff8-cabf4529593b>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/France"@en ,
+        "/National"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/02ae5489-80f4-4790-b7ef-ec7372037454>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/8da8fe93-1795-4ddd-bcc9-e5fbbf3d7e41> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Metropolitan France/Celtic Seas"@en ,
+        "/Métropole/Mers Celtiques"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/1f1f5d20-8489-4c80-ac20-d6d091d4e30b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Clipperton Island"@en ,
+        "/Outre-mer/Clipperton"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/4e1ec5be-1018-4580-87cd-fbcb49e669d5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Polynesia"@en ,
+        "/Outre-mer/Polynésie française"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5655729b-9a27-4a76-a96c-683564f4012c>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Guiana"@en ,
+        "/Outre-mer/Guyane française"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5b8eecd5-d8f1-4eab-8f08-ae88f4ee48d7>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/St Pierre and Miquelon"@en ,
+        "/Outre-mer/St-Pierre-et-Miquelon"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5dc22e69-c8de-4a13-bf4e-8541681a45f5>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/8da8fe93-1795-4ddd-bcc9-e5fbbf3d7e41> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Metropolitan France/Bay of Biscay"@en ,
+        "/Métropole/Golfe de Gascogne"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/71918e42-5660-483f-aa07-21537b75bc34>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/New Caledonia"@en ,
+        "/Outre-mer/Nouvelle-Calédonie"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/c30385c9-335a-4b4f-a98d-8e4ac658a60b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Indian Ocean"@en ,
+        "/Outre-mer/Océan Indien"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/c9fe0e8d-dd4c-4dd5-b1f3-94568b5fdbcc>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Wallis and Futuna"@en ,
+        "/Outre-mer/Wallis-et-Futuna"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/ec646e7f-9c24-4182-a0e1-8e6524d2b91b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/8da8fe93-1795-4ddd-bcc9-e5fbbf3d7e41> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Metropolitan France/Channel-North Sea"@en ,
+        "/Métropole/Manche mer du Nord"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/ee3459a5-7a09-4627-92cc-0e5d27919a85>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Overseas France/Antilles"@en ,
+        "/Outre-mer/Antilles françaises"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/f3b1a057-7a6c-4970-8342-1abea177d29b>
+    a skos:Concept ;
+    skos:broader <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/8da8fe93-1795-4ddd-bcc9-e5fbbf3d7e41> ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:prefLabel
+        "/Metropolitan France/Western Mediterranean"@en ,
+        "/Métropole/Méditerranée occidentale"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/8da8fe93-1795-4ddd-bcc9-e5fbbf3d7e41>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/02ae5489-80f4-4790-b7ef-ec7372037454> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5dc22e69-c8de-4a13-bf4e-8541681a45f5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/ec646e7f-9c24-4182-a0e1-8e6524d2b91b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/f3b1a057-7a6c-4970-8342-1abea177d29b> ;
+    skos:prefLabel
+        "/Metropolitan France"@en ,
+        "/Métropole"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/0d3597b7-d3a4-43f7-8586-c5ec1b0876d1>
+    a skos:Concept ;
+    skos:inScheme <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area> ;
+    skos:narrower
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/1f1f5d20-8489-4c80-ac20-d6d091d4e30b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/4e1ec5be-1018-4580-87cd-fbcb49e669d5> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5655729b-9a27-4a76-a96c-683564f4012c> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/5b8eecd5-d8f1-4eab-8f08-ae88f4ee48d7> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/71918e42-5660-483f-aa07-21537b75bc34> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/c30385c9-335a-4b4f-a98d-8e4ac658a60b> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/c9fe0e8d-dd4c-4dd5-b1f3-94568b5fdbcc> ,
+        <https://vocab.ifremer.fr/scheme/SXT/dcsmm.area/ee3459a5-7a09-4627-92cc-0e5d27919a85> ;
+    skos:prefLabel
+        "/Overseas France"@en ,
+        "/Outre-mer"@fr ;
+.
+
+<https://vocab.ifremer.fr/scheme/SXT/dcsmm.area>
+    a skos:ConceptScheme ;
+    dc:title
+        "Sous-regions marines"@en ,
+        "Sous-regions marines"@fr ;
+    dcterms:identifier "dcsmm.area" ;
+    dcterms:type "place" ;
+.
