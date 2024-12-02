@@ -38,6 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:value 6
         ] ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
+    sa:hasAlias <https://www.seadatanet.org/urnurl/SDN:L05> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L06/current/>
@@ -46,6 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:value 3
         ] ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
+    sa:hasAlias <https://www.seadatanet.org/urnurl/SDN:L06> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L22/current/>
@@ -82,7 +84,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         "SeaDataNet P021 parameter discovery vocabulary" ,
         "SeaDataNet Parameter Discovery Vocabulary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
-    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P02> ;
+    sa:hasAlias
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P02> ,
+        <https://www.seadatanet.org/urnurl/SDN:P02>
 .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/>
@@ -146,6 +150,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:value 6
         ] ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.parameter.NVS.P35> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/>

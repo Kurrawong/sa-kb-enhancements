@@ -41,14 +41,45 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/theme.en.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.inspire-theme> ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/keyword?thesaurus=external.theme.inspire-theme> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L08/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "SeaDataNet Data Access Restriction Policies" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/L08.ttl"
+        ] ;
+    sa:hasAlias
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L08> ,
+        <https://www.seadatanet.org/urnurl/SDN:L08> ;
+.
+
+<http://vocab.nerc.ac.uk/collection/L10/current/>
+    a sa:Vocabulary ;
+    skos:prefLabel "SeaDataNet geographic co-ordinate reference frames" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
+    schema:distribution [
+            schema:contentUrl "content/new-vocs/L10.ttl"
+        ] ;
+    sa:hasAlias
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L10> ,
+        <https://www.seadatanet.org/urnurl/SDN:L10> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/L11/current/>
     a sa:Vocabulary ;
+    skos:prefLabel "SeaDataNet depth measurement reference planes" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
     schema:distribution [
             schema:contentUrl "content/new-vocs/L11.ttl"
         ] ;
-    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L11> ;
+    sa:hasAlias
+        <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.NVS.L11> ,
+        <https://www.seadatanet.org/urnurl/SDN:L11> ,
+        <https://www.seadatanet.org/urnurl/SDN:L11::D08> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/P07/current/>
@@ -402,6 +433,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/dcsmm.area.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.place.dcsmm.area> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/emodnet-bathymetry.projectname>
@@ -410,6 +442,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/emodnet-bathymetry.projectname.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.emodnet-bathymetry.projectname> ;
 .
 
 <http://rdfdata.eionet.europa.eu/inspirethemes/themes>
@@ -418,6 +451,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/inspirethemes.ttl"
         ] ;
+sa:hasAlias <https://rdfdata.eionet.europa.eu/inspirethemes/themes/28> ;
+sa:hasAlias <https://rdfdata.eionet.europa.eu/inspirethemes/themes.rdf> ;
+sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.httpinspireeceuropaeutheme-theme> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-bodc-parameters>
@@ -426,6 +462,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-bodc-parameters.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.mission-atlantic-bodc-parameters> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-case-studies>
@@ -434,6 +471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-case-studies.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.mission-atlantic-case-studies> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-data-type>
@@ -442,6 +480,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-data-type.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.mission-atlantic-data-type> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-resources>
@@ -450,6 +489,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-resources.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.mission-atlantic-resources> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/mission-atlantic-work-package>
@@ -458,6 +498,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/mission-atlantic-work-package.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.mission-atlantic-work-package> ;
 .
 
 <http://purl.org/myocean/ontology/vocabulary/model-assimilation#>
@@ -466,6 +507,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/model-assimilation.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.theme.myocean.model-assimilation> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/myocean.area-of-benefit>
@@ -474,6 +516,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/myocean.area-of-benefit.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.area-of-benefit.myocean.area-of-benefit> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/myocean.discipline>
@@ -482,6 +525,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/myocean.discipline.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.discipline.myocean.discipline> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/myocean.processing-level>
@@ -490,6 +534,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/myocean.processing-level.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.processing-level.myocean.processing-level> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/myocean.reference-geographical-area>
@@ -498,6 +543,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/myocean.reference-geographical-area.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.reference-geographical-area.myocean.reference-geographical-area> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/myocean.temporal-scale>
@@ -506,6 +552,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/myocean.temporal-scale.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.temporal-scale.myocean.temporal-scale> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/oh_ville>
@@ -514,6 +561,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/oh_ville.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.place.oh_ville> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/sextant-theme>
@@ -522,6 +570,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/sextant-theme.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.sextant-theme> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/simm.reglementaire>
@@ -530,6 +579,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/simm.reglementaire.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.simm.reglementaire> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/simm.thematiques>
@@ -538,6 +588,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/simm.thematiques.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.simm.thematiques> ;
 .
 
 <https://vocab.ifremer.fr/scheme/SXT/type_jeux_donnee>
@@ -546,4 +597,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:distribution [
             schema:contentUrl "content/new-vocs/ifremer/type_jeux_donnee.ttl"
         ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.type_jeux_donnee> ;
 .

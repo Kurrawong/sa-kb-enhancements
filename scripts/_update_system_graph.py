@@ -15,4 +15,4 @@ g.parse(REPO_HOME / "scripts" / "system-graph-existing-prefs.ttl")
 g.parse(REPO_HOME / "scripts" / "system-graph-new-vocs.ttl")
 g.serialize(destination=REPO_HOME / "scripts" / "system-graph.ttl", format="longturtle")
 
-# kb_graph_replace()
+kb_graph_replace(REPO_HOME / "scripts" / "system-graph.ttl", SYSTEM_GRAPH_IRI)
