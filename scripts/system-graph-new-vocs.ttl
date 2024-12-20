@@ -327,7 +327,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
 .
 
-<https://vocab.nerc.ac.uk/collection/C19/current/>
+<http://vocab.nerc.ac.uk/collection/C19/current/>
     a sa:Vocabulary ;
     skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
     skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;

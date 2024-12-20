@@ -7,4 +7,4 @@ from utils import kb_graph_add
 SYSTEM_GRAPH_IRI = "https://w3id.org/semanticanalyser/system-graph"
 
 if __name__ == "__main__":
-    print(kb_graph_add(Path("system-graph-existing-prefs.ttl"), SYSTEM_GRAPH_IRI))
+    print(kb_graph_add(Path(Path(__file__).parent / "system-graph-existing-prefs.ttl"), SYSTEM_GRAPH_IRI))

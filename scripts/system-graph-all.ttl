@@ -59,6 +59,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://purl.obolibrary.org/obo/envo.owl>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
@@ -77,6 +78,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://qudt.org/2.1/vocab/quantitykind>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
@@ -98,6 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/C17/current/>
+    a sa:Vocabulary ;
     skos:altLabel
         "ICES Platform Codes" ,
         "ICES/SeaDataNet Ship Codes" ,
@@ -109,6 +112,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
             schema:value 4 ;
         ] ;
+.
+
+<http://vocab.nerc.ac.uk/collection/C19/current/>
+    a sa:Vocabulary ;
+    skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
+    skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;
+    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
+    schema:distribution
+        [
+            schema:contentUrl "content/new-vocs/C19.ttl" ;
+        ] ;
+    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.reference-geographical-area.NVS.C19> ;
 .
 
 <http://vocab.nerc.ac.uk/collection/C34/current/>
@@ -150,6 +165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/L06/current/>
+    a sa:Vocabulary ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
     sa:hasAlias <https://www.seadatanet.org/urnurl/SDN:L06> ;
     sa:hasPreference
@@ -200,6 +216,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/L22/current/>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
@@ -208,6 +225,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/L33/current/>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
@@ -216,6 +234,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/P01/current/>
+    a sa:Vocabulary ;
     skos:altLabel "BODC Parameter Usage Vocabulary" ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
     sa:hasPreference
@@ -248,6 +267,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/P03/current/>
+    a sa:Vocabulary ;
     skos:altLabel
         "Agreed Parameter Groups (P03)" ,
         "Mission Atlantic - BODC Parameters" ,
@@ -262,6 +282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/P05/current/>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/005/> ;
@@ -295,6 +316,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/P08/current/>
+    a sa:Vocabulary ;
     dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/001/> ;
     sa:hasPreference
         [
@@ -315,6 +337,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/P22/current/>
+    a sa:Vocabulary ;
     skos:altLabel
         "GEMET - INSPIRE themes version 1.0" ,
         "GEMET - INSPIRE themes, version 1.0" ,
@@ -351,6 +374,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/R03/current/>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
@@ -359,6 +383,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <http://vocab.nerc.ac.uk/collection/R27/current/>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
@@ -426,6 +451,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
@@ -625,6 +651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://vocab.aeris-data.fr/instrument>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG01/> ;
@@ -633,6 +660,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://vocab.aeris-data.fr/parameter>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
@@ -641,6 +669,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://vocab.aeris-data.fr/platform>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG04/> ;
@@ -818,19 +847,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/local.theme.type_jeux_donnee> ;
 .
 
-<http://vocab.nerc.ac.uk/collection/C19/current/>
-    a sa:Vocabulary ;
-    skos:altLabel "SeaVoX salt and fresh water body gazetteer" ;
-    skos:prefLabel "SeaVoX salt and fresh water body gazetteer" ;
-    dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/002/> ;
-    schema:distribution
-        [
-            schema:contentUrl "content/new-vocs/C19.ttl" ;
-        ] ;
-    sa:hasAlias <https://sextant.ifremer.fr/geonetwork/srv/api/registries/vocabularies/external.reference-geographical-area.NVS.C19> ;
-.
-
 <https://w3id.org/ozcar-theia/variableGroup>
+    a sa:Vocabulary ;
     sa:hasPreference
         [
             dcat:theme <http://vocab.nerc.ac.uk/collection/L19/current/SDNKG03/> ;
@@ -839,6 +857,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://www.ebi.ac.uk/ols/ontologies/efo>
+    a sa:Vocabulary ;
     schema:comment "This is an ontology, not a vocabulary. Download from http://www.ebi.ac.uk/efo/releases/v3.71.0/efo.owl" ;
     sa:hasPreference
         [
@@ -856,3 +875,33 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:contentUrl "content/new-vocs/past-thesaurus-v1.1.ttl" ;
         ] ;
 .
+
+
+# Patch missing ConceptScheme & Collection prefLabels
+
+<http://vocab.nerc.ac.uk/scheme/NETMAR_OCEAN/current/> skos:prefLabel "NETMAR_OCEAN" .
+<http://vocab.nerc.ac.uk/scheme/NETOC_ORTHO/current/> skos:prefLabel "NETOC_ORTHO" .
+<http://vocab.nerc.ac.uk/scheme/EDMED_DCAT_THEMES/current/> skos:prefLabel "EDMED_DCAT_THEMES" .
+<http://vocab.nerc.ac.uk/scheme/EMODNET_PEST/current/> skos:prefLabel "EMODNET_PEST" .
+<http://vocab.nerc.ac.uk/scheme/EMODNET_CHEM/current/> skos:prefLabel "EMODNET_CHEM" .
+<http://vocab.nerc.ac.uk/scheme/SDNDEV/current/> skos:prefLabel "SDNDEV" .
+<http://vocab.nerc.ac.uk/scheme/NETOC_INSTRUMENT/current/> skos:prefLabel "NETOC_INSTRUMENT" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/projects> skos:prefLabel "GCMD Projects" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/sciencekeywords> skos:prefLabel "GCMD Science Keywords" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/platforms> skos:prefLabel "GCMD Platforms" .
+<http://vocab.nerc.ac.uk/scheme/NETOC_PARAM/current/> skos:prefLabel "NETOC_PARAM" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/providers> skos:prefLabel "GCMD Providers" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/instruments> skos:prefLabel "GCMD Instruments" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MimeType> skos:prefLabel "GCMD MimeTypes" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/locations> skos:prefLabel "GCMD Locations" .
+<http://vocab.nerc.ac.uk/scheme/NETOC_PLATCLASS/current/> skos:prefLabel "NETOC_PLATCLASS" .
+<http://vocab.nerc.ac.uk/scheme/ICANCOERO/current/> skos:prefLabel "ICANCOERO" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/DataFormat> skos:prefLabel "GCMD Data Format" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/chronounits> skos:prefLabel "GCMD Chrono Units" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/temporalresolutionrange> skos:prefLabel "GCMD Temporal Resolution Range" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/rucontenttype> skos:prefLabel "GCMD ru contenttype" .
+<http://inspire.ec.europa.eu/metadata-codelist> skos:prefLabel "INSPIRE metadata-codelist" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/MeasurementName> skos:prefLabel "GCMD Measurement Name" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/verticalresolutionrange> skos:prefLabel "GCMD Vertical Resolution Range" .
+<http://vocab.nerc.ac.uk/scheme/NETOC_PLAT/current/> skos:prefLabel "NETOC_PLAT" .
+<https://gcmd.earthdata.nasa.gov/kms/concepts/concept_scheme/horizontalresolutionrange> skos:prefLabel "GCMD Horizontal Resolution Range" .

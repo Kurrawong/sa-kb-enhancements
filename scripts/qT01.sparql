@@ -6,3 +6,5 @@ SELECT * WHERE {
 
   FILTER (REGEX(?pl, "Norway"))
 }
+
+# should get 3 results in a long time

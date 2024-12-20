@@ -2,7 +2,7 @@ from pathlib import Path
 from rdflib import Graph, Namespace
 from rdflib.namespace import RDF, SDO
 
-from utils import kb_graph_add, graph_exist
+from utils import kb_graph_add, graph_exists
 
 REPO_HOME = Path(__file__).parent.parent.resolve()
 
@@ -24,7 +24,7 @@ if __name__ == "__main__":
             for o in g.objects(d_bn, SDO.contentUrl):
                 if not "nalt" in str(o):  # exclude NALT due to size
                     print(v)
-                    if graph_exist(str(v)):
+                    if graph_exists(str(v)):
                         pass
                     else:
                         print(f"Adding <{v}>")

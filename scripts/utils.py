@@ -8,7 +8,7 @@ def kb_graph_add(ttl_file: Path, graph_iri: str):
         params={"graph": graph_iri},
         headers={"Content-Type": "text/turtle"},
         data=ttl_file.read_bytes(),
-        timeout=60
+        timeout=120
     )
 
     return r.status_code, r.text
@@ -18,16 +18,25 @@ def kb_graph_replace(ttl_file: Path, graph_iri: str):
     r = httpx.delete(
         "http://localhost:3030/ds",
         params={"graph": graph_iri},
-        timeout=25
+        timeout=120
     )
-    print(r.status_code)
 
     kb_graph_add(ttl_file, graph_iri)
+
+    print(f"replaced {graph_iri}")
 
     return r.status_code, r.text
 
 
-def graph_exist(iri: str) -> bool:
+def kb_graph_add_if_missing(ttl_file: Path, graph_iri: str):
+    if not graph_exists(graph_iri):
+        kb_graph_add(ttl_file, graph_iri)
+        print(f"Added {graph_iri}")
+    else:
+        print(f"Already exists {graph_iri}")
+
+
+def graph_exists(iri: str) -> bool:
     q = """
         ASK
         WHERE {
